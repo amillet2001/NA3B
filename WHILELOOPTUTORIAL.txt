@@ -1,0 +1,67 @@
+Here's a basic tutorial on how to use the while loop in Java:
+
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        // Example 1: Basic while loop
+        System.out.println("Example 1:");
+        int i = 1;
+        while (i <= 5) {
+            System.out.println("Iteration " + i);
+            i++;
+        }
+
+        // Example 2: While loop with a condition
+        System.out.println("\nExample 2:");
+        int number = 10;
+        while (number > 0) {
+            System.out.println(number);
+            number--;
+        }
+
+        // Example 3: Infinite while loop with a break statement
+        System.out.println("\nExample 3:");
+        int counter = 0;
+        while (true) {
+            System.out.println("Loop iteration: " + counter);
+            counter++;
+            if (counter >= 5) {
+                break;
+            }
+        }
+    }
+}
+Output:
+
+Example 1:
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+
+Example 2:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Example 3:
+Loop iteration: 0
+Loop iteration: 1
+Loop iteration: 2
+Loop iteration: 3
+Loop iteration: 4
+
+Explanation:
+
+The while loop in Java is used to execute a block of code repeatedly as long as a condition is true.
+In Example 1, we use a while loop to print numbers from 1 to 5. The loop continues as long as i is less than or equal to 5.
+In Example 2, we use a while loop to count down from 10 to 1.
+Example 3 demonstrates how to create an infinite while loop using while (true) and breaking out of the loop when a certain condition (counter >= 5) is met using the break statement.
+Remember to ensure that the loop condition eventually evaluates to false to prevent infinite loops unless an intentional infinite loop is desired for specific scenarios.
