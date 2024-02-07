@@ -1,0 +1,75 @@
+Here's a basic tutorial on how to use the for loop in Java:
+public class ForLoopExample {
+    public static void main(String[] args) {
+        // Example 1: Looping through an array
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        System.out.println("Example 1:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Number at index " + i + " is " + numbers[i]);
+        }
+
+        // Example 2: Looping through a collection
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
+
+        System.out.println("\nExample 2:");
+        for (String name : names) {
+            System.out.println("Hello, " + name + "!");
+        }
+
+        // Example 3: Looping with a different increment
+        System.out.println("\nExample 3:");
+        for (int i = 0; i <= 10; i += 2) {
+            System.out.println(i);
+        }
+
+        // Example 4: Infinite loop with a break statement
+        System.out.println("\nExample 4:");
+        int counter = 0;
+        for (;;) {
+            System.out.println("Loop iteration: " + counter);
+            counter++;
+            if (counter >= 5) {
+                break;
+            }
+        }
+    }
+}
+
+Output:
+
+Example 1:
+Number at index 0 is 1
+Number at index 1 is 2
+Number at index 2 is 3
+Number at index 3 is 4
+Number at index 4 is 5
+
+Example 2:
+Hello, Alice!
+Hello, Bob!
+Hello, Charlie!
+Hello, David!
+
+Example 3:
+0
+2
+4
+6
+8
+10
+
+Example 4:
+Loop iteration: 0
+Loop iteration: 1
+Loop iteration: 2
+Loop iteration: 3
+Loop iteration: 4
+
+Explanation:
+
+The for loop in Java is used to iterate over a range of values or a collection.
+In Example 1, we use a for loop to iterate over an array of numbers. We use the loop control variable i to access each element of the array.
+In Example 2, we use an enhanced for loop (also known as a "for-each" loop) to iterate over each element of a collection (names array).
+Example 3 demonstrates how to use a different increment value in the loop. Here, we're incrementing i by 2 in each iteration.
+Example 4 shows how to create an infinite loop using the for loop. We break out of the loop when a certain condition (counter >= 5) is met.
