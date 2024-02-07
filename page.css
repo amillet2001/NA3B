@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(image/Retro.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff5;
+    backdrop-filter:blur(1px);
+    mix-blend-mode: lighten;
+}
+
+.logo img{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+header .navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3;
+    transition-property: background;
+    font-size: 20px;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover{
+    background: #c2a6ff;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+    float: left;
+}
+
+.content .info h1{
+    display: block;
+    color: whitesmoke;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    margin-top: -600px;
+}
+
+.content .info h1 span{
+    color: red;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.content .info p{
+    align-items: justify;
+    color: rgb(100, 126, 97);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content .sub-btn{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #c2a6ff;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.content .sub-btn:hover{
+    background-color: white;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media a{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    transition: 0.3s;
+    transition-property: transform;
+    margin-top: -200px;
+}
+
+.media a:not(:last-child){
+    margin: 60px;
+}
+
+.media a:hover{
+    transform: scale(1.5);
+}
+
+.menu-toggle {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #000;
+}
+
+.title img{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    float: left;
+}
+
+
+
+@media(max-width: 960px){
+    header .navigation {
+        display: none;
+    }
+
+    .title img {
+        width: 100%; /* Adjust image width to fit smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 50px 0; /* Adjust margin as needed */
+    }
+
+    .content {
+        margin: 20px; /* Adjust content margin for smaller screens */
+    }
+
+    .content .info h1 {
+        font-size: 36px; /* Decrease font size for smaller screens */
+        margin-top: 0; /* Remove excessive margin */
+        line-height: 45px; /* Adjust line height */
+    }
+
+    .content .info p {
+        font-size: 14px; /* Decrease font size for smaller screens */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .media a {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+}
