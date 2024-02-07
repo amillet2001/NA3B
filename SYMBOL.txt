@@ -1,0 +1,53 @@
+㋡	Circled Katakana Tu Symbol
+㋛	Circled Katakana Si Symbol
+☺	White Smiling Face Symbol
+☹	White Frowning Face Symbol
+☻	Black Smiling Face Symbol
+〠	Postal Mark Face Symbol
+シ	Katakana Letter Si Symbol
+ッ	Katakana Letter Small Tu Symbol
+ツ	Katakana Letter Tu Symbol
+ヅ	Katakana Letter Du Symbol
+Ü	Latin Capital Letter U With Diaeresis Symbol
+Ѷ	Cyrillic Capital Letter Izhitsa With Double Grave Accent Symbol
+〲	Vertical Kana Repeat With Voiced Sound Mark Symbol
+〴	Vertical Kana Repeat With Voiced Sound Mark Upper Half Symbol
+ϡ	Greek Small Letter Sampi Symbol
+ジ	Katakana Letter Zi Symbol
+ｼ	Halfwidth Katakana Letter Si Symbol
+ﾂ	Halfwidth Katakana Letter Tu Symbol
+ﭢ	Arabic Letter Teheh Isolated Form Symbol
+ت	Arabic Letter Teh Symbol
+⍡	Apl Functional Symbol Up Tack Diaeresis Symbol
+⍢	Apl Functional Symbol Del Diaeresis Symbol
+⍣	Apl Functional Symbol Star Diaeresis Symbol
+⍤	Apl Functional Symbol Jot Diaeresis Symbol
+⍥	Apl Functional Symbol Circle Diaeresis Symbol
+⍨	Apl Functional Symbol Tilde Diaeresis Symbol
+⍩	Apl Functional Symbol Greater Than Diaeresis Symbol
+ὃ	Greek Small Letter Omicron With Dasia And Varia Symbol
+ὕ	Greek Small Letter Upsilon With Dasia And Oxia Symbol
+ὣ	Greek Small Letter Omega With Dasia And Varia Symbol
+ё	Cyrillic Small Letter Io Symbol
+ӓ	Cyrillic Small Letter A With Diaeresis Symbol
+ӟ	Cyrillic Small Letter Ze With Diaeresis Symbol
+ӛ	Cyrillic Small Letter Schwa With Diaeresis Symbol
+Ӛ	Cyrillic Capital Letter Schwa With Diaeresis Symbol
+ӧ	Cyrillic Small Letter O With Diaeresis Symbol
+ӱ	Cyrillic Small Letter U With Diaeresis Symbol
+ӭ	Cyrillic Small Letter E With Diaeresis Symbol
+ӵ	Cyrillic Small Letter Che With Diaeresis Symbol
+Ӫ	Cyrillic Capital Letter Barred O With Diaeresis Symbol
+ӫ	Cyrillic Small Letter Barred O With Diaeresis Symbol
+ಠ	Kannada Letter Ttha Symbol
+ఠ	Telugu Letter Ttha Symbol
+ㆅ	Hangul Letter Ssanghieuh Symbol
+ഋ	Malayalam Letter Vocalic R Symbol
+ൠ	Malayalam Letter Vocalic Rr Symbol
+ة	Arabic Letter Teh Marbuta Symbol
+ټ	Arabic Letter Teh With Ring Symbol
+유	Hangul Syllable Yu Symbol
+웃	Hangul Syllable Us Symbol
+우	Hangul Syllable U Symbol
+옻	Hangul Syllable Oc Symbol
+옺	Hangul Syllable Oj Symbol
