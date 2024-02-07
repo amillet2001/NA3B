@@ -1,0 +1,62 @@
+Here's a tutorial on how to use the enhanced for-each loop (also known as the enhanced for loop) in Java:
+
+public class ForEachLoopExample {
+    public static void main(String[] args) {
+        // Example 1: Iterating over an array
+        System.out.println("Example 1:");
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+
+        // Example 2: Iterating over a collection
+        System.out.println("\nExample 2:");
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
+        for (String name : names) {
+            System.out.println("Hello, " + name + "!");
+        }
+
+        // Example 3: Iterating over a string
+        System.out.println("\nExample 3:");
+        String message = "Hello, World!";
+        for (char c : message.toCharArray()) {
+            System.out.println(c);
+        }
+    }
+}
+Output:
+
+Example 1:
+1
+2
+3
+4
+5
+
+Example 2:
+Hello, Alice!
+Hello, Bob!
+Hello, Charlie!
+Hello, David!
+
+Example 3:
+H
+e
+l
+l
+o
+,
+ 
+W
+o
+r
+l
+d
+!
+Explanation:
+
+The enhanced for-each loop in Java provides a concise way to iterate over elements of an array or a collection without needing an explicit loop counter.
+In Example 1, we use the enhanced for loop to iterate over each element of the numbers array.
+In Example 2, we use it to iterate over each element of the names array.
+Example 3 demonstrates how to iterate over each character of a string by converting the string to a character array using the toCharArray() method.
+The enhanced for loop simplifies iterating through collections and arrays, making the code more readable and less prone to errors related to index manipulation.
