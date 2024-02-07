@@ -1,0 +1,3 @@
+Name: Harold Pineda
+Section: BSIT-NA-3B
+Age: 21
