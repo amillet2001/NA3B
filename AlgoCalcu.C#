@@ -1,0 +1,54 @@
+using System;
+
+namespace SimpleCalculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the first number: ");
+            int firstNumber = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter the type of operation you want to perform (+, -, *, /, %): ");
+            string operation = Console.ReadLine();
+            int result = PerformOperation(firstNumber, secondNumber, operation);
+            Console.WriteLine("Your answer is: " + result);
+        }
+
+        static int PerformOperation(int firstNumber, int secondNumber, string operation)
+        {
+            int result = 0;
+            switch (operation)
+            {
+                case "+":
+                    result = firstNumber + secondNumber;
+                    break;
+                case "-":
+                    result = firstNumber - secondNumber;
+                    break;
+                case "*":
+                    result = firstNumber * secondNumber;
+                    break;
+                case "%":
+                    result = firstNumber % secondNumber;
+                    break;
+                case "/":
+                    if (secondNumber != 0)
+                    {
+                        result = firstNumber / secondNumber;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: Division by zero is not allowed.");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Invalid operation.");
+                    break;
+            }
+            return result;
+        }
+    }
+}
