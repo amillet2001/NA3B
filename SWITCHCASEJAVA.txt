@@ -1,3 +1,5 @@
+NOTE: TO TEST PLASE CHANGE THE CLASS NAME TO YOUR RESPECTIVE PACKAGE NAME OR FILE NAME
+
 public class SwitchCaseExample {
     public static void main(String[] args) {
         int day = 3;
