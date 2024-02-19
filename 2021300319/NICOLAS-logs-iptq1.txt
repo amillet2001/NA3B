@@ -1,0 +1,179 @@
+    1  mkdir Nicolas
+    2  cd Nicolas
+    3  git init
+    4  git config --global user.name "Johann Ludwig Nicolas"
+    5  git config --global user.email "JlvNicolas@tsu.edu.ph"
+    6  touch IPT2ACT1.txt
+    7  ls
+    8  cd Nicolas
+    9  mkdir nicolas
+   10  cd desktop
+   11  mkdir nicolas
+   12  mkdir Nicolas
+   13  cd desktop
+   14  mkdir Nicolas
+   15  cd nicolas
+   16  cd Nicolas
+   17  cd desktop
+   18  mkdir Nicolas
+   19  cd Nicolas
+   20  git init
+   21  git config --global user.name "Johann Ludwig Van Nicolas"
+   22  git config --global user.email "JlvNicolas@tsu.edu.ph"
+   23  touch IPT2ACT1.txt
+   24  echo "this is my first version" > IPT2ACT1.txt
+   25  touch Johann.txt
+   26  touch Ludwig.txt
+   27  touch Van.txt
+   28  git status
+   29  git add IPT2ACT1.txt
+   30  git commit -m "Initial commit: this is the first version"
+   31  echo "replaced the first version, now on second" > IPT2ACT1.txt
+   32  git add IPT2ACT1.txt
+   33  git commit -m "Second commit
+   34  cd desktop
+   35  mkdir Nicolas
+   36  cd Nicolas
+   37  git init
+   38  git config --global user.name "Johann Ludwig Van"
+   39  git config --global user.email "jlvNicolas@tsu.edu.ph"
+   40  touch IPT2ACT1.txt
+   41  echo "this is my first version" > IPT2ACT1.txt
+   42  touch Johann.txt
+   43  touch Ludwig.txt
+   44  touch Van.txt
+   45  git status
+   46  git add IPT2ACT1.txt
+   47  git commit -m "initial commit; this is the first version"
+   48  echo "replaced the first version, now on second" > IPT2ACT1.txt
+   49  git add IPT2ACT1.txt
+   50  git commit -m "Second commit: updated IPT2ACT1.txt"
+   51  git log
+   52  git status
+   53  git add IPT2ACT1.txt
+   54  git commit -m "Third Commit: second updated version of IPT2ACT1.txt" > IPT2ACT1.txt
+   55  cd desktop
+   56  mkdir Nicolas
+   57  cd Nicolas
+   58  git init
+   59  git config --global user.name "Johann Ludwig Van"
+   60  git config --global user.email "jlvNicolas@tsu.edu.ph"
+   61  touch IPT2ACT1.txt
+   62  echo "this is my first version" > IPT2ACT1.txt
+   63  touch Johann.txt
+   64  touch Ludwig.txt
+   65  touch Van.txt
+   66  git status
+   67  git add IPT2ACT1.txt
+   68  git commit -m "Initial commit: this is my first version"
+   69  echo "replaced the first version, now on second" > IPT2ACT1.txt
+   70  git add IPT2ACT1.txt
+   71  git commit -m "Second commit: updated IPT2ACT1.txt"
+   72  git log
+   73  git reset --hard <commit-hash>
+   74  git reset --hard af07184ce2cfb15ee57c2b6d068c35fc6c1124d3
+   75  git branch new-feature
+   76  git checkout new-feature
+   77  touch newfile.txt
+   78  git add newfile.txt
+   79  git commit -m "feature commit 1"
+   80  git checkout master
+   81  git merge new-feature
+   82  git branch
+   83  git branch -d new-feature
+   84  git reset --hard <new-feature>
+   85  git reset --hard aad817c0a733882b4fd491c69daf3cd092d516c2
+   86  git reset --hard Nicolas
+   87  git reset --hard <Nicolas>
+   88  cd desktop
+   89  mkdir Nicolas
+   90  cd Nicolas
+   91  git init
+   92  git config --global user.name "Johann Ludwig Van Nicolas"
+   93  git config --global user.email "Jlv.nicolas00319@student.tsu.edu.ph"
+   94  touch IPT2ACT1.txt
+   95  echo "this is my first version" > IPT2ACT1.txt
+   96  git status
+   97  git add IPT2ACT1.txt
+   98  git status
+   99  git commit -m "this is the first commit"
+  100  git status
+  101  echo "this is file #1" > file1.txt
+  102  echo "this is file #2" > file2.txt
+  103  echo "this is file #3" > file3.txt
+  104  git status
+  105  git add .
+  106  git status
+  107  git commit -m "this is the second commit"
+  108  git status
+  109  echo "replaced the first version, now on second" > IPT2ACT1.txt
+  110  git status
+  111  git add IPT2ACT1.txt
+  112  git status
+  113  git commit -m "this is the third commit"
+  114  git status
+  115  git log
+  116  git reset --hard a640e0e2eda5d9265a8261f8160c8b6b8247e228
+  117  git checkout -b nicolas
+  118  echo "file version 1" > bb.docx
+  119  git add bb.docx
+  120  git commit -m "first version bb"
+  121  echo "file version 2" > bb.docx
+  122  git add bb.docx
+  123  git commit -m "second commit bb"
+  124  echo "file version 3" > bb.docx
+  125  git add bb.docx
+  126  git ccommit -m "third commit bb"
+  127  git commit -m "thiird commit bb"
+  128  echo "file version 4" > bb.docx
+  129  gir add bb.docx
+  130  git add add bb.docx
+  131  git add bb.docx
+  132  git commit -m "fourth commit bb"
+  133  echo "file version 5" > bb.docx
+  134  git add bb.docx
+  135  git commit -m "fifth commit bb"
+  136  git checkout master
+  137  git merge nicolas -m "merge master and nicolas"
+  138  git branch
+  139  git branch -d nicolas
+  140  git log
+  141  git reset --hard 8d02eec9fc972cca24088e1d9ee56b09b7f365a0
+  142  cd desktop
+  143  mkdir nicolas
+  144  cd nicolas
+  145  cd desktop
+  146  mkdir Nicolas
+  147  cd Nicolas
+  148  git init
+  149  touch test.txt
+  150  git add .
+  151  git commit -m "Testing"
+  152  git commit --amend --reset-author -m "Resetting Author"
+  153  echo "Testing File" > test.txt
+  154  git status
+  155  git add .
+  156  git config user.name " Johann Ludwig Van R. Nicolas"
+  157  git config user.email "johannnicolas235@gmail.com"
+  158  git add .
+  159  git commit -m "Modified Test File"
+  160  git show
+  161  git clone https://github.com/amillet2001/NA3B
+  162  cd NA3B
+  163  git checkout -b NICOLAS-iptq1
+  164  mkdir 2021300319
+  165  cd 2021300319
+  166  touch createfile.txt
+  167  git add .
+  168  git commit -m "adding file and commit"
+  169  git show
+  170  git commit --amend --reset-author -m "adding file and commit"
+  171  git push -u origin NICOLAS-iptq1
+  172  git push -u origin NICOLAS-iptq1
+  173  git push -u origin NICOLAS-iptq1
+  174  git push -u origin NICOLAS-iptq1
+  175  git status
+  176  git add .
+  177  git commit -m "2021300319.html"
+  178  git push u- origin "NICOLAS-iptq1"
+  179  history > NICOLAS-logs-iptq1.txt
