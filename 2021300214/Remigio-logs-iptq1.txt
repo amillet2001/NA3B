@@ -1,0 +1,155 @@
+    1  mkdir Remigio
+    2  cd Remigio
+    3  mkdir Remigio
+    4  cd Remigio
+    5  git init
+    6  git config user.name "Kurt Russel Remigio"
+    7  git config user.email "kr.remigio00214@student.tsu.edu.ph
+    8  q
+    9  git config user.email "kr.remigio00214@student.tsu.edu.ph"
+   10  qqqq
+   11  weee
+   12  r
+   13  .git/twueuro.,'/123
+   14  cd Remigio
+   15  git config usere.name "Kurt Russel Remigio"
+   16  git config user.name "Kurt Russel Remigio"
+   17  git config user.email "kr.remigio00214@student.tsu.edu.ph"
+   18  touch IPT2ACT1.txt
+   19  echo "this is my first version" > IPT2ACT1.txt
+   20  git status
+   21  git add
+   22  cd Remigio
+   23  echo "this is my first version" > IPT2ACT1.txt
+   24  git add IPT2ACT1.txt
+   25  git status
+   26  git commit -m "1st Commit"
+   27  touch 1.txt
+   28  touch 2.txt
+   29  touch 3.txt
+   30  echo "replaced the first version, now on second" > IPT2ACT1.txt
+   31  git status
+   32  git add .
+   33  git commit 
+   34  cd Remigio
+   35  echo "replaced the first version, no on second" > IPT2ACT1.txt
+   36  git status
+   37  git add IPT2ACT1.txt
+   38  git commit -m "Modified IPT2AACT1, this is 2nd"
+   39  git log
+   40  git status
+   41  git add 1.txt
+   42  git commit -m "First file"
+   43  git log
+   44  echo "This is first" > 1.txt
+   45  echo "this is second" > 2.txt
+   46  echo "this is third" > 3.txt
+   47  git add 1.txt
+   48  git commit -m "this is first in first"
+   49  git add 2.txt
+   50  git commit -m "This is first in second"
+   51  git add 3.txt
+   52  git commit -m "this is 1st in third"
+   53  git log
+   54  git reset --hard  a10fa4b71fed1d9a63abde6007123b5a53ac726c
+   55  git branch NewBranch
+   56  git checkout NewBranch
+   57  touch Feature.txt
+   58  echo "1st feature" > Feature.txt
+   59  git add Feature.txt
+   60  git commit -m "1st"
+   61  echo "2nd Feature" Feature.txt
+   62  git add Feature.txt
+   63  git status
+   64  echo "2nd Feature" > Feature.txt
+   65  git add Feature.txt
+   66  git commit -m "2nd"
+   67  echo "this is 3rd" > Feature.txt
+   68  git add Feature.txt
+   69  git commit -m "3rd"
+   70  git log
+   71  echo "4th Feature" > Feature.txt
+   72  git add Feature.txt
+   73  git commit -m "4th" 
+   74  echo "5th Feature" > Feature.txt
+   75  git add Feature.txt
+   76  git commit -m "5th"
+   77  git log
+   78  git log
+   79  git checkout master
+   80  git merge NewBranch -m "Merging"
+   81  git branch
+   82  git branch -d NewBranch
+   83  git log
+   84  git rest --hard 0bd40096fb05d99d7b1ce3b6747bd95d4e69d135
+   85  git reset --hard 0bd40096fb05d99d7b1ce3b6747bd95d4e69d135
+   86  git init
+   87  touch text.txt
+   88  git add text.xt
+   89  git add text.txt
+   90  git init
+   91  touch test.txt
+   92  git add test.txt
+   93  git commit -m "First Commit"
+   94  git config --global user.name "Kurt Russel"
+   95  git config --global user.email "ykiraremigio14@gmail.com"
+   96  git add test.txt
+   97  git commit -m "First Commit"
+   98  echo "First content" > test.txt
+   99  git add test.txt
+  100  git commit -m "Second commit"
+  101  git clone [200~https://github.com/amillet2001/NA3B.git~
+  102  git clone https://github.com/amillet2001/NA3B.git
+  103  git clone https://github.com/amillet2001/NA3B.git
+  104  git clone https://github.com/amillet2001/NA3B.git
+  105  git clone https://github.com/amillet2001/NA3B.git
+  106  git clone https://github.com/amillet2001/NA3B.git
+  107  git clone https://github.com/amillet2001/NA3B.git
+  108  git clone https://github.com/amillet2001/NA3B.git
+  109  git clone https://github.com/amillet2001/NA3B.git
+  110  git clone https://github.com/amillet2001/NA3B.git
+  111  git clone https://github.com/amillet2001/NA3B.git
+  112  git clone https://github.com/amillet2001/NA3B.git
+  113  git clone https://github.com/amillet2001/NA3B.git
+  114  git clone https://github.com/amillet2001/NA3B.git
+  115  git clone https://github.com/amillet2001/NA3B.git
+  116  git clone https://github.com/amillet2001/NA3B.git
+  117  cd NA3B
+  118  git checkout -b Remigio-iptq1
+  119  mkdir 2021200214
+  120  mkdir 2021300214
+  121  cd 2021300214
+  122  touch branch.txt
+  123  git add branch.txt
+  124  git commit -m "First commit in branch"
+  125  git push -u origin Remigio-iptq1
+  126  touch 2021300214-profile.html
+  127  git add 2021300214-profile.html
+  128  git commit -m "First commit of website"
+  129  git push -u origin Remigio-iptq1
+  130  git add 2021300214-profile.html
+  131  git commit -m "Modifed WEbsite"
+  132  git add 2021300214
+  133  git add 2021300214-profile.html
+  134  git commit -m "Modified 1"
+  135  git add 2021300214-profile.html
+  136  git commit -m "Modified 2"
+  137  git add 2021300214-profile.html
+  138  git commit -m "Last modified
+
+
+
+
+
+
+
+
+
+q
+
+'\"
+"
+  139  git add 202130021-profile.html
+  140  git add 2021300214-profile.html
+  141  git commit -m "Last Modified"
+  142  history > Remigio-logs-iptq1.txt
