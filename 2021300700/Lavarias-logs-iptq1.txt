@@ -1,0 +1,184 @@
+LVRS@PREDATOR MINGW64 ~
+$ cd Lavarias
+bash: cd: Lavarias: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~
+$ CD desktop
+bash: CD: command not found
+
+LVRS@PREDATOR MINGW64 ~
+$ cd desktop
+
+LVRS@PREDATOR MINGW64 ~/desktop
+$ cd Lavaias
+bash: cd: Lavaias: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop
+$ cd Lavarias
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias
+$ git init
+Initialized empty Git repository in C:/Users/LVRS/Desktop/Lavarias
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ touch test.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git add test.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git commit -m "1st Commit"
+[master (root-commit) 07d600e] 1st Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ echo "Lavarias Kiann Webster A. - NA3B" > test.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git --global user.name "Lavarias Kiann Webster A."
+unknown option: --global
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--in
+           [-p | --paginate | -P | --no-pager] [--no-replace-objec
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<n
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git config --global user.name "Lavarias Kiann Webster A."
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git config --global user.email "kw.lavarias00700@student.tsu.edu.ph"
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1063, done.
+remote: Counting objects: 100% (127/127), done.
+remote: Compressing objects: 100% (106/106), done.
+remote: Total 1063 (delta 47), reused 23 (delta 15), pack-reused 936
+Receiving objects: 100% (1063/1063), 66.90 MiB | 1.45 MiB/s, done.
+Resolving deltas: 100% (286/286), done.
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias (master)
+$ cd NA3B
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B (main)
+$ git checkout -b Lavarias-iptq1
+Switched to a new branch 'Lavarias-iptq1'
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B (Lavarias-iptq1)
+$ mkdir  2021300700
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B (Lavarias-iptq1)
+$ cd 2021300700
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ touch file1.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git add file1.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git commit -m "commit for file1"
+[Lavarias-iptq1 138f055] commit for file1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300700/file1.txt
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git push -u origin Lavarias-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 357 bytes | 357.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Lavarias-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Lavarias-iptq1
+remote:
+To https://github.com/amillet2001/NA3B.git
+ * [new branch]      Lavarias-iptq1 -> Lavarias-iptq1
+branch 'Lavarias-iptq1' set up to track 'origin/Lavarias-iptq1'.
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd Lavarias-iptq1
+bash: cd: Lavarias-iptq1: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd Lavarias-iptq1 2021300700
+bash: cd: too many arguments
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd 2021300700
+bash: cd: 2021300700: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd Lavarias-iptq1
+bash: cd: Lavarias-iptq1: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd 2021300700
+bash: cd: 2021300700: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git add 2021300700-profile.html
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git commit -m "Commit for 2021300700-profile.html"
+[Lavarias-iptq1 f156df3] Commit for 2021300700-profile.html
+ 1 file changed, 13 insertions(+)
+ create mode 100644 2021300700/2021300700-profile.html
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git push -u origin Lavarias-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 604 bytes | 604.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   138f055..f156df3  Lavarias-iptq1 -> Lavarias-iptq1
+branch 'Lavarias-iptq1' set up to track 'origin/Lavarias-iptq1'.
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ cd 2021300700
+bash: cd: 2021300700: No such file or directory
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ echo "Modified HTML" >   2021300700-profile.html
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git add  2021300700-profile.html
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git add ProfilePi.jpg
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git commit -m "2nd commit for html"
+[Lavarias-iptq1 31e5f28] 2nd commit for html
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+ create mode 100644 2021300700/ProfilePi.jpg
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git status
+On branch Lavarias-iptq1
+Your branch is ahead of 'origin/Lavarias-iptq1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
+$ git push -u origin Lavarias-iptq1
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 13.07 KiB | 13.07 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   f156df3..31e5f28  Lavarias-iptq1 -> Lavarias-iptq1
+branch 'Lavarias-iptq1' set up to track 'origin/Lavarias-iptq1'.
+
+LVRS@PREDATOR MINGW64 ~/desktop/Lavarias/NA3B/2021300700 (Lavarias-iptq1)
