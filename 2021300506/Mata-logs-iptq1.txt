@@ -1,0 +1,56 @@
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git add .
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git status
+On branch MATA-iptq1
+Your branch is ahead of 'origin/MATA-iptq1' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   2021300506-profile.html
+
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git add .
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git commit -m "Final commit in git modified static website"
+[MATA-iptq1 f4605b0] Final commit in git modified static website
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git push -u origin MATA-iptq1
+To https://github.com/amillet2001/NA3B
+ ! [rejected]        MATA-iptq1 -> MATA-iptq1 (fetch first)
+error: failed to push some refs to 'https://github.com/amillet2001/NA3B'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ touch Mata-logs-iptq1.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ echo
+ADtouch Mata-logs-iptq1.txtDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+  q
+bash: q: command not found
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$ git push -u origin MATA-iptq1
+To https://github.com/amillet2001/NA3B
+ ! [rejected]        MATA-iptq1 -> MATA-iptq1 (fetch first)
+error: failed to push some refs to 'https://github.com/amillet2001/NA3B'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (MATA-iptq1)
+$
