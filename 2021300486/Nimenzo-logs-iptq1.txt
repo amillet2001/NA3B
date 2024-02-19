@@ -1,0 +1,255 @@
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo
+$ git init
+Initialized empty Git repository in C:/Users/ASUS/OneDrive/Desktop/Nimenzo/.git/
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ touch test.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git add .
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git commit -m "1st commit"
+[master (root-commit) 52726c9] 1st commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ echo "modify content" >test.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git commit -m "2nd commit"
+[master ecd26d0] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git config --global user.name "Christian Joseph"
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git config --global user.email "nimenzojoseph@gmail.com"
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1059, done.
+remote: Counting objects: 100% (123/123), done.
+remote: Compressing objects: 100% (104/104), done.
+remote: Total 1059 (delta 47), reused 19 (delta 15), pack-reused 936
+Receiving objects: 100% (1059/1059), 66.90 MiB | 1.37 MiB/s, done.
+Resolving deltas: 100% (286/286), done.
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo (master)
+$ cd NA3B
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B (main)
+$ git checkout -b Nimenzo-iptq1
+Switched to a new branch 'Nimenzo-iptq1'
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B (Nimenzo-iptq1)
+$ mkdir 2021300486
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B (Nimenzo-iptq1)
+$ cd 2021300486
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ touch quiz1.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git add .
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   quiz1.txt
+
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git commit -m "3rd commit"
+[Nimenzo-iptq1 ae45032] 3rd commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300486/quiz1.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git push -u origin Nimenzo-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 340 bytes | 340.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Nimenzo-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Nimenzo-iptq1
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Nimenzo-iptq1 -> Nimenzo-iptq1
+branch 'Nimenzo-iptq1' set up to track 'origin/Nimenzo-iptq1'.
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git add .
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is up to date with 'origin/Nimenzo-iptq1'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2021300486-profile.html
+
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git commit -m "3rd commit"
+[Nimenzo-iptq1 1fde8c8] 3rd commit
+ 1 file changed, 38 insertions(+)
+ create mode 100644 2021300486/2021300486-profile.html
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is ahead of 'origin/Nimenzo-iptq1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is ahead of 'origin/Nimenzo-iptq1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300486-profile.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git add .
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git commit -m "4th commit"
+[Nimenzo-iptq1 7a35a9d] 4th commit
+ 1 file changed, 1 insertion(+)
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is ahead of 'origin/Nimenzo-iptq1' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is ahead of 'origin/Nimenzo-iptq1' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300486-profile.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git add .
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git commit -m "5th commit"
+[Nimenzo-iptq1 4820836] 5th commit
+ 1 file changed, 1 insertion(+)
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git status
+On branch Nimenzo-iptq1
+Your branch is ahead of 'origin/Nimenzo-iptq1' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git push -u origin Nimenzo-iptq1
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.09 KiB | 1.04 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/amillet2001/NA3B
+   ae45032..4820836  Nimenzo-iptq1 -> Nimenzo-iptq1
+branch 'Nimenzo-iptq1' set up to track 'origin/Nimenzo-iptq1'.
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ git push -u origin Nimenzo-iptq1
+Everything up-to-date
+branch 'Nimenzo-iptq1' set up to track 'origin/Nimenzo-iptq1'.
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$ touch Nimenzo-logs-iptq1.txt
+
+ASUS@LAPTOP-7IQSQ0LU MINGW64 ~/OneDrive/Desktop/Nimenzo/NA3B/2021300486 (Nimenzo-iptq1)
+$
