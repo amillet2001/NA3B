@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+section {
+    background-color: rgb(88, 81, 73);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.box {
+    background: #666263fa;
+    text-align: center;
+    padding: 50px 100px;
+    color: rgba(141, 232, 255, 0.568);
+    position: relative;
+    border-radius: 20%;
+    margin-top: 20px;
+}
