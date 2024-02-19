@@ -1,0 +1,131 @@
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (Lavarias)
+$ git init
+Initialized empty Git repository in C:/Users/HP/Desktop/Domalanta/.git/
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ touch test.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git add test.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git commit -m "1st commit"
+[master (root-commit) dd991cb] 1st commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 65dd795] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git add test.txt
+g
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git commit -m "2nd commit"
+On branch master
+nothing to commit, working tree clean
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git config --global user.name
+John Mark F Domalanta
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git config --global user.name "john mark domalanta"
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git config --global user.email "jmdomaa@gmail.com"
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1100, done.
+remote: Counting objects: 100% (164/164), done.
+remote: Compressing objects: 100% (133/133), done.
+remote: Total 1100 (delta 47), reused 60 (delta 15), pack-reused 936
+Receiving objects: 100% (1100/1100), 66.90 MiB | 8.91 MiB/s, done.
+Resolving deltas: 100% (286/286), done.
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta (master)
+$ cd NA3B
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B (main)
+$ git checkout -b domalanta-iptq1
+
+Switched to a new branch 'domalanta-iptq1'
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B (domalanta-iptq1)
+$ mkdir 2021300377
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B (domalanta-iptq1)
+$ cd 2021300377
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ touch file.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git add .
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git commit -m "new file"
+[domalanta-iptq1 e1e5893] new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300377/file.txt
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git push -u origin domalanta-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 333 bytes | 5.00 KiB/s, done.
+Total 4 (delta 0), reused 2 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'domalanta-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/domalanta-iptq1
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      domalanta-iptq1 -> domalanta-iptq1
+branch 'domalanta-iptq1' set up to track 'origin/domalanta-iptq1'.
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git show
+commit e1e5893d51428797632556331b5311926b54b16d (HEAD -> domalanta-iptq1, origin/domalanta-iptq1)
+Author: john mark domalanta <jmdomaa@gmail.com>
+Date:   Mon Feb 19 08:05:24 2024 +0800
+
+    new file
+
+diff --git a/2021300377/file.txt b/2021300377/file.txt
+new file mode 100644
+index 0000000..e69de29
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ touch 2021300377-profile.html
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git add 2021300377-profile.html
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git commit -m "my profile"
+[domalanta-iptq1 ab90c78] my profile
+ 1 file changed, 38 insertions(+)
+ create mode 100644 2021300377/2021300377-profile.html
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$ git push -u origin domalanta-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.14 KiB | 1.14 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   e1e5893..ab90c78  domalanta-iptq1 -> domalanta-iptq1
+branch 'domalanta-iptq1' set up to track 'origin/domalanta-iptq1'.
+
+LAB322@LAB322 MINGW64 ~/Desktop/Domalanta/NA3B/2021300377 (domalanta-iptq1)
+$
