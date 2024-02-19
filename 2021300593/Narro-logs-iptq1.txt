@@ -1,0 +1,869 @@
+
+Edelyn@HP MINGW64 ~/Desktop/Narro
+$ git init
+Initialized empty Git repository in C:/Users/Edelyn/Desktop/Narro/.git/
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git config --global user.name Edelyn
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git config --global user.mail edelyn@gmail.com
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ touch test.txt
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git add .
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test.txt
+
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git commit -m "1st"
+[master (root-commit) 7b05721] 1st
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ echo "modified" > test.txt
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git commit -m "2nd"
+[master 3c3b77d] 2nd
+ 1 file changed, 1 insertion(+)
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git config --global user.name Edelyn Narro
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git config --global user.mail edelynnarro@gmail.com
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git log
+commit 3c3b77dbc8b5b40feb26d48c456dd419162e18d0 (HEAD -> master)
+Author: Edelyn <edelyn@gmail.com>
+Date:   Mon Feb 19 07:28:21 2024 +0800
+
+    2nd
+
+commit 7b057215fb74abcf9b1e4901f9e1f4d3d6a9d9c6
+Author: Edelyn <edelyn@gmail.com>
+Date:   Mon Feb 19 07:26:56 2024 +0800
+
+    1st
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1059, done.
+remote: Counting objects: 100% (135/135), done.
+remote: Compressing objects: 100% (105/105), done.
+error: RPC failed; curl 56 Recv failure: Connection was reset
+error: 7316 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1068, done.
+remote: Counting objects: 100% (144/144), done.
+remote: Compressing objects: 100% (111/111), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 576 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1075, done.
+remote: Counting objects: 100% (139/139), done.
+remote: Compressing objects: 100% (115/115), done.
+error: RPC failed; curl 56 Recv failure: Connection was reset
+error: 2960 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1078, done.
+remote: Counting objects: 100% (142/142), done.
+remote: Compressing objects: 100% (117/117), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 304 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1081, done.
+remote: Counting objects: 100% (157/157), done.
+remote: Compressing objects: 100% (120/120), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 3238 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1084, done.
+remote: Counting objects: 100% (148/148), done.
+remote: Compressing objects: 100% (121/121), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 7632 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1084, done.
+remote: Counting objects: 100% (160/160), done.
+remote: Compressing objects: 100% (122/122), done.
+error: 6090 bytes of body are still expectedB | 920.00 KiB/s
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1087, done.
+remote: Counting objects: 100% (151/151), done.
+remote: Compressing objects: 100% (123/123), done.
+remote: Total 1087 (delta 47), reused 47 (delta 15), pack-reused 936
+Receiving objects: 100% (1087/1087), 66.90 MiB | 836.00 KiB/s, done.
+Resolving deltas: 100% (286/286), done.
+
+Edelyn@HP MINGW64 ~/Desktop/Narro (master)
+$ cd NA3B
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B (main)
+$ git checkout -b Narro-iptq1
+Switched to a new branch 'Narro-iptq1'
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B (Narro-iptq1)
+$ mkdir 2021300593
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B (Narro-iptq1)
+$ cd 2021300593
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ touch IPTQuiz.pdf
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git add .
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git commit -m "3rd"
+[Narro-iptq1 bff9890] 3rd
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300593/IPTQuiz.pdf
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git log
+commit bff98908ab5ffd55ad6e05c468ddec8ad4308f40 (HEAD -> Narro-iptq1)
+Author: Edelyn <edelyn@gmail.com>
+Date:   Mon Feb 19 07:53:46 2024 +0800
+
+    3rd
+
+commit 9d30dd018121d88ac0df1fcfa395590eba131e3a (origin/main, origin/HEAD, main)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Mon Feb 19 07:20:29 2024 +0800
+
+    Update instructions.txt
+
+commit 4661c00e47834d718fecc87169b5c39b768ecb93
+Author: Christian <c.ramil00782@student.tsu.edu.ph>
+Date:   Mon Feb 19 07:17:43 2024 +0800
+
+    term reset 2
+
+commit 21d8ac323cba94464350e6438f140a9d21270115
+Author: Christian <c.ramil00782@student.tsu.edu.ph>
+Date:   Mon Feb 19 07:16:10 2024 +0800
+
+    term reset
+
+commit fa74ef24719455caa987d57fc16ed700aab7ecd5
+Merge: a48bcfd 10b4c13
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:19:25 2024 +0800
+
+    Merge pull request #66 from amillet2001/Taruc-localbranch
+
+    28/30, github merge approved - no pull request made - instructor overwritten
+
+commit 10b4c13c07ae264ed721231d9fa57aecf7299bae (origin/Taruc-localbranch)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:18:54 2024 +0800
+
+    Update 2021300355.txt
+
+commit a48bcfddca776cb902d7c80018633bef68f5e847
+Merge: 6c54d2a f86d308
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:17:50 2024 +0800
+
+    Merge pull request #65 from amillet2001/Nicolas-local
+
+    29/30, github merge approved - no pull request made - instructor overwritten
+
+commit f86d308c57f61043c811c1c2e5477cce9e93d3a4 (origin/Nicolas-local)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:17:27 2024 +0800
+
+    Update 2021300319.txt
+
+commit 6c54d2a5d489a16796089199386c8cd7672c03ad
+Merge: 6a5aaae fc727f7
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:15:52 2024 +0800
+
+    Merge pull request #64 from amillet2001/Domalanta-LocalBranch
+
+    30/30, github merge approved
+
+commit fc727f7e699bc95f73c08ea23e3650fe78392c5d (origin/Domalanta-LocalBranch)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:15:30 2024 +0800
+
+    Update 2021300377.txt
+
+commit 6a5aaae174cbc3c89976e9248717b6d46eda1ccf
+Merge: ff49e6b 0f3e5fc
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:12:46 2024 +0800
+
+    Merge pull request #33 from amillet2001/ARCEO-local
+
+    30/30, github merge approved
+
+commit ff49e6ba31a7544e44d6c80a7ca78692c1dbe992
+Merge: 0ab866a 45fa027
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:12:16 2024 +0800
+
+    Merge pull request #34 from amillet2001/Mendiola_Pineda-localbranch
+
+    30/30, github merge approved
+
+commit 0ab866a38d57eaac6016a299d2d60b5ba87c58b0
+Merge: bbc478c d646bc9
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:11:50 2024 +0800
+
+    Merge pull request #35 from amillet2001/Graganza-local
+
+    30/30, github merge approved
+
+commit bbc478c6ddc83d3c142b20cb773af1261a7607bb
+Merge: 73dc7c4 3261292
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:11:20 2024 +0800
+
+    Merge pull request #36 from amillet2001/Tajala-localbranch
+
+    30/30, github merge approved
+
+commit 73dc7c430c0e47ea7fde5cce76dc6c78a3db909a
+Merge: 9e0bdd6 b0a3b1b
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:10:49 2024 +0800
+
+    Merge pull request #37 from amillet2001/Mendoza-local
+
+    30/30, github merge approved
+
+commit 9e0bdd6b78143a84de62a3f61f7087d9a752ebb4
+Merge: 717746c dd03677
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:10:02 2024 +0800
+
+    Merge pull request #38 from amillet2001/maristela-local
+
+    30/30, github merge approved
+
+commit 717746c36c4b352879118490dca0e5bcda5723cb
+Merge: b3848d8 73dd1bf
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:09:35 2024 +0800
+
+    Merge pull request #39 from amillet2001/cortez-local
+
+    30/30, github merge approved
+
+commit b3848d8a0e5d12389df01874a8cbfbd17c8d8b3f
+Merge: 6e96ba2 f21ae77
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:08:54 2024 +0800
+
+    Merge pull request #40 from amillet2001/Lavarias-local
+
+    30/30, github merge approved
+
+commit 6e96ba26b809b83c8349000e7be978f00af7f21a
+Merge: 15deeba 93511af
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:08:37 2024 +0800
+
+    Merge pull request #41 from amillet2001/Romero-Local
+
+    30/30, github merge approved
+
+commit 15deeba1becd159bce4c484cf6abb3a0af804b18
+Merge: 95ac286 e86c81a
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:07:59 2024 +0800
+
+    Merge pull request #42 from amillet2001/Zaragosa-local
+
+    30/30, github merge approved
+
+commit 95ac28647c9c97231f2bb1219c174dab08cd5486
+Merge: dabba99 3983db1
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:07:26 2024 +0800
+
+    Merge pull request #43 from amillet2001/Canlas-Local
+
+    30/30, github merge approved
+
+commit dabba990b5fb16a0b9fcd10f7577f495be65fc2a
+Merge: 55b6aa3 f8290c6
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:06:57 2024 +0800
+
+    Merge pull request #44 from amillet2001/Santos-Cunanan-localbranch
+
+    30/30, github merge approved
+
+commit 55b6aa32bdb4359cd7aafa5d2300a3ba92a6ffc3
+Merge: 45b61b0 ce9aad5
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:06:17 2024 +0800
+
+    Merge pull request #45 from amillet2001/Sidamon-local
+
+    30/30, github merge approved
+
+commit 45b61b0c5bc14762f2571993d118ad66e5a445df
+Merge: 71b8d9d a0a4c84
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:05:59 2024 +0800
+
+    Merge pull request #46 from amillet2001/Lopez-Local
+
+    30/30, github merge approved
+
+commit 71b8d9d6da4bf6430f8c6764961a9f2b22eb0739
+Merge: 0988a20 203f67c
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:05:34 2024 +0800
+
+    Merge pull request #47 from amillet2001/Abella-Local
+
+    30/30, github merge approved
+
+commit 0988a20fac24087b3e9e846b3e840e1f759d9609
+Merge: d9a75a8 87c7d1b
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:05:06 2024 +0800
+
+    Merge pull request #48 from amillet2001/Mercado-local
+
+    30/30, github merge approved
+
+commit d9a75a8270516917d1e5c1b882a5648769c98d4e
+Merge: fb7c63f cb6faa8
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:04:46 2024 +0800
+
+    Merge pull request #49 from amillet2001/Demetria-Local
+
+    30/30, github merge approved
+
+commit fb7c63f72e4909631746959ad6a8687277b483f8
+Merge: 47fe8fc 8d02390
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:01:56 2024 +0800
+
+    Merge pull request #50 from amillet2001/Pineda-local
+
+    30/30, github merge approved
+
+commit 47fe8fc9e7cb1a44505b0cebe1045206c0248b5b
+Merge: 5a2f80f a380cb8
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:01:11 2024 +0800
+
+    Merge pull request #51 from amillet2001/Manansala_Remigio-Local
+
+    30/30, github merge approved
+
+commit 5a2f80fbe9f612edc1a55e6575c49e9be3c1ab00
+Merge: bee73b6 5460af0
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:00:36 2024 +0800
+
+    Merge pull request #52 from amillet2001/MataOdron-Local
+
+    30/30, github merge approved
+
+commit bee73b67ae721e525d3da4c50e739bcad6bb927e
+Merge: 525011c 9a82d05
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:00:00 2024 +0800
+
+    Merge pull request #53 from amillet2001/Tayag-local
+
+    30/30, github merge approved
+
+commit 525011cd5e94e19b644a150a27b8f9d5736ef3c9
+Merge: 71c5c2b 3d6b395
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:59:23 2024 +0800
+
+    Merge pull request #54 from amillet2001/Lopez-local
+
+    30/30, github merge approved
+
+commit 71c5c2b17afb5a240335ae2440743893335ccb62
+Merge: 810da4a 987aa80
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:54:42 2024 +0800
+
+    Merge pull request #55 from amillet2001/nicdao-local
+
+    30/30, github merge approved
+
+commit 810da4a22f6fc6b70866d708190765d0a5b08b99
+Merge: fb4b71f 562d94b
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:54:13 2024 +0800
+
+    Merge pull request #56 from amillet2001/Aquino_Local
+
+    30/30, github merge approved
+
+commit fb4b71fd5bde7b2e7b4e37ba909528ba2205cb1a
+Merge: 7cf7e83 49d847d
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:53:36 2024 +0800
+
+    Merge pull request #57 from amillet2001/NIMENZO-LOCAL
+
+    30/30, github merge approved
+
+commit 7cf7e832ed464a13758e5cb2cfe2af89105266a4
+Merge: 15b0157 8585c7e
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:53:09 2024 +0800
+
+    Merge pull request #58 from amillet2001/BUGARIN-Local
+
+    30/30, github merge approved
+
+commit 15b015790f2805facdf0c3fcd3956b3401c3c540
+Merge: 76aa43f 376060a
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:52:44 2024 +0800
+
+    Merge pull request #59 from amillet2001/Salvador-Local
+
+    30/30, github merge approved
+
+commit 76aa43f19ea43705ab39e39157c8bbce8473e71b
+Merge: cbc8c14 e005e1f
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:52:14 2024 +0800
+
+    Merge pull request #60 from amillet2001/Galano-Local
+
+    30/30, github merge approved
+
+commit cbc8c14bcc7e5ff347caaf8d9b9632236b1f4b6a
+Merge: 19bd8dd 4b12740
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:51:22 2024 +0800
+
+    Merge pull request #61 from amillet2001/Gacutan-local
+
+    30/30, github merge approved
+
+commit 19bd8ddf33c06db437c9020d3f8f2ed4fac07058
+Merge: fa7d135 86d9e3f
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:50:56 2024 +0800
+
+    Merge pull request #62 from amillet2001/Narro-Local
+
+    30/30, github merge approved
+
+commit fa7d135d4b750b68a22d0bdd64d2b22bd24f1ddf
+Merge: 19e95f2 c82f9e9
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 12:50:20 2024 +0800
+
+    Merge pull request #63 from amillet2001/Deguzman-local
+
+    30/30, github merge approved
+
+commit ce9aad574f8ea7ed6fbcf4b735eae62ff56a39ce (origin/Sidamon-local)
+Author: Ivan <i.sidamon00241@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:53:40 2024 -0800
+
+    this is my first commit
+
+commit 32612929d5a0d10e736ea30f6d12a3e4afaf8b1d (origin/Tajala-localbranch)
+Author: Raiza <raibaluga@gmail.com>
+Date:   Wed Feb 7 16:45:00 2024 -0800
+
+    1st commit
+
+commit cba35bb12b1ec7a370b65317a6e57ed6412c2415
+Author: Ivan <i.sidamon00241@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:24 2024 -0800
+
+    this is my first commit
+
+commit e00f9a4b5abc80c47e6ea5b329c8fe584ee234f1
+Author: John Mark Domalanta <Jm.domalanta00377@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:59:43 2024 +0800
+
+    2nd
+
+commit c814176783868e5bc2e7272503aa7448f98dafee
+Author: Bryan Taruc <b.taruc00355@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:58:12 2024 +0800
+
+    2nd
+
+commit 9a82d0561fc6ff4d410e09a040a176de0ad3f6e7 (origin/Tayag-local)
+Author: Andrei John Lloyd Lopez <ajl.lopez00419@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:58:09 2024 +0800
+
+    This is my first commit
+
+commit 987aa80999aa3377c8c97bfab69ea9e4e2e35eca (origin/nicdao-local)
+Author: Harold Pineda <hm.pineda00542@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:55:43 2024 +0800
+
+    This my first commit
+
+commit 4b1274024661b857a10416bc041d7283fbe6d137 (origin/Gacutan-local)
+Author: John Mark Domalanta <jm.domalanta00377@student.tsu.edu,ph>
+Date:   Wed Feb 7 16:55:11 2024 +0800
+
+    This is my first commit
+
+commit c82f9e9460e843b421ecca1fa11d1aee48fbfe27 (origin/Deguzman-local)
+Author: Liamme Alborote <lc.alborote00280@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:52:52 2024 +0800
+
+    1st commit
+
+commit f562124a5d2a83934bf33a8a750264a1536041d2
+Author: John Mark Domalanta <Jm.domalanta00377@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:50:28 2024 +0800
+
+    1st
+
+commit 3d6b39508bd19e7412aecafc6305957ead0bf6ef (origin/Lopez-local)
+Author: Nicolas <Nicolas@tsu.edu.ph>
+Date:   Wed Feb 7 16:46:14 2024 +0800
+
+    first commit
+
+commit 562d94bcec421e6112523ff3eb3885b7677dac07 (origin/Aquino_Local)
+Author: jayvi jayvi <joannecarlatabago@gmail.com>
+Date:   Wed Feb 7 17:46:04 2024 +0900
+
+    first commit
+
+commit f21ae776382d7e67f24c3e83d2948c07ccf4ef33 (origin/Lavarias-local)
+Author: Aldrein Jayvee <j.tayag00185@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:45:32 2024 +0800
+
+    first commit
+
+commit 8d02390366d60e69ea29f71e223e9bdccb0404ea (origin/Pineda-local)
+Author: Vienjoefry04 <159201886+Vienjoefry04@users.noreply.github.com>
+Date:   Wed Feb 7 16:45:29 2024 +0800
+
+    this is my first commit
+
+commit 8585c7e85bad053509263a86beaf2657133ffd2b (origin/BUGARIN-Local)
+Author: Angelica <am.bugarin00226@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:44:16 2024 +0800
+
+    first commit
+
+commit 376060aeee7bcaed6276d8889943e3aafaed9444 (origin/Salvador-Local)
+Author: Camille <ca.salvador00449@student.edu.ph>
+Date:   Wed Feb 7 16:44:14 2024 +0800
+
+    1st committed
+
+commit 203f67c344ee30120226a66f7e3fd22874da05d9 (origin/Abella-Local)
+Author: eran <erancelestino@gmail.com>
+Date:   Wed Feb 7 17:44:09 2024 +0900
+
+    First version
+
+commit dd03677d377855de09834f5106d5f7ddea4e5816 (origin/maristela-local)
+Author: Kiann Webster <kw.lavarias00700@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:44:06 2024 +0800
+
+    this is my first commit
+
+commit 87c7d1bf2e7f93001f58b7615dbbeb4a568c54f3 (origin/Mercado-local)
+Author: marquez <13dpcm@gmail.com>
+Date:   Wed Feb 7 16:44:03 2024 +0800
+
+    Commited
+
+commit a0a4c84b02c0ad25b782e07a453459705f7fab13 (origin/Lopez-Local)
+Author: Lopez_Abella <mr.lopez_abella@gmail.com>
+Date:   Wed Feb 7 16:43:52 2024 +0800
+
+    First version
+
+commit 86d9e3ff666da9bba80d13ffcea13fef87fe14f0 (origin/Narro-Local)
+Author: Edelyn <e.narro00593@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:52 2024 +0800
+
+    1st commit
+
+commit 73dd1bfc768aeb137ee809f2cd2d345ae164c7f2 (origin/cortez-local)
+Author: GABOO <vg.cortez00238@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:50 2024 +0800
+
+    1st commit
+
+commit cb6faa8169a447afde1e35cf24aecab2bf74af5c (origin/Demetria-Local)
+Author: Christian Jay A. Demetria <cj.demetria00803@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:48 2024 +0800
+
+    commit in student number
+
+commit e005e1f3b6a613a13a2a0237e2fd94a960b6cf53 (origin/Galano-Local)
+Author: Jette-Lee S. Mata <j.mata00506@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:43 2024 +0800
+
+    first commit
+
+commit 0f3e5fcfa7fbbfdc5c05364ddd0aa5d932f0738d (origin/ARCEO-local)
+Author: emjay <cashmancosta22@gmail.com>
+Date:   Wed Feb 7 16:43:41 2024 +0800
+
+    this is the first file
+
+commit 49d847d91edb335e07d63f0aa6be6d07c79eea1a (origin/NIMENZO-LOCAL)
+Author: CJNIMENZO <cj.nimenzo00468@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:32 2024 +0800
+
+    1st Committed
+
+commit b0a3b1b19671da6585ef286801a100c6f8d490c1 (origin/Mendoza-local)
+Author: Aljhon Mendoza <aj.mendoza01041@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:28 2024 +0800
+
+    this is my first commit
+
+commit 3983db1d5a85e2812879a9387e91ab344c5a44af (origin/Canlas-Local)
+Author: ARCEO JOHN MIGUEL P <jm.arceo00325@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:27 2024 +0800
+
+    una
+
+commit feb1e3070546f77ec14e64339513ef4c468d0d84
+Author: axeshiyea <princejeffx@gmail.com>
+Date:   Wed Feb 7 16:43:22 2024 +0800
+
+    first
+
+commit e86c81afc66f0a0f066d6507e00fb882296287a1 (origin/Zaragosa-local)
+Author: santos <santos@tsu.edu.ph>
+Date:   Wed Feb 7 16:43:18 2024 +0800
+
+    first commit
+
+commit 5460af079211badebd9a5d9de27ca5ba6708cb96 (origin/MataOdron-Local)
+Author: Vladimir <qv.odron00638@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:18 2024 +0800
+
+    First Commit on Local
+
+commit d646bc9fb0c18290f25e1a2ccae7bfeadba36bc1 (origin/Graganza-local)
+Author: Roselyn <ndeguzman00877@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:06 2024 +0800
+
+    una
+
+commit 8c85864aff668652cccfc3cf10d45d4c7ae82d6f
+Author: Bryan Taruc <b.taruc00355@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:43:02 2024 +0800
+
+    1st
+
+commit 93511af4fa38748a3ddc06c007fd805337b93575 (origin/Romero-Local)
+Author: Roi Justine Graganza <rj.graganza00323@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:42:59 2024 +0800
+
+    first
+
+commit a380cb86d8e2b23cdd1bfce1769e3d1b1edfb875 (origin/Manansala_Remigio-Local)
+Author: Nicole_Kurt <na.manansala00348@student.tsu.edu.ph>
+Date:   Wed Feb 7 16:41:07 2024 +0800
+
+    this is 1st commit
+
+commit 19e95f2ecca5d92ad972da64402479264d91489c
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 7 15:25:26 2024 +0800
+
+    new instructions
+
+    test me
+
+commit 658ffcef39b8d9e870c83c40b4ad2278411a0fd7
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 7 13:08:28 2024 +0800
+
+    Initial commit
+
+commit f8290c626ea04eaa410173a9a059d3b5a2b0bd8a (origin/Santos-Cunanan-localbranch)
+Author: ZARAGOSA <n.zaragosa00113@student.tsu.edu.ph>
+Date:   Tue Feb 6 12:34:35 2024 +0800
+
+    1st commit
+
+commit 45fa027a328f41873baa53d1d65dd3adc50c9a74 (origin/Mendiola_Pineda-localbranch)
+Author: Ahren <ahren.cloud@gmail.com>
+Date:   Sat Jan 27 21:41:01 2024 +0800
+
+    1st commit
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git push -u origin Narro-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 324 bytes | 324.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Narro-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Narro-iptq1
+remote:
+To https://github.com/amillet2001/NA3B.git
+ * [new branch]      Narro-iptq1 -> Narro-iptq1
+branch 'Narro-iptq1' set up to track 'origin/Narro-iptq1'.
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git add 2021300593-profile.html
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git commit -m "4th"
+[Narro-iptq1 89f92a0] 4th
+ 1 file changed, 21 insertions(+)
+ create mode 100644 2021300593/2021300593-profile.html
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git push -u origin Narro-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 652 bytes | 652.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   bff9890..89f92a0  Narro-iptq1 -> Narro-iptq1
+branch 'Narro-iptq1' set up to track 'origin/Narro-iptq1'.
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git add 2021300593-profile.html
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git commit -m "5th"
+[Narro-iptq1 a272043] 5th
+ 1 file changed, 44 insertions(+), 5 deletions(-)
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$ git push -u origin Narro-iptq1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 919 bytes | 919.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   89f92a0..a272043  Narro-iptq1 -> Narro-iptq1
+branch 'Narro-iptq1' set up to track 'origin/Narro-iptq1'.
+
+Edelyn@HP MINGW64 ~/Desktop/Narro/NA3B/2021300593 (Narro-iptq1)
+$
