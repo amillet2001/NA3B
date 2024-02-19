@@ -1,0 +1,200 @@
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git init
+Initialized empty Git repository in C:/Users/Gab/Desktop/Cortez/.git/
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ touch test.txt
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git add test.txt
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git commit -m "1 commit"
+[master (root-commit) 3f71b87] 1 commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 7575445] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ echo "Content modified" > test.txt
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git commit -m "2 commit"
+[master 19edada] 2 commit
+ 1 file changed, 1 insertion(+)
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git config --global user.name "Vincent Gabriel Cortez"
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git config --global user.email "vnncnt3@gmail.com"
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git clone https://github.com/amillet2001/NA3B/tree/Cortez
+Cloning into 'Cortez'...
+fatal: repository 'https://github.com/amillet2001/NA3B/tree/Cortez/' not found
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git clone https://github.com/amillet2001/NA3B/tree/Cortez.git
+Cloning into 'Cortez'...
+fatal: repository 'https://github.com/amillet2001/NA3B/tree/Cortez.git/' not found
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git clone https://github.com/amillet2001/NA3B/tree/Cortez
+Cloning into 'Cortez'...
+fatal: repository 'https://github.com/amillet2001/NA3B/tree/Cortez/' not found
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git clone https://github.com/amillet2001/NA3B/tree/main
+Cloning into 'main'...
+fatal: repository 'https://github.com/amillet2001/NA3B/tree/main/' not found
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1090, done.
+remote: Counting objects: 100% (166/166), done.
+remote: Compressing objects: 100% (126/126), done.
+remote: Total 1090 (delta 59), reused 61 (delta 26), pack-reused 924
+Receiving objects: 100% (1090/1090), 66.90 MiB | 5.06 MiB/s, done.
+Resolving deltas: 100% (287/287), done.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez (master)
+$ cd NA3B
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B (main)
+$ git checkout -b Cortez-iptq1
+Switched to a new branch 'Cortez-iptq1'
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B (Cortez-iptq1)
+$ mkdir 2021300238
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B (Cortez-iptq1)
+$ cd 2021300238
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ touch 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git add 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git commit -m "Profile Added"
+[Cortez-iptq1 e5c83fb] Profile Added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300238/2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git push -u origin cortez-iptq1
+fatal: cortez-iptq1 cannot be resolved to branch
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git push -u origin Cortez-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 357 bytes | 178.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Cortez-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Cortez-iptq1
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Cortez-iptq1 -> Cortez-iptq1
+branch 'Cortez-iptq1' set up to track 'origin/Cortez-iptq1'.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git checkout Cortez-iptq1
+Already on 'Cortez-iptq1'
+Your branch is up to date with 'origin/Cortez-iptq1'.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ cd 2021300238
+bash: cd: 2021300238: No such file or directory
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git add 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git commit -m "3 commit"
+On branch Cortez-iptq1
+Your branch is up to date with 'origin/Cortez-iptq1'.
+
+nothing to commit, working tree clean
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git push -u origin Cortez-iptq1
+Everything up-to-date
+branch 'Cortez-iptq1' set up to track 'origin/Cortez-iptq1'.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git add 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git add 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git commit -m "commited 4"
+[Cortez-iptq1 dd65aee] commited 4
+ 1 file changed, 22 insertions(+)
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ ^C
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git push -u origin Cortez-iptq1
+To https://github.com/amillet2001/NA3B
+ ! [rejected]        Cortez-iptq1 -> Cortez-iptq1 (fetch first)
+error: failed to push some refs to 'https://github.com/amillet2001/NA3B'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ Git push -u origin Cortez-iptq1
+To https://github.com/amillet2001/NA3B
+ ! [rejected]        Cortez-iptq1 -> Cortez-iptq1 (fetch first)
+error: failed to push some refs to 'https://github.com/amillet2001/NA3B'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git add 2021300238-profile.html
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git commit -m "commit"
+On branch Cortez-iptq1
+Your branch is ahead of 'origin/Cortez-iptq1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gab@M5 MINGW64 ~/Desktop/Cortez/NA3B/2021300238 (Cortez-iptq1)
+$ git push -u origin Cortez-iptq1
+To https://github.com/amillet2001/NA3B
+ ! [rejected]        Cortez-iptq1 -> Cortez-iptq1 (fetch first)
+error: failed to push some refs to 'https://github.com/amillet2001/NA3B'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
