@@ -1,0 +1,130 @@
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC23/Desktop/BUGARIN/.git/
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ touch test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git commit -m "first commit"
+[master (root-commit) b6af73b] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 3121489] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ echo "HEHHHEHEH" > test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git commit -m "2nd commit"
+[master 46665f7] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git config --global  user.name "Angelica"
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git config --global  user.email "am.bugarin00226@student.tsu.edu.ph"
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1212, done.
+remote: Counting objects: 100% (276/276), done.
+remote: Compressing objects: 100% (207/207), done.
+remote: Total 1212 (delta 53), reused 227 (delta 42), pack-reused 936
+Receiving objects: 100% (1212/1212), 67.04 MiB | 1.85 MiB/s, done.
+Resolving deltas: 100% (292/292), done.
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN (master)
+$ cd NA3B
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B (main)
+$ git checkout -b Bugarin-iptq1
+Switched to a new branch 'Bugarin-iptq1'
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B (Bugarin-iptq1)
+$ mkdir 2021300226
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B (Bugarin-iptq1)
+$ cd 2021300226
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ touch quizipt.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git commit -m " commit done"
+[Bugarin-iptq1 0b8abea]  commit done
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300226/quizipt.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git push -u origin Bugarin-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 341 bytes | 341.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Bugarin-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Bugarin-iptq1
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Bugarin-iptq1 -> Bugarin-iptq1
+branch 'Bugarin-iptq1' set up to track 'origin/Bugarin-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git status
+On branch Bugarin-iptq1
+Your branch is up to date with 'origin/Bugarin-iptq1'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2021200226-profile.html
+
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git commit -m "commiteeed ba"
+[Bugarin-iptq1 cd3a56f] commiteeed ba
+ 1 file changed, 23 insertions(+)
+ create mode 100644 2021300226/2021200226-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git status
+On branch Bugarin-iptq1
+Your branch is ahead of 'origin/Bugarin-iptq1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$ git commit -m "committe manyyy"
+[Bugarin-iptq1 c92820d] committe manyyy
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300226/pportsize.jpg
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARIN/NA3B/2021300226 (Bugarin-iptq1)
+$
