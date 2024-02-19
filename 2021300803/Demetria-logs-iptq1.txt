@@ -1,0 +1,183 @@
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git init
+Initialized empty Git repository in C:/Users/cjdem/OneDrive/Desktop/DEMETRIA/.git/
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ touch test.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git add test.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git commit -m "first commit on test file"
+[master (root-commit) 91e3550] first commit on test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master c82057e] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ echo "modified" > test.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git commit -m "modified commit on test file"
+[master 88f82c1] modified commit on test file
+ 1 file changed, 1 insertion(+)
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git config --global user.name "Christian Demetria"
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git config --global user.email "demetriachristianjay@gmail.com"
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1103, done.
+remote: Counting objects: 100% (179/179), done.
+remote: Compressing objects: 100% (136/136), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 1830 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1111, done.
+remote: Counting objects: 100% (175/175), done.
+remote: Compressing objects: 100% (142/142), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 2648 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1122, done.
+remote: Counting objects: 100% (198/198), done.
+remote: Compressing objects: 100% (128/128), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 1122 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1129, done.
+remote: Counting objects: 100% (205/205), done.
+remote: Compressing objects: 100% (134/134), done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 1722 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1148, done.
+remote: Counting objects: 100% (212/212), done.
+remote: Compressing objects: 100% (149/149), done.
+remote: Total 1148 (delta 49), reused 166 (delta 39), pack-reused 936
+Receiving objects: 100% (1148/1148), 66.91 MiB | 3.52 MiB/s, done.
+Resolving deltas: 100% (288/288), done.
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA (master)
+$ cd NA3B
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B (main)
+$ git checkout -b Demetria-iptq1
+Switched to a new branch 'Demetria-iptq1'
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B (Demetria-iptq1)
+$ mkdir 2021300803
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B (Demetria-iptq1)
+$ cd 2021300803
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ touch file2.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git add file2.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git commit -m "commit on file2"
+[Demetria-iptq1 4662d0d] commit on file2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300803/file2.txt
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git push -u origin Demetria-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 340 bytes | 34.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Demetria-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Demetria-iptq1
+remote:
+To https://github.com/amillet2001/NA3B.git
+ * [new branch]      Demetria-iptq1 -> Demetria-iptq1
+branch 'Demetria-iptq1' set up to track 'origin/Demetria-iptq1'.
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git add 2021300803-profile.html
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git commit -m "commit on html file"
+[Demetria-iptq1 88a35a2] commit on html file
+ 1 file changed, 46 insertions(+)
+ create mode 100644 2021300803/2021300803-profile.html
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git push -u origin Demetria-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 986 bytes | 986.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   4662d0d..88a35a2  Demetria-iptq1 -> Demetria-iptq1
+branch 'Demetria-iptq1' set up to track 'origin/Demetria-iptq1'.
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git add 2021300803-profile.html
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git commit -m "modified commit on html file"
+[Demetria-iptq1 9c4f881] modified commit on html file
+ 1 file changed, 77 insertions(+), 2 deletions(-)
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$ git push -u origin Demetria-iptq1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.33 KiB | 682.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   88a35a2..9c4f881  Demetria-iptq1 -> Demetria-iptq1
+branch 'Demetria-iptq1' set up to track 'origin/Demetria-iptq1'.
+
+cjdem@ITCHOBOIPAPI MINGW64 ~/OneDrive/Desktop/DEMETRIA/NA3B/2021300803 (Demetria-iptq1)
+$
