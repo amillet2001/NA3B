@@ -1,0 +1,164 @@
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/STUDENT-PC10/Desktop/Taruc/.git/
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ echo "hello ehe" > test.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ git config --global user.name "Bryan Taruc"
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ git config --global user.email "btaruc355@student.tsu.edu.ph"
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 1059, done.
+remote: Counting objects: 100% (123/123), done.
+remote: Compressing objects: 100% (104/104), done.
+remote: Total 1059 (delta 47), reused 19 (delta 15), pack-reused 936
+Receiving objects: 100% (1059/1059), 66.90 MiB | 2.25 MiB/s, done.
+Resolving deltas: 100% (286/286), done.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc (master)
+$ cd NA3B
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B (main)
+$ git checkout -b taruc-iptq1
+Switched to a new branch 'taruc-iptq1'
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B (taruc-iptq1)
+$ mkdir 2021300355
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B (taruc-iptq1)
+$ cd 2021300355
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ echo "hello im bryan" > test2.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git add test2.txt
+warning: in the working copy of '2021300355/test2.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git status
+On branch taruc-iptq1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test2.txt
+
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git commit -m "test1"
+[taruc-iptq1 3938179] test1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2021300355/test2.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git status
+On branch taruc-iptq1
+nothing to commit, working tree clean
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git push -u origin taruc-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 352 bytes | 352.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'taruc-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/taruc-iptq1
+remote:
+To https://github.com/amillet2001/NA3B.git
+ * [new branch]      taruc-iptq1 -> taruc-iptq1
+branch 'taruc-iptq1' set up to track 'origin/taruc-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ touch index.html
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git add index.html
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git commit -m "static web"
+[taruc-iptq1 2ae5242] static web
+ 1 file changed, 27 insertions(+)
+ create mode 100644 2021300355/index.html
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git push -u origin taruc-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 956 bytes | 956.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   3938179..2ae5242  taruc-iptq1 -> taruc-iptq1
+branch 'taruc-iptq1' set up to track 'origin/taruc-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git status
+On branch taruc-iptq1
+Your branch is up to date with 'origin/taruc-iptq1'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2021300355-profile.html.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git add 2021300355-profile.html
+fatal: pathspec '2021300355-profile.html' did not match any files
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git add 2021300355-profile.html
+fatal: pathspec '2021300355-profile.html' did not match any files
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git add .
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git status
+On branch taruc-iptq1
+Your branch is up to date with 'origin/taruc-iptq1'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    index.html -> 2021300355-profile.html.html
+
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git commit "modified"
+error: pathspec 'modified' did not match any file(s) known to git
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git commit -m "modified"
+[taruc-iptq1 af2b078] modified
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+ rename 2021300355/{index.html => 2021300355-profile.html.html} (69%)
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$ git push -u origin taruc-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.09 KiB | 1.09 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   2ae5242..af2b078  taruc-iptq1 -> taruc-iptq1
+branch 'taruc-iptq1' set up to track 'origin/taruc-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/Taruc/NA3B/2021300355 (taruc-iptq1)
+$
