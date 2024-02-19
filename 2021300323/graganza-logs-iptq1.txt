@@ -1,0 +1,471 @@
+    1  git commit -m "Wassup MF"
+    2  git checkout main
+    3  git branch
+    4  git push origin -u Tresenio-Branch
+    5  git push origin -u Tresenio-Branch
+    6  git push origin -u Tresenio-Branch
+    7  git push origin -u Tresenio-Branch
+    8  git push origin -u Tresenio-Branch
+    9  git push origin -u Tresenio-Branch
+   10  git chekout -b Tresenio-Branch
+   11  git checkout -b Tresenio-Branch
+   12  git checkout Tresenio-Branch
+   13  git checkout Tresenio-Branch
+   14  git checkout Tresenio-Branch
+   15  git checkout Tresenio-Branch
+   16  git add .
+   17  git checkout Tresenio-Branch
+   18  git add .
+   19  git add .
+   20  git checkout Tresenio-Branch
+   21  ls
+   22  cd sidamon
+   23  mkdir sidamon
+   24  git clone https://github.com/amillet2001/NA3B
+   25  cd NA3B
+   26  Sidamon-localbranch
+   27  git checkout -b Sidamon-local
+   28  touch 2021200242.txt
+   29  echo "Yummy pa sa yummy" >2021200242
+   30  echo "Yummy pa sa yummy" >2021200242.txt
+   31  echo "Yummy pa sa yummy" > 2021200242.txt
+   32  git status
+   33  git add 2021200242.txt
+   34  git add .
+   35  git commit -m "this is my first commit"
+   36  git status
+   37  git push -u orign Sidamon-local
+   38  LS
+   39  git checkout master
+   40  cd--
+   41  cd --
+   42  cd --
+   43  cd--
+   44  git commit --amend --reset-author
+   45  git config --global user.name "Moncada"
+   46  git config --global user.email Moncada@gmail.com
+   47  git commit --amend --reset-Moncada
+   48  git config --global user.name "Moncada-Padilla"
+   49  git config --global user.email maryjoymoncada01@gmail.com
+   50  git clone https://github.com/amillet2001/TSM3B
+   51  cd TSM3B
+   52  git branch moncada-padilla-local
+   53  git branch
+   54  git checkout -b moncada-padilla-local
+   55  git branch
+   56  git checkout -b moncada-padilla-local
+   57  git push -u origin
+   58  git checkout -b moncada-padilla-local
+   59  git config --global user.name "MONCADA-PADILLA"
+   60  git config --global user.email maryjoymoncada01@gmail.com
+   61  cd TSM3B
+   62  git clone https://github.com/amillet2001/TSM3B
+   63  cd TSM3B
+   64  git checkout -b Moncada-Padilla-local
+   65  mkdir 2021300642-2021300623 
+   66  git push -u origin Moncada-Padilla-local
+   67  touch marypaul.txt
+   68  git commit -m "Hello Sir"
+   69  git add .
+   70  git status
+   71  git push -u origin Moncada-Padilla-local
+   72  cd 2021300642-2021300623
+   73  git add .
+   74  git commit -m "the commited 2"
+   75  git push -u origin Moncada-Padilla-local
+   76  touch moncada-padilla-local.txt
+   77  echo ""
+   78  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+   79  $
+   80  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+   81  $ touch marypaul.txt
+   82  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+   83  $ git commit -m "Hello Sir"
+   84  On branch Moncada-Padilla-local
+   85  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+   86  Untracked files:
+   87    (use "git add <file>..." to include in what will be committed)
+   88          marypaul.txt
+   89  nothing added to commit but untracked files present (use "git add" to track)
+   90  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+   91  $ git add .
+   92  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+   93  $ git status
+   94  On branch Moncada-Padilla-local
+   95  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+   96  Changes to be committed:
+   97    (use "git restore --staged <file>..." to unstage)
+   98          new file:   marypaul.txt
+   99  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  100  $ git push -u origin Moncada-Padilla-local
+  101  Everything up-to-date
+  102  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  103  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  104  $ cd 2021300642-2021300623
+  105  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  106  $ git add .
+  107  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  108  $ git commit -m "the commited 2"
+  109  [Moncada-Padilla-local 8cb9a3e] the commited 2
+  110   3 files changed, 62 insertions(+)
+  111   create mode 100644 2021300642-2021300623/marypaul.txt
+  112   create mode 100644 2021300642-2021300623/tsm3b.html
+  113   create mode 100644 marypaul.txt
+  114  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  115  $ git push -u origin Moncada-Padilla-local
+  116  Enumerating objects: 6, done.
+  117  Counting objects: 100% (6/6), done.
+  118  Delta compression using up to 4 threads
+  119  Compressing objects: 100% (4/4), done.
+  120  Writing objects: 100% (5/5), 1.11 KiB | 1.11 MiB/s, done.
+  121  Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+  122  To https://github.com/amillet2001/TSM3B
+  123     20cefb8..8cb9a3e  Moncada-Padilla-local -> Moncada-Padilla-local
+  124  xs
+  125  echo "
+  126  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  127  $ git config --global user.name "MONCADA-PADILLA"
+  128  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  129  $ git config --global user.email maryjoymoncada01@gmail.com
+  130  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  131  $ cd TSM3B
+  132  bash: cd: TSM3B: No such file or directory
+  133  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  134  $ git clone https://github.com/amillet2001/TSM3B
+  135  Cloning into 'TSM3B'...
+  136  remote: Enumerating objects: 19, done.
+  137  remote: Counting objects: 100% (19/19), done.
+  138  remote: Compressing objects: 100% (10/10), done.
+  139  remote: Total 19 (delta 4), reused 11 (delta 3), pack-reused 0
+  140  Receiving objects: 100% (19/19), 74.96 KiB | 5.35 MiB/s, done.
+  141  Resolving deltas: 100% (4/4), done.
+  142  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  143  $ cd TSM3B
+  144  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (main)
+  145  $ git checkout -b Moncada-Padilla-local
+  146  Switched to a new branch 'Moncada-Padilla-local'
+  147  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  148  $ mkdir 2021300642-2021300623
+  149  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  150  $ git push -u origin Moncada-Padilla-local
+  151  Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+  152  remote:
+  153  remote: Create a pull request for 'Moncada-Padilla-local' on GitHub by visiting:
+  154  remote:      https://github.com/amillet2001/TSM3B/pull/new/Moncada-Padilla-local
+  155  remote:
+  156  To https://github.com/amillet2001/TSM3B
+  157   * [new branch]      Moncada-Padilla-local -> Moncada-Padilla-local
+  158  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  159  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  160  $
+  161  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  162  $ touch marypaul.txt
+  163  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  164  $ git commit -m "Hello Sir"
+  165  On branch Moncada-Padilla-local
+  166  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  167  Untracked files:
+  168    (use "git add <file>..." to include in what will be committed)
+  169          marypaul.txt
+  170  nothing added to commit but untracked files present (use "git add" to track)
+  171  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  172  $ git add .
+  173  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  174  $ git status
+  175  On branch Moncada-Padilla-local
+  176  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  177  Changes to be committed:
+  178    (use "git restore --staged <file>..." to unstage)
+  179          new file:   marypaul.txt
+  180  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  181  $ git push -u origin Moncada-Padilla-local
+  182  Everything up-to-date
+  183  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  184  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  185  $ cd 2021300642-2021300623
+  186  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  187  $ git add .
+  188  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  189  $ git commit -m "the commited 2"
+  190  [Moncada-Padilla-local 8cb9a3e] the commited 2
+  191   3 files changed, 62 insertions(+)
+  192   create mode 100644 2021300642-2021300623/marypaul.txt
+  193   create mode 100644 2021300642-2021300623/tsm3b.html
+  194   create mode 100644 marypaul.txt
+  195  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  196  $ git push -u origin Moncada-Padilla-local
+  197  Enumerating objects: 6, done.
+  198  Counting objects: 100% (6/6), done.
+  199  Delta compression using up to 4 threads
+  200  Compressing objects: 100% (4/4), done.
+  201  Writing objects: 100% (5/5), 1.11 KiB | 1.11 MiB/s, done.
+  202  Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+  203  To https://github.com/amillet2001/TSM3B
+  204     20cefb8..8cb9a3e  Moncada-Padilla-local -> Moncada-Padilla-local
+  205  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  206  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  207  $ git config --global user.name "MONCADA-PADILLA"
+  208  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  209  $ git config --global user.email maryjoymoncada01@gmail.com
+  210  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  211  $ cd TSM3B
+  212  bash: cd: TSM3B: No such file or directory
+  213  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  214  $ git clone https://github.com/amillet2001/TSM3B
+  215  Cloning into 'TSM3B'...
+  216  remote: Enumerating objects: 19, done.
+  217  remote: Counting objects: 100% (19/19), done.
+  218  remote: Compressing objects: 100% (10/10), done.
+  219  remote: Total 19 (delta 4), reused 11 (delta 3), pack-reused 0
+  220  Receiving objects: 100% (19/19), 74.96 KiB | 5.35 MiB/s, done.
+  221  Resolving deltas: 100% (4/4), done.
+  222  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA (master)
+  223  $ cd TSM3B
+  224  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (main)
+  225  $ git checkout -b Moncada-Padilla-local
+  226  Switched to a new branch 'Moncada-Padilla-local'
+  227  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  228  $ mkdir 2021300642-2021300623
+  229  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  230  $ git push -u origin Moncada-Padilla-local
+  231  Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+  232  remote:
+  233  remote: Create a pull request for 'Moncada-Padilla-local' on GitHub by visiting:
+  234  remote:      https://github.com/amillet2001/TSM3B/pull/new/Moncada-Padilla-local
+  235  remote:
+  236  To https://github.com/amillet2001/TSM3B
+  237   * [new branch]      Moncada-Padilla-local -> Moncada-Padilla-local
+  238  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  239  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  240  $
+  241  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  242  $ touch marypaul.txt
+  243  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  244  $ git commit -m "Hello Sir"
+  245  On branch Moncada-Padilla-local
+  246  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  247  Untracked files:
+  248    (use "git add <file>..." to include in what will be committed)
+  249          marypaul.txt
+  250  nothing added to commit but untracked files present (use "git add" to track)
+  251  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  252  $ git add .
+  253  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  254  $ git status
+  255  On branch Moncada-Padilla-local
+  256  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  257  Changes to be committed:
+  258    (use "git restore --staged <file>..." to unstage)
+  259          new file:   marypaul.txt
+  260  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  261  $ git push -u origin Moncada-Padilla-local
+  262  Everything up-to-date
+  263  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  264  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  265  $ cd 2021300642-2021300623
+  266  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  267  $ git add .
+  268  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  269  $ git commit -m "the commited 2"
+  270  [Moncada-Padilla-local 8cb9a3e] the commited 2
+  271   3 files changed, 62 insertions(+)
+  272   create mode 100644 2021300642-2021300623/marypaul.txt
+  273   create mode 100644 2021300642-2021300623/tsm3b.html
+  274   create mode 100644 marypaul.txt
+  275  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  276  $ git push -u origin Moncada-Padilla-local
+  277  Enumerating objects: 6, done.
+  278  Counting objects: 100% (6/6), done.
+  279  Delta compression using up to 4 threads
+  280  Compressing objects: 100% (4/4), done.
+  281  Writing objects: 100% (5/5), 1.11 KiB | 1.11 MiB/s, done.
+  282  Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+  283  To https://github.com/amillet2001/TSM3B
+  284     20cefb8..8cb9a3e  Moncada-Padilla-local -> Moncada-Padilla-local
+  285  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  286  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  287  $ touch moncada-padilla-local.txt
+  288  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  289  $ echo ""^C
+  290  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  291  $ echo ""
+  292  $ echo ""
+  293  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  294  $
+  295  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  296  $ touch marypaul.txt
+  297  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  298  $ git commit -m "Hello Sir"
+  299  On branch Moncada-Padilla-local
+  300  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  301  Untracked files:
+  302    (use "git add <file>..." to include in what will be committed)
+  303          marypaul.txt
+  304  nothing added to commit but untracked files present (use "git add" to track)
+  305  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  306  $ git add .
+  307  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  308  $ git status
+  309  On branch Moncada-Padilla-local
+  310  Your branch is up to date with 'origin/Moncada-Padilla-local'.
+  311  Changes to be committed:
+  312    (use "git restore --staged <file>..." to unstage)
+  313          new file:   marypaul.txt
+  314  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  315  $ git push -u origin Moncada-Padilla-local
+  316  Everything up-to-date
+  317  branch 'Moncada-Padilla-local' set up to track 'origin/Moncada-Padilla-local'.
+  318  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B (Moncada-Padilla-local)
+  319  xs 20cefb8..8cb9a3e  Moncada-Padilla-local -> Moncada-Padilla-local21300623 (Moncada-Padilla-local)
+  320  bash: syntax error near unexpected token `('
+  321  bash: $: command not found
+  322  bash: syntax error near unexpected token `('
+  323  bash: $: command not found
+  324  bash: syntax error near unexpected token `('
+  325  bash: $: command not found
+  326  bash: On: command not found
+  327  bash: Your: command not found
+  328  bash: Untracked: command not found
+  329  bash: use: command not found
+  330  bash: marypaul.txt: command not found
+  331  bash: syntax error near unexpected token `('
+  332  bash: syntax error near unexpected token `('
+  333  bash: $: command not found
+  334  bash: syntax error near unexpected token `('
+  335  bash: $: command not found
+  336  bash: On: command not found
+  337  bash: Your: command not found
+  338  bash: Changes: command not found
+  339  bash: use: command not found
+  340  bash: new: command not found
+  341  bash: syntax error near unexpected token `('
+  342  bash: $: command not found
+  343  bash: Everything: command not found
+  344  bash: branch: command not found
+  345  bash: syntax error near unexpected token `('
+  346  bash: $: command not found
+  347  bash: syntax error near unexpected token `('
+  348  bash: $: command not found
+  349  bash: syntax error near unexpected token `('
+  350  bash: $: command not found
+  351  bash: [Moncada-Padilla-local: command not found
+  352  bash: syntax error near unexpected token `('
+  353  bash: create: command not found
+  354  bash: create: command not found
+  355  bash: create: command not found
+  356  bash: syntax error near unexpected token `('
+  357  bash: $: command not found
+  358  bash: Enumerating: command not found
+  359  bash: syntax error near unexpected token `('
+  360  bash: Delta: command not found
+  361  bash: syntax error near unexpected token `('
+  362  bash: syntax error near unexpected token `('
+  363  bash: syntax error near unexpected token `('
+  364  bash: To: command not found
+  365  bash: 20cefb8..8cb9a3e: command not found
+  366  bash: xs: command not found
+  367  CCS@CCS-PC-15 MINGW64 ~/Desktop/MONCADA-PADILLA/TSM3B/2021300642-2021300623 (Moncada-Padilla-local)
+  368  $ echo ""
+  369  "
+  370  git init
+  371  touch test.txt
+  372  echo "this is the first" > test.txt
+  373  add .
+  374  git add .
+  375  git init
+  376  touch test.txt
+  377  echo "this is the first" > test.txt
+  378  git add .
+  379  git commit -m "this is the 1st commit"
+  380  git commit --amend --reset-author "resetting author"
+  381  git commit --amend --reset-author -m "resetting author
+  382  qqqqqq
+  383  q
+  384  git init
+  385  touch test.txt
+  386  echo "this is the first" > test.txt
+  387  git add .
+  388  git commit -m "this is the 1st commit"
+  389  git commit --amend --reset-author -m "resetting author"
+  390  touch test.txt
+  391  echo "this is the second" > test.txt
+  392  git status
+  393  git add .
+  394  git commit -m "this is the second commit"
+  395  git config --global user.name "Arynne Barlaan"
+  396  git config --global user.email "arynnebarlaan21@gmail.com"
+  397  git clone https://github.com/amillet2001/TSM3A
+  398  ls
+  399  git checkout -b barlaan-iptq1
+  400  mkdir 2021300005
+  401  touch Arynne.txt
+  402  git add .
+  403  git commit -m "1st branch commit"
+  404  git push -u origin barlaam-iptq1
+  405  git push -u origin barlaan-iptq1
+  406  ls
+  407  cd TSM3A
+  408  git push -u origin barlaan-iptq1
+  409  git checkout -b barlaan-iptq1
+  410  mkdir 2021300005
+  411  touch Arynne.txt
+  412  git add .
+  413  git commit -m "1st branch commit"
+  414  git push -u origin barlaan-iptq1
+  415  git add .
+  416  git commit -m "commit for website"
+  417  git push -u origin barlaan-iptq1
+  418  cd desktop 2021300005
+  419  cd 2021300005
+  420  git add .
+  421  git commit -m "branch commit 2"
+  422  touch barlaan-logs-iptq1.txt
+  423  git add .
+  424  git commit -m "last commit"
+  425  git push -u origin lastname-iptq1
+  426  git push -u origin barlaan-iptq1
+  427  git init
+  428  touch test.txt
+  429  git status
+  430  git add .
+  431  git status
+  432  git commit -m "test"
+  433  git config --global user.name "Roi Justine Graganza"
+  434  git config --global user.email "rj.graganza00323@student.tsu.edu.ph"
+  435  git commit --amend --reset-author -m "resetting author"
+  436  echo "test.txt" > test.txt
+  437  git status
+  438  git add .
+  439  git status
+  440  git commit -m "modify test.txt file"
+  441  git status
+  442  git init
+  443  touch "test.txt"
+  444  git add .
+  445  git commit -m "test.txt file"
+  446  git config --global user.name "Roi Justine Graganza"
+  447  git config --global user.email "rgraggy@gmail.com"
+  448  git commit --amend --reset-author -m "resetting author"
+  449  echo "test.txt" > test.txt
+  450  git add .
+  451  git commit -m "modify test.txt file"
+  452  git clone https://github.com/amillet2001/NA3B
+  453  cd NA3B
+  454  git checkout -b graganza-iptq1
+  455  mkdir 2021300323
+  456  cd 2021300323
+  457  touch file.txt
+  458  git add .
+  459  git commit -m "create a file"
+  460  git push -u origin graganza-iptq1
+  461  git show
+  462  git status
+  463  git status
+  464  git add .
+  465  git commit -m "2021300323.html"
+  466  git push -u origin graganza-iptq1
+  467  git status
+  468  git add .
+  469  git commit -m "modify 2021300323.html"
+  470  git push -u origin graganza-iptq1
+  471  history > graganza-logs-iptq1.txt
