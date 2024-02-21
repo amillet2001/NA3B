@@ -1,0 +1,179 @@
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda (main)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC3/Desktop/Pineda/.git/
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda (main)
+$ mkdir Pineda
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda (main)
+$ cd Pineda
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git add test.txt
+fatal: pathspec 'test.txt' did not match any files
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ touch test.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git add test.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git commit -m "1st commit"
+[main (root-commit) dba64c3] 1st commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Pineda/test.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ echo "modify" > test.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git add test.txt
+warning: in the working copy of 'Pineda/test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git commit -m "2nd commit"
+[main 95383e9] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git commit --amend --reset-author -m "resetting author"
+[main f70aed7] resetting author
+ 1 file changed, 1 insertion(+)
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git config --global user-name "Aaron Joshuel Pineda"
+error: key does not contain a section: user-name
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git config --global user.name "Aaron Joshuel Pineda"
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git config --global user.email "aj.pineda00265@student.tsu.edu.ph"
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 359, done.
+remote: Counting objects: 100% (198/198), done.
+remote: Compressing objects: 100% (140/140), done.
+remote: Total 359 (delta 48), reused 158 (delta 40), pack-reused 161
+Receiving objects: 100% (359/359), 10.19 MiB | 1.13 MiB/s, done.
+Resolving deltas: 100% (52/52), done.
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda (main)
+$ cd NA3B
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (main)
+$ git checkout -b pineda-ipt1v2
+Switched to a new branch 'pineda-ipt1v2'
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ mkdir 2021300265
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ touch branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ git add branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ git commit -m "ubuntu2"
+[pineda-ipt1v2 4681775] ubuntu2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ git push -u  origin pineda-ipt1v2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'pineda-ipt1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/pineda-ipt1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      pineda-ipt1v2 -> pineda-ipt1v2
+branch 'pineda-ipt1v2' set up to track 'origin/pineda-ipt1v2'.
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ git add 2021300265-ipt2v1.docx
+fatal: pathspec '2021300265-ipt2v1.docx' did not match any files
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B (pineda-ipt1v2)
+$ cd 2021300265
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git add 2021300265-iptq2v1
+fatal: pathspec '2021300265-iptq2v1' did not match any files
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git add 2021300265-iptq2v1.docx
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git commit -m "3b"
+[pineda-ipt1v2 032313f] 3b
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300265/2021300265-iptq2v1.docx
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ touch branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git add branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git commit -m "branch"
+[pineda-ipt1v2 81988c0] branch
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300265/branch.txt
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git push -u  origin pineda-ipt1v2
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.03 MiB | 1.67 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/amillet2001/NA3B
+   4681775..81988c0  pineda-ipt1v2 -> pineda-ipt1v2
+branch 'pineda-ipt1v2' set up to track 'origin/pineda-ipt1v2'.
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git add 2021300265-iptq2v1.docx
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git commit -m "branch2"
+On branch pineda-ipt1v2
+Your branch is up to date with 'origin/pineda-ipt1v2'.
+
+nothing to commit, working tree clean
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git push -u  origin pineda-ipt1v2
+Everything up-to-date
+branch 'pineda-ipt1v2' set up to track 'origin/pineda-ipt1v2'.
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git add .
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git commit -m "branch3"
+On branch pineda-ipt1v2
+Your branch is up to date with 'origin/pineda-ipt1v2'.
+
+nothing to commit, working tree clean
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$ git push -u  origin pineda-ipt1v2
+Everything up-to-date
+branch 'pineda-ipt1v2' set up to track 'origin/pineda-ipt1v2'.
+
+322-PC14@322-PC14 MINGW64 ~/Desktop/Pineda/Pineda/NA3B/2021300265 (pineda-ipt1v2)
+$
