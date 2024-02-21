@@ -1,3 +1,144 @@
-[Mata-iptq1v2 8f9a47d] commit for logs
- 2 files changed, 144 insertions(+)
- create mode 100644 2021300506/Mata-logs-iptq1v2.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA
+$ git init
+Initialized empty Git repository in C:/Users/ADMIN/OneDrive/Desktop/MATA/.git/
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ touch test.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ echo "test text" > test.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ git commit -m "First commit"
+[master (root-commit) ead3785] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ echo "Modified text" > test.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ git commit -m "Second commit on modified text in test"
+[master 7511135] Second commit on modified text in test
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (99/99), done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 251 (delta 39), reused 62 (delta 34), pack-reused 152
+Receiving objects: 100% (251/251), 59.21 KiB | 430.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA (master)
+$ cd NA3B
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B (main)
+$ git checkout -b Mata-iptq1v2
+Switched to a new branch 'Mata-iptq1v2'
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B (Mata-iptq1v2)
+$ mkdir 2021300506
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B (Mata-iptq1v2)
+$ cd 2021300506
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ touch Filedaw.txt
+echo
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ echo "Lagyan ko lang text hehe" > Filedaw.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git add .
+warning: in the working copy of '2021300506/Filedaw.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git commit -m "Commit on the studnumber create folder then add file"
+[Mata-iptq1v2 702378e] Commit on the studnumber create folder then add file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2021300506/Filedaw.txt
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git push -u origin Mata-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 396 bytes | 39.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Mata-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Mata-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Mata-iptq1v2 -> Mata-iptq1v2
+branch 'Mata-iptq1v2' set up to track 'origin/Mata-iptq1v2'.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git checkout Mata-iptq1v2
+Already on 'Mata-iptq1v2'
+Your branch is up to date with 'origin/Mata-iptq1v2'.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ touch 2021300506-iptq1v2.docx
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git add .
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git commit -m "Commit for my ubuntu machine interface hehe" > 2021300506-iptq1v2.docx
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git push -u origin Mata-iptq1v2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 788.75 KiB | 21.91 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   702378e..35d98b8  Mata-iptq1v2 -> Mata-iptq1v2
+branch 'Mata-iptq1v2' set up to track 'origin/Mata-iptq1v2'.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git add .
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git status
+On branch Mata-iptq1v2
+Your branch is up to date with 'origin/Mata-iptq1v2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   2021300506-iptq1v2.docx
+
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git commit "commit with general settings" > 2021300506-iptq1v2.docx
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$ git push -u origin Mata-iptq1v2
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 885.74 KiB | 22.71 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   35d98b8..919001e  Mata-iptq1v2 -> Mata-iptq1v2
+branch 'Mata-iptq1v2' set up to track 'origin/Mata-iptq1v2'.
+
+ADMIN@Pingkaw MINGW64 ~/OneDrive/Desktop/MATA/NA3B/2021300506 (Mata-iptq1v2)
+$
