@@ -1,0 +1,500 @@
+   35  git checkout -b DIVISION
+   36  touch DIVISION.txt
+   37  git checkout master
+   38  git checkout -b MODULUS
+   39  touch MODULUS.txt
+   40  git checkout master
+   41  git branch
+   42  cd Desktop
+   43  mkdir TRINIDAD
+   44  cd TRINIDAD
+   45  git init
+   46  git add .
+   47  git commit
+   48  git checkout -b ADDITION
+   49  touch ADDITION.txt
+   50  git add .
+   51  git commit
+   52  cd Desktop
+   53  mkdir TRINIDAD
+   54  cd TRINIDAD
+   55  git init
+   56  touch CALCULATOR.txt
+   57  git add .
+   58  git commit
+   59  cd Desktop
+   60  mkdir TRINIDAD
+   61  cd TRINIDAD
+   62  git init
+   63  touch CALCU.txt
+   64  git add .
+   65  git commit -m "Add new File"
+   66  git checkout -b ADDITION
+   67  touch Add.txt
+   68  git add .
+   69  git commit -m "Add new File"
+   70  git checkout master
+   71  git checkout -b SUBTRACTION
+   72  touch subtract.txt
+   73  git add .
+   74  git commit -m "Add new File"
+   75  git checkout master
+   76  git checkout -b MULTIPLICATION
+   77  touch multiply.txt
+   78  git add .
+   79  git commit -m "Add ne File"
+   80  git checkout master
+   81  git checkout -b DIVISION
+   82  touch DIVIDE.txt
+   83  git add .
+   84  git commit -m "Add new File"
+   85  git checkout master
+   86  git checkout -b MODULUS
+   87  touch MODULU.txt
+   88  git add .
+   89  git commit -m "Add new File"
+   90  git checkout master
+   91  git branch
+   92  git merge --no-ff ADDITION -m "Merge Add Branch"
+   93  git merge --no-ff SUBTRACTION -m "Merge Add Branch"
+   94  git merge --no-ff MULTIPLICATION -m "Merge Add Branch"
+   95  git merge --no-ff DIVISION -m "Merge Add Branch"
+   96  git merge --no-ff MODULUS -m "Merge Add Branch"
+   97  git branch
+   98  git checkout master
+   99  git add .
+  100  git commit -m "Added Template to Master"
+  101  git status
+  102  git show
+  103  git checkout ADDITION
+  104  git add .
+  105  git commit -m "Added Addition Method"
+  106  git checkout master
+  107  git checkout ADDITION
+  108  git show
+  109  git checkout master
+  110  git checkout SUBTRACTION
+  111  git add .
+  112  git commit -m "Added Subtraction Method"
+  113  git show
+  114  git checkout master
+  115  git checkout MULTIPLICATION
+  116  git add .
+  117  git commit -m "Added Multiplication Method"
+  118  git show
+  119  git checkout master
+  120  git checkout MODULUS
+  121  git add .
+  122  git commit -m "Added Modulus Method"
+  123  git show
+  124  git checkout master
+  125  git checkout DIVISION
+  126  git show
+  127  git add .
+  128  git commit -m "Added Division Method"
+  129  git show
+  130  git checkout master
+  131  git merge --no-ff ADDITION -m "Merged Addition"
+  132  git add .
+  133  git commit -m "MERGED ADDITION"
+  134  git merge --no-ff SUBTRACTION -m "Merged SUBTRACTION"
+  135  git add .
+  136  git commit -m "MERGED SUBTRACTION"
+  137  git merge --no-ff MULTIPLICATION -m "Merged MULTIPLICATION"
+  138  git add .
+  139  git commit -m "MERGED MULTIPLICATION"
+  140  git merge --no-ff MODULUS -m "Merged MODULUS"
+  141  git add .
+  142  git commit -m "MERGED MODULUS"
+  143  git merge --no-ff DIVISION -m "Merged DIVISION"
+  144  git add .
+  145  git commit -m "MERGED DIVISION"
+  146  git show
+  147  git branch --no-merged
+  148  git add .
+  149  git commit -m "UNMERGED"
+  150  git add .
+  151  git commit -m "Added Main Method"
+  152  git checkout ADDITION
+  153  git add .
+  154  git commit -m "Added Add Method"
+  155  git checkout master
+  156  git checkout SUBTRACTION
+  157  git add .
+  158  git commit -m "Added Subtract Method"
+  159  git chcekout master
+  160  git checkout master
+  161  git checkout MULTIPLICATION
+  162  git add .
+  163  git commit -m "Added Multiply Method"
+  164  git checkout master
+  165  git checkout Modulus
+  166  git add .
+  167  git commit -m "Added Modulus Method"
+  168  git checkout master
+  169  git checkout DIVISION
+  170  git add .
+  171  git commit -m "Added Divide Method"
+  172  git checkout master
+  173  git merge --no-ff ADDITION -m "REMERGED ADD"
+  174  git merge --no-ff ADDITION -m "MERGED ADD"
+  175  git add .
+  176  git commit -m "REMERGED"
+  177  git merge --no-ff SUBTRACTION -m "MERGED SUB"
+  178  git commit -m "REMERGED"
+  179  git add .
+  180  git commit -m "REMERGED"
+  181  git merge --no-ff MULTIPLICATION -m "MERGED MULTIPLY"
+  182  git add .
+  183  git commit -m "REMERGED"
+  184  git merge --no-ff MODULUS -m "MERGED MODULUS"
+  185  git add .
+  186  git commit -m "REMERGED"
+  187  git merge --no-ff DIVISION -m "MERGED DIVIDE"
+  188  git add .
+  189  git commit -m "REMERGED"
+  190  git show
+  191  git branch
+  192  git checkout ADDITION
+  193  git checkout subtraction
+  194  ls
+  195  cd Desktop
+  196  ls
+  197  LS
+  198  cd DAYRIT
+  199  git clone https://github.com/amillet2001/TSM3A
+  200  cd TSM3A
+  201  git checkout DAYRIT-branch
+  202  git checkout -b DAYRIT-branch
+  203  git checkout  DAYRIT
+  204  git checkout DAYRIT
+  205  git checkout -b DAYRIT
+  206  git branch
+  207  git checkout -b Dayrit
+  208  git branch
+  209  git branch -D Dayrit
+  210  git checkout -b main
+  211  git checkout main
+  212  git branch -D Dayrit
+  213  git checkout Dayrit-branch
+  214  git checkout -b Dayrit-branch
+  215  ls
+  216  mkdir Dayrit
+  217  ls
+  218  cd Dayrit
+  219  cd ..
+  220  git add .
+  221  ls
+  222  git commit -m "This is first commit" Dayrit
+  223  git commit -m "This is first commit" 
+  224  touch me.txt
+  225  git add .
+  226  git commit -m "first text" me.txt
+  227  git checkout main
+  228  git branch
+  229  git push origin -u Dayrit-branch
+  230  git push origin -u Dayrit-branch
+  231  git push origin -u Dayrit-branch
+  232  git push origin -u Dayrit-branch
+  233  ls
+  234  cd TSM3A
+  235  git push origin -u Dayrit-branch
+  236  git push origin -u Dayrit-branch
+  237  git push origin -u Dayrit-branch
+  238  Ninomatic15[A
+  239  git push origin -u Dayrit-branch
+  240  cd Desktop
+  241  cd DAYRIT
+  242  ls
+  243  cd TSM3A
+  244  git branch
+  245  git push origin -u Dayrit-branch
+  246  git push origin -u Dayrit-branch
+  247  git push origin -u Dayrit-branch
+  248  ls
+  249  ls
+  250  cd user
+  251  cd c
+  252  cd desktop
+  253  cd cabungason - magpayo
+  254  ls
+  255  cd Cabungason - Magpayo
+  256  cd Cabungason-Magpayo
+  257  git init
+  258  git config --global user.name "andreux-kurt"
+  259  git config --global user.email "shirazodreux@gmail.com"
+  260  git commit --amend --reset-author
+  261  [200~https://github.com/amillet2001/TSM3B~ git clone
+  262  git clone https://github.com/amillet2001/TSM3B
+  263  cd TSM3B
+  264  git checkout -b cabungason-magpayo-local
+  265  touch 2021300467-2021300570.txt
+  266  git status
+  267  git add .
+  268  git status
+  269  git commit -m "1st version"
+  270  git status
+  271  git push -u cabungason-magpayo-local
+  272  git checkout master
+  273  git checkout main
+  274  git push -u cabungason-magpayo-local
+  275  ls
+  276  git checkout cabungason-magpayo-local
+  277  git log
+  278  git push -u cabungason-magpayo-local
+  279  git push -u origin
+  280  git push -u origin
+  281  git push -u origin cabungason-magpayo-local
+  282  git push -u origin cabungason-magpayo-local
+  283  git add .
+  284  git statis
+  285  git status
+  286  git add .
+  287  git commit -m "commit 2"
+  288  git push -u origin cabungason-magpayo-local
+  289  git status
+  290  git commit -m "commit 3"
+  291  git push -u origin cabungason-magpayo-local
+  292  git push -u origin cabungason-magpayo-local
+  293  git status
+  294  git add .
+  295  git commit -m "commit 4"
+  296  git push -u origin cabungason-magpayo-local
+  297  ls
+  298  cd Desktop
+  299  ls
+  300  mkdir Dayrit
+  301  ls
+  302  cd Dayrit
+  303  git init
+  304  ls
+  305  git config list
+  306  touch test.txt
+  307  ls
+  308  git add.
+  309  git add .
+  310  git status
+  311  git commit -m "First commit"
+  312  git config?
+  313  git --help
+  314  git show
+  315  git commit --amend --reset-author -m "resetting author"
+  316  echo "This is second content" test.txt
+  317  git show
+  318  git commit --amend --reset-author -m "andreux-kurt"
+  319  git show
+  320  git config --list
+  321  echo "This is second content" test.txt
+  322  echo > "This is second content" test.txt
+  323  echo  "This is second content" > test.txt
+  324  git add .
+  325  git status
+  326  git commit -m "This is second commit" test.txt
+  327  git show
+  328  git config --global user.name"Lemuel"
+  329  git config --global user.email "dayritlopez@gmail.com"
+  330  git show
+  331  git commit --amend --reset-author -m "resetting author"
+  332  git show
+  333  git config --global user.name"Lemuel"
+  334  git commit --amend --reset-author -m "resetting author"
+  335  git show
+  336  git config --global user.name "Lemuel"
+  337  git show
+  338  git commit --amend --reset-author -m "resetting author"
+  339  git show
+  340  git clone https://github.com/amillet2001/TSM3A
+  341  ls
+  342  cd TSM3A
+  343  ls
+  344  cd ..
+  345  cd TSM3A
+  346  git checkout -b Dayrit-iptq1
+  347  mkdir 2021300433
+  348  ls
+  349  cd 2021300433
+  350  touch tsu.txt
+  351  ls
+  352  git add tsu.txt
+  353  git status
+  354  git commit -m "First commit in Dayrit branch" tsu.txt
+  355  git show
+  356  git push -u origin Dayrit-iptq1
+  357  ls
+  358  git add 2021300433-profile.html
+  359  git status
+  360  git commit -m "First commit website" 2021300433-profile.html 
+  361  git push -u origin Dayrit-iptq1
+  362  ls
+  363  git status
+  364  git add .
+  365  git status
+  366  git commit -m "This is second commit website with images"
+  367  git status
+  368  git push -u origin Dayrit-iptq1
+  369  ls
+  370  history > Dayrit-logs-iptq1.txt
+  371  ls
+  372  git status
+  373  git status
+  374  git add Dayrit-logs-iptq1.txt 
+  375  git commit -m "My logs" Dayrit-logs-iptq1.txt 
+  376  git push -u origin Dayrit-iptq1
+  377  cd Destop
+  378  cd Desktop
+  379  cd Mendoza
+  380  git init
+  381  git config -global user.name "Al Jhon Mendoza"
+  382  git config --global user.name "Al Jhon Mendoza"
+  383  git config --user.email "mendozaaljhon014@gmail.com
+  384  git config --user.email "mendozaaljhon014@gmail.com"
+  385  "
+  386  [200~ git config --user.email "mendozaaljhon014@gmail.com
+  387  "
+  388   git config --user.email "mendozaaljhon014@gmail.com"
+  389  git config --global user.email "mendozaaljhon014@gmail.com"
+  390  touch test.txt
+  391  git show
+  392  git add
+  393  git init
+  394  git add .
+  395  git commit -m "first commit"
+  396  git commit --amend --reset-author -m "resetting author"
+  397  echo "Pangalawang Testing" > test.txt
+  398  git commit --global user.name "Al Jhon Mendoza"
+  399  git commit -global user.name "Al Jhon Mendoza"
+  400  git commit --global user.name "Al Jhon Mendoza"
+  401  git status
+  402  git add .
+  403  git commit -m "modified first commit"
+  404  git commit -global user.name "Aljhon Mendoza"
+  405  git commit --global user.name "Aljhon Mendoza"
+  406  git commit user.name "Aljhon Mendoza"
+  407  git commit --global user.name "Aljhon Mendoza"
+  408  git --list
+  409  git -c
+  410  git --help
+  411  git config --list
+  412  git commit --amend --reset-author -m "resetting author"
+  413  git commit --list
+  414  git config --list
+  415  git commit --amend --author="Aljhon Mendoza <mendozaaljhon014@gmail.com" --no-edit
+  416  git log
+  417  git commit --amend --author="Al Jhon Mendoza <mendozaaljhon014@gmail.com" --no-edit
+  418  git log
+  419  git commit --amend --author="AlJhon Mendoza <aj.mendoza01041@student.tsu.edu.ph>" --no-edit
+  420  git log 
+  421  git status
+  422  git commit -m <commit lang>
+  423  echo "yaw q na" > test.txt
+  424  git add .
+  425  git commit -m "hehe ice lang"
+  426  git log 
+  427  git clone ~https://github.com/amillet2001/NA3B~
+  428  git clone https://github.com/amillet2001/NA3B
+  429  cd NA3B
+  430  git checkout -b Mendoza-IPT2Q1
+  431  mkdir 2021301041
+  432  cd mkdir 2021301041
+  433  cd 2021301041
+  434  touch testing.txt
+  435  echo "hehehe" > testing.txt 
+  436  git status 
+  437  git add .
+  438  git commit -m "trying to commit"
+  439  git status 
+  440  git push -u origin Mendoza-IPT2Q1
+  441  git log
+  442  cd Desktop
+  443  cd Mendoza
+  444  cd NA3B
+  445  cd 2021301041
+  446  git status
+  447  git clone https://github.com/amillet2001/NA3B
+  448  git push -u origin Mendoza-IPT2Q1
+  449  git push -u origin Mendoza-IPT2Q1
+  450  git log
+  451  git clone [200~To https://github.com/amillet2001/NA3B
+  452  git clone https://github.com/amillet2001/NA3B
+  453  cd Desktop
+  454  cd Mendoza
+  455  cd NA3B
+  456  cd 2021301041
+  457  cd desktop
+  458  cd Mendoza
+  459  cd NA3B
+  460  cd 2021301041
+  461  git status
+  462  git status
+  463  cd Desktop
+  464  mkdir Mendoza
+  465  cd Mendoza
+  466  git init
+  467  touch test.txt
+  468  git add . 
+  469  git status
+  470  git commit -m "first commit"
+  471  git commit --amen --reset-author "resetting author"
+  472  git commit --amend --reset-author "resetting author"
+  473  git commit --amend --reset-author "resetting author"
+  474  refresh
+  475  git commit --amend --reset-author -m "resetting author"
+  476  echo "hello" > test.txt\
+  477  echo "hello" > test.txt
+  478  git status
+  479  git add.
+  480  git add . 
+  481  git commit -m "second commit"
+  482  git config --global user.name "Al Jhon Mendoza"
+  483  git config --global user.email "aj.mendoza01041@student.tsu.edu.ph"
+  484  git log
+  485  git clone https://github.com/amillet2001/NA3B
+  486  git clone https://github.com/amillet2001/NA3B
+  487  cd NA3B
+  488  git checkout -b mendoza-iptq1v2
+  489  mkdir 2021301041
+  490  cd 2021301041
+  491  touch help.txt
+  492  git add .
+  493  git status
+  494  git commit -m "help"
+  495  git push -u origin mendoza-iptq1v2
+  496  git push -u origin mendoza-iptq1v2
+  497  git push -u origin mendoza-iptq1v2
+  498  git push -u origin mendoza-iptq1v2
+  499  git checkout mendoza-iptq1v2
+  500  cd Desktop
+  501  mkdir Mendoza
+  502  cp Mendoza
+  503  cd Mendoza
+  504  git init
+  505  touch test.txt
+  506  git add .
+  507  git commit -m "ayaw q na"
+  508  git status
+  509  git commit --amend --reset-author -m "resetting author"
+  510  echo "hehehe" > test.txt
+  511  git config --global user.name "Al Jhon Mendoza"
+  512  git config --global user.email "aj.mendoza01041@student.tsu.edu.ph"
+  513  git add . 
+  514  git commit -m "hehehehe"
+  515  git clone https://github.com/amillet2001/NA3B
+  516  cd NA3B
+  517  git checkout -b mendoza-iptq1v2
+  518  mkdir 2021301041
+  519  cd 2021301041
+  520  touch ewan.txt
+  521  echo "walang laman" > ewan.txt
+  522  git add .
+  523  git commit -m "hehehe"
+  524  git push -u origin mendoza-iptq1v2
+  525  git checkout mendoza-iptq1v2
+  526  git log
+  527  git add .
+  528  git commit -m "ubuntu"
+  529  git push -u origin mendoza-iptq1v2
+  530  git add . 
+  531  git commit -m "ubuntuv2"
+  532  git push -u origin mendoza-iptq1v2
+  533  history
+  534  history > mendoza-logs-iptq1v2.txt
