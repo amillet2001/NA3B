@@ -1,0 +1,186 @@
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC23/Desktop/BUGARINANGE/.git/
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ touch test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git commit -m "First Commit"
+[master (root-commit) 79928e1] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git commit --amend --reset-author "resetting author"
+error: pathspec 'resetting author' did not match any file(s) known to git
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git commit --amend --reset-author "Reset"
+error: pathspec 'Reset' did not match any file(s) known to git
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git commit --amend --reset-author -m "Resetting Author"
+[master a1cdef7] Resetting Author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ echo "Modified" > test.txt
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git commit -m "Second Commit"
+[master b16c6bc] Second Commit
+ 1 file changed, 1 insertion(+)
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git config user.name "Angelica Marie"
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git config user.email "am.bugarin00226@student.tsu.edu.ph"
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 403, done.
+remote: Counting objects: 100% (242/242), done.
+remote: Compressing objects: 100% (180/180), done.
+remote: Total 403 (delta 53), reused 201 (delta 44), pack-reused 161
+Receiving objects: 100% (403/403), 14.54 MiB | 2.20 MiB/s, done.
+Resolving deltas: 100% (57/57), done.
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE (master)
+$ cd NA3B
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B (main)
+$ git checkout -b Bugarin-iptq1v2
+Switched to a new branch 'Bugarin-iptq1v2'
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B (Bugarin-iptq1v2)
+$ mkdir 2021300226
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B (Bugarin-iptq1v2)
+$ cd 2021300226
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit -m "third commit"
+On branch Bugarin-iptq1v2
+nothing to commit, working tree clean
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git push -u origin Bugarin-iptq1v2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Bugarin-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Bugarin-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Bugarin-iptq1v2 -> Bugarin-iptq1v2
+branch 'Bugarin-iptq1v2' set up to track 'origin/Bugarin-iptq1v2'.
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ touch try.text
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit -m "third commit"
+[Bugarin-iptq1v2 5019b2d] third commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300226/try.text
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git push -u origin Bugarin-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 338 bytes | 28.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   30c9844..5019b2d  Bugarin-iptq1v2 -> Bugarin-iptq1v2
+branch 'Bugarin-iptq1v2' set up to track 'origin/Bugarin-iptq1v2'.
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git status
+On branch Bugarin-iptq1v2
+Your branch is up to date with 'origin/Bugarin-iptq1v2'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2021300226-iptq1v2.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit "fourth commit"
+error: pathspec 'fourth commit' did not match any file(s) known to git
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit -m "fourth commit"
+[Bugarin-iptq1v2 58df93b] fourth commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300226/2021300226-iptq1v2.docx
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git status
+On branch Bugarin-iptq1v2
+Your branch is ahead of 'origin/Bugarin-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300226-iptq1v2.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit-m "fifth commit"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git commit -m "fifth commit"
+[Bugarin-iptq1v2 10564a5] fifth commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ git status
+On branch Bugarin-iptq1v2
+Your branch is ahead of 'origin/Bugarin-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ touch Bugarin-logs-iptq1v2
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$ ^C
+
+322-PC3@322-PC3 MINGW64 ~/Desktop/BUGARINANGE/NA3B/2021300226 (Bugarin-iptq1v2)
+$
