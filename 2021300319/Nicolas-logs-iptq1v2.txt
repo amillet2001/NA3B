@@ -1,0 +1,198 @@
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~
+$ cd desktop
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop
+$ mkdir Nicolas
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop
+$ cd Nicolas
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas
+$ git init
+Initialized empty Git repository in C:/Users/Johann/Desktop/Nicolas/.git/
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ touch test.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git add .
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test.txt
+
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git commit -m "this is my first commit"
+[master (root-commit) 4d51a18] this is my first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 932efbd] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ echo "Hi this is Johann Ludwig Van Nicolas" > test.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git commit -m "This is my second commit"
+[master 558b0bd] This is my second commit
+ 1 file changed, 1 insertion(+)
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git config --global user.name "Johann"
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git config --global user.email "johannnicolas235@gmail.com"
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git add .
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (99/99), done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 251 (delta 39), reused 62 (delta 34), pack-reused 152
+Receiving objects: 100% (251/251), 59.21 KiB | 50.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas (master)
+$ cd NA3B
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B (main)
+$ git checkout -b Nicolas-iptq1v2
+Switched to a new branch 'Nicolas-iptq1v2'
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B (Nicolas-iptq1v2)
+$ mkdir 2021300319
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B (Nicolas-iptq1v2)
+$ cd 2021300319
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ touch ME.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git add .
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git status
+On branch Nicolas-iptq1v2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ME.txt
+
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git commit -m "This is my third commit"
+[Nicolas-iptq1v2 65061c1] This is my third commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300319/ME.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git push -u origin Nicolas-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 342 bytes | 171.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Nicolas-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Nicolas-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Nicolas-iptq1v2 -> Nicolas-iptq1v2
+branch 'Nicolas-iptq1v2' set up to track 'origin/Nicolas-iptq1v2'.
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ touch 2021300319-iptq1v2.docx
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git add .
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git commit -m "qweerty"
+[Nicolas-iptq1v2 82fe833] qweerty
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300319/2021300319-iptq1v2.docx
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git push -u origin nicolas-iptq1v2
+fatal: nicolas-iptq1v2 cannot be resolved to branch
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git push -u origin "Nicolas-iptq1v2"
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   65061c1..82fe833  Nicolas-iptq1v2 -> Nicolas-iptq1v2
+branch 'Nicolas-iptq1v2' set up to track 'origin/Nicolas-iptq1v2'.
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git add .
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git commit -m "fourth commit"
+[Nicolas-iptq1v2 4f86a54] fourth commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ git push -u origin "Nicolas-iptq1v2"
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.25 MiB | 592.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   82fe833..4f86a54  Nicolas-iptq1v2 -> Nicolas-iptq1v2
+branch 'Nicolas-iptq1v2' set up to track 'origin/Nicolas-iptq1v2'.
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$ touch Nicolas-logs-iptq1v2.txt
+
+Johann@LAPTOP-4B2OPQS0 MINGW64 ~/desktop/Nicolas/NA3B/2021300319 (Nicolas-iptq1v2)
+$
