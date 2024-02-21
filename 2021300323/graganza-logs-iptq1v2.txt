@@ -1,0 +1,500 @@
+   31  ls
+   32  cd Documents
+   33  git config --global user.name "patricia"
+   34  git config --global user.email patclaire14@gmail.com
+   35  ls
+   36  cd Documents
+   37  mkdir PCA
+   38  cd PCA
+   39  git init 
+   40  git add. "Patricia.txt"
+   41  git add. 'Patricia.txt'
+   42  git show 
+   43  git status 
+   44  git add. Patricia.txt
+   45  git --help
+   46  git add Patricia.txt
+   47  git add. Patricia.text
+   48  goit log 
+   49  git log
+   50  git commit -m "Patricia.txt"
+   51  git log 
+   52  git config --global user.name "Patricia"
+   53  git config --global.email patclaire14@gmail.com
+   54  git config --global user.name "patricia"
+   55  git condif --global user.email patclaire14@gmail
+   56  git condig --global user.email patclaire14@gmail
+   57  git config --globa user.name "Patricia"
+   58  git config --globa user.email Patclaire14@gmail
+   59  ls
+   60  cd Documents
+   61  mkdir CLAIRE
+   62  cd CLAIRE
+   63  git init 
+   64  git add. 1.txt
+   65  git commit -m "1.txt"
+   66  git add 1.xt
+   67  git add 1.txt
+   68  git commit -m "1.txt"
+   69  git log 
+   70  git add 1.txt
+   71  git commit -m "1.txt"
+   72  git log
+   73  git add 1.txt
+   74  git commit -m "1.txt"
+   75  git log
+   76  git show 
+   77  git add 1.txt
+   78  git commit -m "1.txt"
+   79  git log
+   80  cd
+   81  git config --global user.name "patricia"
+   82  git config --global user.email patclaire14@gmail
+   83  cd
+   84  ls
+   85  cd
+   86  cd Documents
+   87  cd CLAIRE
+   88  git add 1.txt
+   89  git commit -m "1.txt"
+   90  git add 1.txt
+   91  git commit -m "1.txt"
+   92  git add 1.txt
+   93  git commit -m "1.txt"
+   94  git add 1.txt
+   95  git commit -m "1.txt"
+   96  git add 1.txt
+   97  git commit -m "1.txt"
+   98  git add 1.txt
+   99  git commit -m "1.txt"
+  100  git log
+  101  git config --global user.name "Channel love Jimuel"
+  102  git config --global user.email Jimne
+  103  git config --global user.email Jimnel@gmail.com
+  104  phyton --version
+  105  python --version
+  106  ls
+  107  python eds.py
+  108  python boboeds.py
+  109  python calm.py
+  110  python calm.py
+  111  python calm.pypython calm.py
+  112  python calm.py
+  113  python calm.py
+  114  python calm.py
+  115  python calm.py
+  116  python calm.py
+  117  python calm.py
+  118  python calm.py
+  119  python calm.py
+  120  python calm.py
+  121  python calm.py
+  122  python calm.py
+  123  python calm.py
+  124  python calm.py
+  125  python calm.py
+  126  python calm.py
+  127  python calm.py
+  128  python calm.py
+  129  python calm.py
+  130  python calm.py
+  131  python calm.py
+  132  python calm.py
+  133  python .calm.py
+  134  python calm.py
+  135  python calm.py
+  136  pyhon calm.py
+  137  python calm.py
+  138  python calm.py
+  139  python calm.py
+  140  python calm.py
+  141  python calm.py
+  142  python calm.py
+  143  python calm.py
+  144  python calm.py
+  145  python calm.py
+  146  python calm.py
+  147  python calm.py
+  148  python calm.py
+  149  python calm.py
+  150  python calm.py
+  151  python calm.py
+  152  python calm.py
+  153  python calm.py
+  154  python calm.py
+  155  python calm.py
+  156  python calm.py
+  157  python calm.py
+  158  python calm.py
+  159  python calm.py
+  160  python calm.py
+  161  python calm.py
+  162  python calm.py
+  163  python calm.py
+  164  python calm.py
+  165  python calm.py
+  166  python calm.py
+  167  python calm.py
+  168  python calm.py
+  169  python calm.py
+  170  python  calm.py
+  171  python calm.py
+  172  python calm.py
+  173  python calm.py
+  174  python calm.py
+  175  python calm.py
+  176  python calm.py
+  177  WOOOOOOOOOOOOOOOOOOOOOOOOOOOH
+  178  LS
+  179  LS MEJARES
+  180  GIT HINT
+  181  GIT ADD
+  182  GIT MEJARES
+  183  git --help
+  184  git config --global user.name
+  185  git cinfig --global user.name [MEJARES]
+  186  git config --global user.name
+  187  git config --global user.email
+  188  git config --global color.ui auto
+  189  git config --global color.ui auto
+  190   git add [mejares]
+  191  git add
+  192  git add.
+  193  cd / mejarescd / mejares
+  194  cd /
+  195  git help
+  196  cd MEJARES
+  197  ls
+  198  cd LYRICS
+  199  CD /
+  200  LS
+  201  CD SHOW
+  202  CD / LYRICS
+  203  LS MEJARES
+  204  CD REMOVE
+  205  CD /
+  206  GIT STATUS
+  207  git status
+  208  git add
+  209  git add .
+  210  git status
+  211  git rm --cached LYRICS.txt
+  212  git rm --cached 
+  213  git commit -m " fuck that shit "
+  214  git commit -m "fuck that shit"
+  215  git config --global user.name lancemejares6@gmail.com
+  216  git commit -m "fuck that shit"
+  217  git status
+  218  git log
+  219  git add
+  220  git add .
+  221  git status
+  222  git commit -m "GWAPO KO PREEEEEEE"
+  223  git commit -m "yoyoyoyo"
+  224  git add .
+  225  git commit -m "yoyoyoyo"
+  226  git status
+  227  git commit -m "yoyoyoyo"
+  228  git add .
+  229  git commit -m "yoyoyoyo"
+  230  git log
+  231  git status
+  232  git add /yoyoyoyo.txt
+  233  git add yoyoyoyo.txt
+  234  git show
+  235   git config --global user.email lancemejares6@gmail.com
+  236  git commit
+  237  git show
+  238  git log
+  239  cd /
+  240  git clear
+  241  clear
+  242  ls
+  243  cd desktop
+  244  cd Desktop
+  245  cd desktop
+  246  cd d
+  247  cd /
+  248  cd Desktop
+  249  cd Desktap
+  250  clear
+  251  cd Desktop
+  252  cd MEJARES
+  253  CD LYRICS
+  254  CD LYRICS
+  255  LSLS
+  256  LS
+  257  CD LYRICS
+  258  cd LYRICS
+  259  git add .
+  260  git commit
+  261  git show
+  262  cd Desktop
+  263  cd na 3a
+  264  cd na 3a
+  265  CD na 3a
+  266  cd NA 3A
+  267  CD na 3a
+  268  git NA3A
+  269  CD NA3A
+  270  CD NA3A
+  271  git addf
+  272  cd NA3A
+  273  cd LANCE.TXT
+  274  cd LANCE
+  275  LS
+  276  cd LANCE.tc=xt
+  277  cd LANCE.txt
+  278  cd LANCE.txt
+  279  cd LANCe
+  280  CD LANCE.txt
+  281  cd LANCE.txt
+  282  git show
+  283  .git
+  284  cd MEJARES
+  285  cd LYRICS
+  286  git add .
+  287  git commit -m "1"
+  288  git show
+  289  git status
+  290  git status
+  291  git show
+  292  git add .
+  293  git add
+  294  cd /
+  295  cd Desktop
+  296  clear
+  297  cd Destop
+  298  cd NA3A
+  299  git add .
+  300  git add
+  301  git add
+  302  git add
+  303  git add .
+  304  git --global user.name " lance "
+  305  git add
+  306  git add .
+  307  git show
+  308  git status
+  309  clear
+  310  cd /
+  311  cd MEJARES
+  312  git status
+  313  git commit -m " 1 modified "
+  314  git commit -a "1 modified"
+  315  git commit -m "1 modified"
+  316  git show
+  317  cd 1
+  318  cd 1
+  319  CD 1
+  320  cd desktop
+  321  mkdir Graganza
+  322  cd graganza
+  323  git init
+  324  git config --global
+  325  git config --global user.name "Roi Justine Graganza"
+  326  git config --global user.email "rj.graganza00323@student.tsu.edu.ph"
+  327  touch IPT2ACT1.txt
+  328  echo "this is my first version" > IPT2ACT1.txt
+  329  git status
+  330  git add IPT2ACT1.txt
+  331  git status
+  332  git commit -m "this is the 1st commit"
+  333  git status
+  334  touch NAME.txt
+  335  echo "Roi" > NAME.txt
+  336  touch YEAR.txt
+  337  echo "3rd year" > YEAR.txt
+  338  touch SUBJECT.txt
+  339  echo "IPT2" > SUBJECT.txt
+  340  git status
+  341  git add .
+  342  git status
+  343  echo "replaced the old first version, now on second" > IPT2ACT1.txt
+  344  git status
+  345  git commit . -m "this is the 2nd commit"
+  346  git status
+  347  cd desktop
+  348  mkdir Graganza
+  349  cd graganza
+  350  git init
+  351  git config --global user.name "Roi Justine Graganza"
+  352  git config --global user.email "rj.graganza00323@student.tsu.edu.ph"
+  353  touch IPT2ACT1.txt
+  354  echo "this is my first version" > IPT2ACT1.txt
+  355  git status
+  356  git add .
+  357  git status
+  358  git commit . -m "1st commit"
+  359  git status
+  360  touch pangalawa.txt
+  361  touch pangatlo.txt
+  362  touch pangapat.txt
+  363  git status
+  364  git add .
+  365  git status
+  366  git commit . -m "2nd commit"
+  367  git status
+  368  echo "replaced the first version, now on second" > IPT2ACT1.txt
+  369  git status
+  370  git add .
+  371  git status
+  372  git commit . -m "3rd commit"
+  373  git status
+  374  git log
+  375  git reset --hard c25fb9cf557e8149afd2c4778a371f162fef43d5
+  376  git log
+  377  cd desktop
+  378  mkdir DIEGO
+  379  cd DIEGO
+  380  git clone https//.github.com/amillet2001/TSM3A
+  381  git clone https://.github.com/amillet2001/TSM3A
+  382  git clone https://github.com/amillet2001/TSM3A
+  383  CD TSM3A
+  384  cd TSM3A
+  385  git checkout -b Diego-branch
+  386  mkdir DIEGO
+  387  git add .
+  388  git commit -m "Good Morning"
+  389  touch me.txt
+  390  git add .
+  391  git commit -m "Good Morning"
+  392  git checkout main
+  393  git push origin -u Diego-branch
+  394  git push origin -u Diego-branch
+  395  git push origin -u Diego-branch
+  396  git push origin -u Diego-branch
+  397  git branch checkout Diego-branch
+  398  git checkout Diego-branch
+  399  git push Diego-branch
+  400  git push origin -u Diego-branch
+  401  git push origin -u Diego-branch
+  402  git push origin -u Diego-branch
+  403  git commit -m "whats up"
+  404  git add
+  405  git add .
+  406  git push origin -u Diego-branch
+  407  git pull
+  408  git touch Romero-song.txt
+  409  touch Romero-song.txt
+  410  git clone https://github.com/amillet2001/NA3B
+  411  cd NA3B
+  412  git checkout -b Romero-Branch
+  413  git checkout -b Romero-Local
+  414  touch 2021300446.txt
+  415  echo "Touch by Touch" > 2021300446.txt
+  416  git add . 
+  417  git commit -m "first"
+  418  git statust
+  419  git status
+  420  git push -u origin Romero-Local
+  421  git init
+  422  git commit --amend --reset-author
+  423  git config --global user.name "catapcristina"
+  424  git config --global user.email "catapcristina62@gmail.com"
+  425  git clone https://github.com/amillet2001/TSM3B
+  426  cd TSM3B
+  427  git branch catap-local
+  428  touch 2021300582
+  429  git add .
+  430  git commit -m "this is 1"
+  431  git push -u catap-local
+  432  git push -u origin
+  433  mkdir 2021300582
+  434  git status
+  435  cd 2021300582
+  436  touch try.txt
+  437  git add .
+  438  git commit -m "1"
+  439  git push -u catap-local
+  440  git checkout catap-local
+  441  git push -u catap-local
+  442  git push -u origin
+  443  git push -u origin catap-local
+  444  git add .
+  445  git status
+  446  git commit -m "2"
+  447  git add .
+  448  git commit -m "2"
+  449  git commit -m "2"
+  450  git status
+  451  git commit -m "2"
+  452  git add .
+  453  git commit -m "2"
+  454  git commit -m "3"
+  455  cd tsm3b
+  456  cd TSM3B
+  457  cd TSM3B
+  458  ls
+  459  git checkout main
+  460  ls
+  461  cd ..
+  462  git checkout catap-local
+  463  git status
+  464  git add .
+  465  git commit -m "4"
+  466  git status
+  467  git status
+  468  git add .
+  469  git commit -m "5"
+  470  git log
+  471  touch catap-logs.txt
+  472  git add .
+  473  git status
+  474  git commit -m "6"
+  475  git push -u origin
+  476  git init
+  477   touch test.txt
+  478  git add .
+  479  git init
+  480  touch test.txt
+  481  git add .
+  482  git commit -m "this is my first commit"
+  483  git commit --amend--reset-author -m "resetting author"
+  484  git init
+  485  touch "test.txt"
+  486  git add .
+  487  git commit -m "create new file"
+  488  git config --global user.name "Roi Justine Graganza"
+  489  git config --global user.email "rgraggy@gmail.com"
+  490  git commit --amend --reset-author "resetting the author"
+  491  git commit --amend --reset-author -m "resetting the author"
+  492  echo "modify" > test.txt
+  493  git add .
+  494  git status
+  495  git commit -m "mpodify the file"
+  496  git clone https://github.com/amillet2001/NA3B
+  497  cd NA3B
+  498  git clone https://github.com/amillet2001/NA3B
+  499  git clone https://github.com/amillet2001/NA3B
+  500  git init
+  501  touch test.txt
+  502  git add .
+  503  git commit -m "create file"
+  504  git config -- global user.name "Roi Justine Graganza"
+  505  git config --global user.name "Roi Justine Graganza"
+  506  git config --global user.email "rgraggy@gmail.com"
+  507  git commit --amend --reset-author -m "resetting author"
+  508  echo "testtesttest" > test.txt
+  509  git add .
+  510  git commit -m "modify"
+  511  git clone https://github.com/amillet2001/NA3B
+  512  cd NA3B
+  513  git checkout -b graganza-iptq1v2
+  514  mkdir 2021300323
+  515  cd 2021300323
+  516  touch file.txt
+  517  git add .
+  518  git commit -m "create file branch"
+  519  git push -u origin graganza-iptq1v2
+  520  touch 2021300323.docx
+  521  touch 2021300323-iptq1v2.docx
+  522  git status
+  523  git add .
+  524  git commit -m "screenshot"
+  525  git push -u origin graganza-iptq1v2
+  526  git status
+  527  git add .
+  528  git commit -m "modify screenshot"
+  529  git push -u origin graganza-iptq1v2
+  530  history > graganza-logs-iptq1v2.txt
