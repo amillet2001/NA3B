@@ -1,0 +1,501 @@
+   23  git status
+   24  git commit -m "1"
+   25  git log
+   26  git status
+   27  git status
+   28  git status
+   29  git add .
+   30  git status
+   31  ls
+   32  git config --global user.ralphquilling0021@gmail.com
+   33  git comit -m ""2
+   34  git comit -m "2"
+   35  git commit -m "2"
+   36  git log
+   37  git log
+   38  git status
+   39  git show
+   40  git show 1
+   41  git show
+   42  git init
+   43  git show
+   44  git log
+   45  git status
+   46  git show
+   47  git commit -m "3"
+   48  git add .
+   49  git commit -m "3"
+   50  git commit -m "4" 
+   51  git add .
+   52  git shoq
+   53  git show
+   54  git status
+   55  git add .
+   56  git show
+   57  git log
+   58  git commit -m "complete"
+   59  git add .
+   60  git status
+   61  git commit -m "L1"
+   62  git commit -m "L4"
+   63  git commit -m "l2"
+   64  git commit -m "l3"
+   65  git commit -m "l5"
+   66  git show
+   67  clear
+   68  git log
+   69  git show
+   70  clear
+   71  git log
+   72  cd desktop
+   73   mkdir IPT2
+   74  cd desktop/IPT2
+   75  cd C:\Users\STUDENT-PC4\Desktop\IPT2
+   76  cd IPT2
+   77  cd desktop
+   78  mkdir Arceo
+   79  cd Arceo
+   80  git init
+   81  git --global user.name JOHN MIGUEL P ARCEO
+   82  git config --global user.name JOHN MIGUEL P ARCEO
+   83  git config --global user.name "JOHN MIGUEL P ARCEO"
+   84  git config --global user.email "jm.arceo00325@student.tsu.edu.ph"
+   85  touch IPT2ACT1.txt
+   86  echo "this is my first version" > IPT2ACT1.txt
+   87  git status
+   88  git commit
+   89  git add.
+   90  git add .
+   91  git status
+   92  git commit
+   93  cd desktop
+   94  mkdir Arceo
+   95  cd Arceo
+   96  git init
+   97  git config --global user.name "ARCEO JOHN MIGUEL"
+   98  git config --global user.email "jm.arceo00325@student.tsu.edu.ph"
+   99  touch IP2ACT1.txt
+  100  touch IPT2ACT1.txt
+  101  echo "this is my first version" > IPT2ACT1.txt
+  102  git status
+  103  git add .
+  104  git status
+  105  git commit -m "this is 1st" 
+  106  git status
+  107  touch IPT2ACT2
+  108  touch IPT2ACT2.txt
+  109  touch IPT2ACT3.txt
+  110  touch IPT2ACT4.txt
+  111  echo "this is 2nd file" >IPT2ACT2.txt
+  112  echo "this is 3rd file" >IPT2ACT3.txt
+  113  echo "this is 4th file" >IPT2ACT4.txt
+  114  cd desktop
+  115  mkdir Arceo
+  116  cd Arceo
+  117  git init
+  118  git config --global user.name "JOHN MIGUEL P ARCEO"
+  119  git config --global user.email "jm.arceo00325@student.tsu.edu.ph"
+  120  touch IP2ACT1.txt
+  121  echo "this is my first version" > IP2ACT1.txt\
+  122  touch IP2ACT2.txt
+  123  touch IP2ACT3.txt
+  124  touch IP2ACT4.txt
+  125  echo "this is my 2nd activity" > IPT2ACT2.txt
+  126  clear
+  127  cd desktop
+  128  mkdir Arceo
+  129  cd Arceo
+  130  git init
+  131  git config --global user.name "ARCEO JOHN MIGUEL"
+  132  git config --global user.email "jm.arceo00325@student.tsu.edu.ph"
+  133  touch IP2ACT1.txt
+  134  cd deskstop
+  135  mkdir Arceo
+  136  cd Arceo
+  137  cd desktop
+  138  mkdir Arceo
+  139  cd Arceo
+  140  git init
+  141  git config --global user.name "ARCEO JOHN MIGUEL P"
+  142  git config --global user.email "jm.arceo00325@student.tsu.edu.ph
+  143  "
+  144  touch IPT2ACT1.txt
+  145  echo "this is my 1st version" > IPT2ACT1.txt
+  146  git status 
+  147  git add .
+  148  git status
+  149  git commit -m "this is my first version"
+  150  git status
+  151  touch 2ndfile.txt
+  152  touch 3rdfile.txt
+  153  touch 4thfile.txt
+  154  git status
+  155  git add . 
+  156  git status
+  157  git commit -m "this is commiting all"
+  158  git status
+  159  echo "replaced the first version, now on second" > IPT2ACT1.txt
+  160  git status
+  161  git add .
+  162  git status
+  163  git commit -m "this is the 2nd version"
+  164  git status
+  165  git log
+  166  git reset --hard e99058781e638f24185efb2ac731fe463ef3a2cd
+  167  git log
+  168  git reset --hard 571632a05ba2e16779245143eabc8509b8d74bfc
+  169  cd desktop
+  170  mkdir PITACIO
+  171  cd PITACIO
+  172  git clone https://github.com/amillet2001/TSM3A
+  173  cd TSM3A
+  174  git checkout -b PITACIO-branch
+  175  mkdir PITACIO
+  176  git add.
+  177  git add .
+  178  git commit -m "Message"
+  179  touch me.txt
+  180  git add .
+  181  git commit -m "message"
+  182  git checkout main
+  183  git push origin -u PITACIO-branch
+  184  git push origin -u PITACIO-branch
+  185  cd desktop
+  186  git push origin -u PITACIO-branch
+  187  cd desktop
+  188  git clone https://github.com/amillet2001/TSM3A
+  189  cd TSM3A
+  190  git push origin -u PITACIO-branch
+  191  git push origin -u PITACIO-branch
+  192  cd TSM3A
+  193  git push origin -u PITACIO-branch
+  194  cd TSM3A
+  195  git push origin -u PITACIO-branch
+  196  cd TSM3A
+  197  cd PITACIO
+  198  cd TSM3A
+  199  git checkout -b PITACIO-branch
+  200  cd desktop
+  201  mkdir PITACIO
+  202  clear
+  203  mkdir Pitacio
+  204  git clone https://github.com/amillet2001/TSM3A
+  205  cd TSM3A
+  206  git checkout -b ADRIAN-branch
+  207  mkdir ADRIAN
+  208  git add .
+  209  git commit -m "Message"
+  210  touch me.txt
+  211  git add .
+  212  git commit -m "Message"
+  213  git checkout main
+  214  git push origin -u ADRIAN-branch
+  215  git clone https://github.com/amillet2001/NA3B"
+  216  $
+  217  git clone https://github.com/amillet2001/NA3B
+  218  cd NA3B
+  219  LS
+  220  git checkout -b canlas
+  221  touch test.txt
+  222  git add .
+  223  git commit -m "hello"
+  224  git push origin -u canlas
+  225  git clone [200~https://github.com/amillet2001/NA3B/tree/Canlas~
+  226  git clone https://github.com/amillet2001/NA3B/tree/Canlas
+  227  git clone [200~https://github.com/amillet2001/NA3B.git~
+  228  git clone https://github.com/amillet2001/NA3B.git
+  229  git init
+  230  git config --reset-author
+  231  git status
+  232  git push -u canlas
+  233  ls
+  234  git checkout canlas
+  235  git clone https://github.com/amillet2001/NA3B
+  236  ls
+  237  cd NA3B
+  238  git checkout canlas
+  239  ls
+  240  git checkout -b canlas
+  241  touch ako.txt
+  242  git add .
+  243  git commit -m "test"
+  244  git push -u origin canlas
+  245  git push -u origin Canlas
+  246  [200~ git checkout canlas
+  247  git checkout canlas
+  248  git checkout master
+  249  git checkout Canlas
+  250  git push -u origin Canlas
+  251  git checkout canlas
+  252  git clone https://github.com/amillet2001/NA3B/tree/Canlas
+  253  git clone Canlas
+  254  git checkout main
+  255  cd NA3B
+  256  git checkout -b Canlas-Local
+  257  touch 2021300168.txt
+  258  echo "yoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyo" > 2021300168.txt
+  259  git commit -m "una"
+  260  git add .
+  261  git commit -m "una"
+  262  git push -u origin Canlas-Local
+  263  git init
+  264  git commit --amend --reset-author
+  265  git config --global user.name "christian"
+  266  git config --global user.email "ramilxtian@gmail.com"
+  267  git clone https://github.com/amillet2001/TSM3B
+  268  cd TSM3B
+  269  git branch ramil-local
+  270  touch 2021300782
+  271  git status
+  272  git add .
+  273  git commit -m "1"
+  274  git push -u ramil-local
+  275  git push -u origin
+  276  git branch
+  277  git checkout ramil-local
+  278  git log
+  279  touch me.txt
+  280  git add .
+  281  git commit -m "hello"
+  282  git log
+  283  git push -u ramil-local
+  284  git push -u origin
+  285  git push -u r
+  286  cd TSM3B
+  287  git checkout main
+  288  git checkout -b ako-local
+  289  touch ako.txt
+  290  git add .
+  291  git commit -m "test"
+  292  git push -u ako-local
+  293  git init
+  294  touch ako.txt
+  295  git ad .
+  296  git adf .
+  297  git add .
+  298  git commit -m "ako"
+  299  touch akosss.txt
+  300  git commit -m "ako"
+  301  git add .
+  302  git commit -m "ako"
+  303  ls
+  304  git push -u ako-local
+  305  ls
+  306  cd 202130072
+  307  git push origin main
+  308  mkdir 2021300782
+  309  git add .
+  310  git commit -m "1"
+  311  git status
+  312  git checkout ramil-local
+  313  git status
+  314  git add .
+  315  git commit -m "2"
+  316  git status
+  317  git status
+  318  git add .
+  319  git commit -m "3"
+  320  git push -u origin ramil-local
+  321  git log
+  322  touch ramil-logs.txt
+  323  git add .
+  324  git commit -m "4"
+  325  git init
+  326  touch test.txt
+  327  git add .
+  328  git commit -m "this is my first commit"
+  329  git commit --amend --reset -author -m "resetting author"
+  330  git commit --amend --reset-author -m "resetting author"
+  331  echo "Hello" > test.txt
+  332  git add .
+  333  git config --global user.name "Adrian"
+  334  git config --global user.email "a.pitacio0803@student.tsu.edu.ph"
+  335  git show
+  336  ls
+  337  echo "papasa" > test.txt
+  338  git add .
+  339  git commit -m "papasa"
+  340  git show
+  341  git clone https://github.com/amillet2001/TSM3A
+  342  cd TSM3A
+  343  git checkout main
+  344  git checkout -b pitacio-iptq1
+  345  mkdir 2020300803
+  346  touch newfile.txt
+  347  cd 2020300803
+  348  touch newfiles.txt
+  349  git commit -m "newfiles"
+  350  git add . 
+  351  git commit -m "newfiles"
+  352  git push -u origin pitacio-iptq1
+  353  git push -u origin pitacio-iptq1
+  354  git add .
+  355  git commit -m "newfiles"
+  356  git push -u origin pitacio-iptq1
+  357  git add. 
+  358  git push -u origin pitacio-iptq1
+  359  git init
+  360  touch test.txt
+  361  git commit --amend --reset-author -m "resetting author"
+  362  git user.name "john Miguel P. Arceo"
+  363  git config  user.name "john Miguel P. Arceo"
+  364  git config user.email "jmparceo@gmail.com"
+  365  git add .
+  366  git commit -m "first"
+  367  echo "modified" > test.txt
+  368  git add .
+  369  git commit -m "modified"
+  370  git show
+  371  git clone https://github.com/amillet2001/NA3B
+  372  cd NA3B
+  373  git checkout -b arceo-iptq1
+  374  mkdir 2021300325
+  375  cd 2021300325
+  376  touch createfile.txt
+  377  git add .
+  378  git commit -m "creating a file"
+  379  git push -u origin arceo-iptq1
+  380  touch 2021300325-profile.html
+  381  git add .
+  382  git commit -m "creating html"
+  383  git status
+  384  git add . 
+  385  git commit -m "adding details to html"
+  386  git add .
+  387  git commit -m "adding picture file"
+  388  git push -u origin arceo-iptq1
+  389  git add .
+  390  git statuws
+  391  git show
+  392  git commit --amend --reset-author -m " resetting author"
+  393  git user.name "john Miguel P. arceo"
+  394  git config user.name "john Miguel P. arceo"
+  395  git config user.email "jmparceo@gmail.com"
+  396  git add .
+  397  git commit -m "added all the necessary visual image and style"
+  398  git show
+  399  git commit --amend --reset-author -m "new author"
+  400  git user.name "John Miguel P. Arceo"
+  401  git config user.name "John Miguel P. Arceo"
+  402  git config user.email "jmparceo@gmail.com"
+  403  git add .
+  404  git commit -m "done all edit"
+  405  git push -u origin arceo-iptq1
+  406  git status
+  407  git show
+  408  git add .
+  409  git commit -m "final edit"
+  410  git push
+  411  git push -u origin arceo-iptq1
+  412  git fetch
+  413  git push -u origin arceo-iptq1
+  414  git pull
+  415  git push -u origin arceo-iptq1
+  416  $$$
+  417  -
+  418  +    <img src="pic.jpg">
+  419       <h1> <b> John Miguel P. Arceo</b></h1>
+  420       <h2>I'm 21 years old</h2>
+  421  +    <h2><strong>NA-3B</strong></h2>
+  422       <p>Hobbies are: Playing basketball, Computer games, and eating</p>
+  423  +    <div>
+  424  +
+  425  +      <p>My message to my <strong>professor</strong> is that keep teaching us the way you want us to learn, you're doing a great job sir, we're so proud of you!</p>
+  426  +    </div>
+  427  git push --help
+  428  $$
+  429  $git push --help
+  430  git init
+  431  git clone https://github.com/amillet2001/NA3B/tree/arceo-iptq1
+  432  git clone https://github.com/amillet2001/NA3B
+  433  cd NA3B
+  434  cd arceo-iptq1
+  435  git checkout arceo-iptq1
+  436  git push -u origin arceo-iptq1
+  437  git add . 
+  438  git commit -m "final"
+  439  git push -u origin arceo-iptq1
+  440  git fetch
+  441  git push -u origin arceo-iptq1
+  442  git init
+  443  touch test.txt
+  444  git add .
+  445  git config user.name "John Miguel P. Arceo"
+  446  git config user.email "jmparceo@gmail.com"
+  447  git commit -m "creating test file"
+  448  git show
+  449  git commit --amend --rest-author "resetting author"
+  450  git commit --amend--reset-author "resetting author"
+  451  git commit --amend --reset-author "resetting author"
+  452  git commit --amend --reset-author "resetting author"
+  453  git commit --amend --reset-author
+  454  git ini
+  455  git init
+  456  touch test.txt
+  457  git config user.name "Arceo John Miguel P"
+  458  git config user.email "jmparceo@gmail.com"
+  459  git add .
+  460  git commit --amend --reset-author "resetting author"
+  461  git commit --amend--reset-author "resetting author"
+  462  git commit --amend --reset-author "resetting author"
+  463  git commit -m "create test file"
+  464  git commit --amend --reset-author "resetting author"
+  465  git commit --amend --reset-author "Arceo John Miguel P <jmparceo@gmail.com>"
+  466  git commit --amend --reset-author Arceo John Miguel P <jmparceo@gmail.com>
+  467  git commit --amend --reset-author "Arceo John Miguel P"
+  468  git commit --amend --reset-author -m "resetting author" 
+  469  git show
+  470  git commit --amend --reset-author -m "Arceo John Miguel P" 
+  471  git commit --amend --reset-author "Arceo John Miguel P" 
+  472  git commit --amend --reset-author "Arceo John Miguel P." 
+  473  echo "testing" > testing.txt 
+  474  git add . 
+  475  git commit -m "modified test file"
+  476  git show
+  477  git user.name "Arceo John Miguel P."
+  478  git config user.name "Arceo John Miguel P."
+  479  git config user.email "jmparceo@gmail.com"
+  480  git config --global user.email "jmparceo@gmail.com"
+  481  git config --global user.name "Arceo John Miguel P."
+  482  git add . 
+  483  git show
+  484  git clone https://github.com/amillet2001/NA3B
+  485  git clone https://github.com/amillet2001/NA3B
+  486  git clone https://github.com/amillet2001/NA3B
+  487  git clone https://github.com/amillet2001/NA3B
+  488  git clone https://github.com/amillet2001/NA3B
+  489  git init
+  490  touch test.txt
+  491  git config --global user.name "Arceo John Miguel P"
+  492  git config --global user.email "jmparceo@gmail.com"
+  493  git add .
+  494  git commit -m "creating test file"
+  495  git commit --ammend --reset-author -m "resseting author"
+  496  git commit --amend --reset-author -m "resseting author"
+  497  echo "modify" > test.txt
+  498  git add .
+  499  git commit -m 
+  500  git commit -m "modifed test.txt
+"
+  501  git show
+  502  git clone https://github.com/amillet2001/NA3B
+  503  cd NA3B
+  504  git checkout -b Arceo-iptq1v2
+  505  cd Arceo-iptq1v2
+  506  mkdir 2021300325
+  507  cd 2021300325
+  508  touch file.txt
+  509  git add .
+  510  git commit -m "creating file in new branch"
+  511  git push -u origin Arceo-iptq1v2
+  512  git show
+  513  touch 2021300325-iptq1v2.docx
+  514  git status
+  515  git add .
+  516  git commit -m "adding screenshot of ubuntu machine"
+  517  git push -u origin Arceo-iptq1v2
+  518  git status
+  519  git add .
+  520  git commit -m "modified with general settings"
+  521  git push -u origin Arceo-iptq1v2
+  522  history > Arceo-logs-iptq1v2.txt
