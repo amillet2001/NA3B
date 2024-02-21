@@ -1,0 +1,327 @@
+mkdir d
+321-PC5@321-PC5 MINGW64 ~/Desktop
+$ mkdir Tajala
+cd
+321-PC5@321-PC5 MINGW64 ~/Desktop
+$ cd Tajala
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC16/Desktop/Tajala/.git/
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ touch test.txt
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git add .
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git commit -m "1st commit"
+[master (root-commit) 48e0472] 1st commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 1776982] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ echo "Tajala" > test.txt
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git commit -m "2nd commit"
+[master 701c860] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git config user.name "Darwin V Tajala"
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git config user.email "darwinjr0803@gmail.com"
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 241, done.
+remote: Counting objects: 100% (89/89), done.
+remote: Compressing objects: 100% (50/50), done.
+remote: Total 241 (delta 39), reused 52 (delta 34), pack-reused 152
+Receiving objects: 100% (241/241), 58.13 KiB | 1.45 MiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ cd https://github.com/amillet2001/NA3B
+bash: cd: https://github.com/amillet2001/NA3B: No such file or directory
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala (master)
+$ cd NA3B
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B (main)
+$ git checkout -b Tajala-iptq1v2
+Switched to a new branch 'Tajala-iptq1v2'
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B (Tajala-iptq1v2)
+$ mkdir 2021300324
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B (Tajala-iptq1v2)
+$ cd 2021300324
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ touch "tajala"
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ touch tajala
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add tajala.txt
+fatal: pathspec 'tajala.txt' did not match any files
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ touch branch
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git branch.txt
+
+
+git: 'branch.txt' is not a git command. See 'git --help'.
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$
+
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ touch Tajalaa
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add Tajalaa
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git commit -m "last commit"
+[Tajala-iptq1v2 4ce21b4] last commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300324/Tajalaa
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git push -u origin Tajala-iptq1v2
+
+Unhandled Exception: System.ComponentModel.Win32Exception: Invalid window handle
+   at MS.Win32.ManagedWndProcTracker.HookUpDefWindowProc(IntPtr hwnd)
+   at MS.Win32.ManagedWndProcTracker.OnAppDomainProcessExit()
+   at MS.Internal.ShutDownListener.HandleShutDown(Object sender, EventArgs e)
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 340 bytes | 340.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Tajala-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Tajala-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Tajala-iptq1v2 -> Tajala-iptq1v2
+branch 'Tajala-iptq1v2' set up to track 'origin/Tajala-iptq1v2'.
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2
+fatal: pathspec '2021300324-iptq1v2' did not match any files
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docs
+fatal: pathspec '2021300324-iptq1v2.docs' did not match any files
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is up to date with 'origin/Tajala-iptq1v2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2021300324-iptq1v2.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+        tajala
+
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git commit -m "last commit"
+[Tajala-iptq1v2 2056655] last commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300324/2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ gid add branch
+bash: gid: command not found
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ gid add tajala
+bash: gid: command not found
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add tajala
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   tajala
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git branch
+* Tajala-iptq1v2
+  main
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add branch
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git commit -m "commit"
+[Tajala-iptq1v2 5dc57e7] commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300324/branch
+ create mode 100644 2021300324/tajala
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2021300324-iptq1v.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add .
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300324-iptq1v2.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git add 2021300324-iptq1v2.docx
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git status
+On branch Tajala-iptq1v2
+Your branch is ahead of 'origin/Tajala-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   2021300324-iptq1v2.docx
+
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$ git commit -m "midified settings"
+[Tajala-iptq1v2 ec46ab1] midified settings
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+321-PC5@321-PC5 MINGW64 ~/Desktop/Tajala/NA3B/2021300324 (Tajala-iptq1v2)
+$
