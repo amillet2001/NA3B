@@ -1,0 +1,500 @@
+   27  ls
+   28  cd AK
+   29  git status
+   30  git add .
+   31  git status
+   32  clear
+   33  ls
+   34  cleatr
+   35  clear
+   36  cd AK
+   37  git status
+   38  git add.
+   39  git add .
+   40  git status\
+   41  git cheackout Addition
+   42  git cheackout -b Addition
+   43  git checkout Addition
+   44  git checkout -b Addition
+   45  git status
+   46  cd AK
+   47  git init
+   48  git checkout -b Addition
+   49  touch Addition.txt
+   50  git add
+   51  git add .
+   52  git status
+   53  git checkout -m master
+   54  git checkout -b master
+   55  git checkout -b Subtraction
+   56  touch Subtraction.txt
+   57  git add .
+   58  git status
+   59  git checkout -b Addition
+   60  ls
+   61  cd Tolentino
+   62  git init
+   63  touch Methods.txt
+   64  git add .
+   65  git commit -m Methods
+   66  git checkout -b Addition
+   67  touch Add.txt
+   68  git add .
+   69  git commit - m Add
+   70  git commit -m Add
+   71  git status
+   72  git checkout master\
+   73  git checkout -b Subtraction
+   74  touch Subtract.txt
+   75  git commit -m Subtract
+   76  git add .
+   77  git commit -m Subtract
+   78  git commit -m M
+   79  git checkout master
+   80  git branch
+   81  git checkout -b Multiplication
+   82  touch Mutiply.txt
+   83  git add .
+   84  git commit -b Multiply
+   85  git commit -m Multiply
+   86  git checkout master
+   87  git branch
+   88  git checkout -b Division
+   89  touch Divide.txt
+   90  git add .
+   91  git commit -m Divide
+   92  git checkout master
+   93  git branch
+   94  git merge --no-ff Addition -m "Merge Branch Addition"
+   95  git merge --no-ff Subtraction -m "Merge Branch Addition"
+   96  git merge --no-ff Multiplication -m "Merge Branch Addition"
+   97  git merge --no-ff Division -m "Merge Branch Addition"
+   98  git checkout -b Modulus
+   99  touch Modulus.txt
+  100  git add .
+  101  git commit -m Modulus
+  102  git checkout master
+  103  git branch
+  104  git merge --no-ff Modulus -m "Merge Branch Addition"
+  105  git log
+  106  cd AK
+  107  CD Tolentino
+  108  cd Tolentino
+  109  git show
+  110  git status
+  111  git add .
+  112  git status
+  113  git branch
+  114  git show
+  115  git commit ?
+  116  git --commit
+  117  git commin --help
+  118  git commit --help
+  119  git checkout Addition
+  120  git commit
+  121  cd Tolentino
+  122  git status
+  123  git add .
+  124  git status
+  125  git show
+  126  git checkout Addition
+  127  git commit -m Add
+  128  git show
+  129  cd Tolentino
+  130  git status
+  131  git show
+  132  cd Tolentino
+  133  git show
+  134  git branch
+  135  cd Tolentino
+  136  git branch
+  137  ls
+  138  git checkout Addition
+  139  git status
+  140  git add .
+  141  git checkout Addition
+  142  git status
+  143  git checkout Addition
+  144  git commit -m Calcu
+  145  git status
+  146  git show
+  147  git commit -m Add
+  148  git show
+  149  git commin -m Divide
+  150  git commit -m Divide
+  151  git show
+  152  git checkout Addition
+  153  git show\
+  154  git status
+  155  git show
+  156  git checkout master
+  157  git checkout Subtraction
+  158  git show
+  159  git checkout master
+  160  git show
+  161  git show
+  162  git checkout Addition
+  163  git commit -m sample
+  164  git add .
+  165  git commit -m sample
+  166  git checkout Additiojn
+  167  git checkout Addition
+  168  git add .
+  169  git show
+  170  git git show
+  171  git show
+  172  git checkout master
+  173  git show
+  174  git checkout Addition
+  175  git checkout master
+  176  git checkout Addition
+  177  git add .
+  178  git commit -m dad
+  179  git checkout Addition
+  180  git checkout master
+  181  git add .
+  182  git checkout master
+  183  git commit -m dadad
+  184  git checkout master
+  185  git add .
+  186  git checkout Subtraction
+  187  git commit -m da a
+  188  git commit -m dadaa
+  189  git add .
+  190  git checkout master
+  191  git commit -m dada
+  192  git checkout master
+  193  git checkout Multiplication
+  194  git add .
+  195  git commit -m dada
+  196  git status
+  197  git show
+  198  git checkout master
+  199  git checkout Division
+  200  git add.
+  201  git add .
+  202  git commit -m da 
+  203  git checkout master
+  204  git checkout Modulus
+  205  git checkout master
+  206  git checkout Addition
+  207  git checkout Master
+  208  git checkout Addition
+  209  git add .
+  210  git checkout Addition
+  211  git commit -m ada
+  212  git checkout Addition
+  213  git add .
+  214  git status
+  215  git checkout master
+  216  git checkout Subtraction
+  217  git add .
+  218  git checkout Subtraction
+  219  git commit -m ada
+  220  git checkout Subtraction
+  221  git add .
+  222  git checkout master
+  223  git checkout Multiplication
+  224  git checkout master
+  225  git checkout Division
+  226  git commin -m ada
+  227  git commit\ -m ada
+  228  git commit -m ada
+  229  git add .
+  230  git commit -m ada
+  231  git checkout Division
+  232  git add .
+  233  git statusgit status
+  234  git status
+  235  git checkout master
+  236  git add .
+  237  git show
+  238  git add.
+  239  git add .
+  240  git commit -m da
+  241  git show
+  242  git merge --no-ff Addition -m "Merging Addition"
+  243  git add .
+  244  git commit -dada
+  245  git commit -m dada
+  246  git merge --no-ff Addition -m "Merging Subtraction"
+  247  git merge --no-ff Subtraction -m "Merging Subtraction"
+  248  git add .
+  249  git commit -m Sub
+  250  git merge --no-ff Multiplication -m "Merging Multiplication"
+  251  git add .
+  252  git commit -m Multiply
+  253  git merge --no-ff Division -m "Merging Division"
+  254  git add .
+  255  git commit -m Divide
+  256  git merge --no-ff Modulus -m "Merging Modulus"
+  257  git show
+  258  git show
+  259  git status
+  260  git merge
+  261  git branch
+  262  git init
+  263  ls
+  264  git commit
+  265  git checkout -b Addition
+  266  touch Add.txt
+  267  git status
+  268  git add .
+  269  git statusgit status
+  270  git status
+  271  git checkout master
+  272  git checkout master
+  273  git c
+  274  git branch
+  275  git checkout -b Subtraction
+  276  touch Sub.txt
+  277  git add .
+  278  git checkout master
+  279  cd AK
+  280  git checkout Addition
+  281  git init
+  282  touch Calcu.txt
+  283  git add .
+  284  git commit -m Calcu
+  285  git statu
+  286  git status
+  287  git show
+  288  git checkout -b Additiontouc
+  289  touch Add.txt
+  290  git add .
+  291  git commit -m Add
+  292  git checkout master
+  293  git add .
+  294  git checkout -b Subtractio
+  295  touch Sub.txt
+  296  git add .
+  297  git commit -m Sub
+  298  git checkout master
+  299  git commit -m Sub
+  300  git add .
+  301  git commit -m Sub
+  302  git checkout master
+  303  git checkout Addition
+  304  git add .
+  305  git commit -m Add
+  306  git checkout master
+  307  git checkout -b Multiplication
+  308  touch Mul.txt
+  309  git add .
+  310  git commit -m Mul
+  311  git checkout master
+  312  git checkout -b Division
+  313  touch Div.txt
+  314  git add .
+  315  git commit -m Div
+  316  git checkout master
+  317  git checkout -b Modulus
+  318  touch Mod.txt
+  319  git add .
+  320  git commit -m Mod
+  321  git add .
+  322  git commit -m Mod
+  323  git checkout master
+  324  git checkout Multiplication
+  325  git add .
+  326  git commit - Mul
+  327  git commit -m Mul
+  328  git checkout master
+  329  git checkout Division
+  330  git add
+  331  git add .
+  332  git commit -m Div
+  333  git checkout master
+  334  git checkout Multiplication
+  335  git checkout Multiplicationgit add .
+  336  git add .
+  337  git commit -m Mul
+  338  git checkout master
+  339  git merge --no-ff Addition -m "Merging Add"
+  340  git merge --no-ff Subtraction -m "Merging Sub"
+  341  git merge --no-ff Multiplication -m "Merging Mul"
+  342  git merge --no-ff Division -m "Merging Div"
+  343  git merge --no-ff Modulus -m "Merging Mod"
+  344  git branch
+  345  git status
+  346  git show
+  347  git merge --no-ff Modulus -m "Merging Mod"
+  348  add .
+  349  git add .
+  350  git commit -m Mod
+  351  git show
+  352  git checkout Addtion
+  353  git checkout Addition
+  354  git add .
+  355  git commit -m Add
+  356  git checkout Addition
+  357  git show
+  358  git checkout master
+  359  git show
+  360  git commit -m Sub
+  361  git add .
+  362  git commit -m sub
+  363  git show
+  364  git checkout Sub
+  365  git checkout Subraction
+  366  git checkout Subtraction
+  367  git add .
+  368  git commit -m Sub
+  369  git show
+  370  git checkout msater
+  371  git checkout master
+  372  git show
+  373  git add .
+  374  git add .
+  375  git show
+  376  git branch
+  377  git checkout Division
+  378  git add .
+  379  git checkout Division
+  380  git commit -m Sub
+  381  git commit -m Mul
+  382  git checkout Division
+  383  git show
+  384  git commit -m Div
+  385  git checkout Master
+  386  git show
+  387  git commit - Calcu
+  388  git commit -m Calcu
+  389  git checkout Multiplication
+  390  git show
+  391  git add .
+  392  git commit -m Mul
+  393  git checkout master
+  394  git show
+  395  git file -D Calcu
+  396  git checkout Modulus
+  397  git show
+  398  git status
+  399  git add .
+  400  git checkout master
+  401  git show\
+  402  git merge --no-ff Modulus -m "Merging Mod"
+  403  git add .
+  404  git commit -m Mod
+  405  git show
+  406  git add .
+  407  git show
+  408  git checkout Subtraction
+  409  add .
+  410  git add .
+  411  git commit -m Sub
+  412  git checkout master
+  413  git status
+  414  git show
+  415  git branch
+  416  ls
+  417  git status
+  418  mkdir Fernandez
+  419  cd desktop
+  420  git init
+  421  cd fernandez
+  422  git init
+  423  touch test.txt
+  424  git add.
+  425  git add .
+  426  git commit -m "first commit"
+  427  git config --list
+  428  git commit --amend --reset-author "resetting author"
+  429  git show
+  430  git commit --amend --reset-author "Ruth"
+  431  git commit --amend --reset-author "Ruth <GG>"
+  432  git commit --amend --reset-author -m "resetting author"
+  433  git config --list
+  434  git commit --amend --reset-author -m "resetting author"
+  435  git config --list
+  436  git config global user.name"Cyrus"
+  437  git config --global user.name"Cyrus"
+  438  git config --global user.email Cyrusfernandez60@gmail.com
+  439  git config --list
+  440  git config --global user.name "Cyrus"
+  441  git config --list
+  442  echo "first edit file" > test.txt
+  443  git show
+  444  git log
+  445  git status
+  446  git commit --amend --reset-author -m "resetting author"
+  447  git show
+  448  git clone https://github.com/amillet2001/TSM3A
+  449  git branch
+  450  cd TSM3A
+  451  git checkout -b "Fernandez-iptq1"
+  452  mkdir 2021300270
+  453  cd 2021300270
+  454  touch Me_Cy.txt
+  455  git add . 
+  456  git commit -m "commit on Fernandez-iptq1"
+  457  git log
+  458  ls
+  459  git show
+  460  git push -u origin lastname-iptq1 
+  461  git push -u origin Fernandez-iptq1 
+  462  ls
+  463  cd 2021300270
+  464  la
+  465  ls
+  466  ls
+  467  add .
+  468  git add . 
+  469  git commit -m "Commit With Html basic back bone"
+  470  git push -u origin Fernandez-iptq1
+  471  git add . 
+  472  git commit -m "HTML with Design"
+  473  push -u origin Fernandez-iptq1
+  474  git push -u origin Fernandez-iptq1
+  475  ls
+  476  git add .
+  477  git commit -m "with Commands Logs"
+  478  git push -u origin Fernandez-iptq1
+  479  mkdir Manansala
+  480  cd Manansala
+  481  git init 
+  482  touch test.txt 
+  483  git add test.txt 
+  484  git commit -m "This is my first Commit of test.txt"
+  485  git commit --amend --reset-author - "resetting auhtor"
+  486  git commit --amend --reset-author -m "resetting auhtor"
+  487  echo "This is my First Content"
+  488  echo "This is my First Content" > test.txt
+  489  git add test.txt
+  490  git commit -m "This is my second commit in test.txt"
+  491  git config user.name "Nicole Angel Manansala"
+  492  git config use.email "nicoleangelmanansala@gmail.com"
+  493  git config user.email "nicoleangelmanansala@gmail.com"
+  494  git clone https://github.com/amillet2001/NA3B.git
+  495  git clone https://github.com/amillet2001/NA3B.git
+  496  git clone https://github.com/amillet2001/NA3B.git
+  497  git clone https://github.com/amillet2001/NA3B.git
+  498  git clone https://github.com/amillet2001/NA3B.git
+  499  git clone https://github.com/amillet2001/NA3B.git
+  500  git clone https://github.com/amillet2001/NA3B.git
+  501  git init 
+  502  touch test.txt
+  503  git commit --amend --reset-author -m "resetting author"
+  504  git add test.txt 
+  505  git commit -m "this is my first commit in test.txt"
+  506  git commit --amend --reset-author -m "resetting author"
+  507  echo "this is the first content" > test.txt
+  508  git config user.name "Nicole Angel Manansala"
+  509  git config user.email "nicoleangelmanansala@gmail.com"
+  510  git clone https://github.com/amillet2001/NA3B.git
+  511  cd NA3B
+  512  git checkout -b Manansala-iptq1v2
+  513  mkdir Manansala-iptq1v2
+  514  mkdir 2021300348
+  515  cd 2021300348
+  516  touch NewFile.txt
+  517  git push -u origin Manansala-iptq1v2
+  518  git checkout Manansala-iptq1v2
+  519  git add 2021300348-iptq1v2.docx
+  520  git add 2021300348-iptq1v2.docx
+  521  git commit -m "Ubuntu" 
+  522  git push -u origin Manansala-iptq1v2
+  523  git add 2021300348-iptq1v2.docx
+  524  git commit -m "with general settings"
+  525  git push -u origin Manansala-iptq1v2
+  526  history>Manansala-logs-iptq1v2.txt
