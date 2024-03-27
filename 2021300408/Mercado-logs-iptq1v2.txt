@@ -1,0 +1,115 @@
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (master)
+$ git init
+Initialized empty Git repository in C:/Users/james/OneDrive - Tarlac State University/Desktop/Mercado/.git/
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ echo  > test.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git commit -m 1st commit
+[main (root-commit) 8d384cd] 1st commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git commit --amend --reset-author -m resetting author
+[main d84b0cf] resetting author
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ echo Modified Context > test.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git commit -m 2nd commit
+[main 3cac5a2] 2nd commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git config user.name Mercado
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git config user.email aj.mercado00408@student.tsu.edu.ph
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 226, done.
+remote: Counting objects: 100% (75/75), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 226 (delta 39), reused 38 (delta 34), pack-reused 151
+Receiving objects: 100% (226/226), 56.72 KiB | 818.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado (main)
+$ cd NA3B
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B (main)
+$ git checkout -b Mercado-iptq1v2
+Switched to a new branch 'Mercado-iptq1v2'
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B (Mercado-iptq1v2)
+$ mkdir 2021300408
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B (Mercado-iptq1v2)
+$ cd 2021300408
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ echo   > newfile.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git add newfile.txt
+warning: in the working copy of '2021300408/newfile.txt', LF will be replaced by CRLF the next time Git touches it
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git commit -m almost added
+[Mercado-iptq1v2 59ce557] almost added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2021300408/newfile.txt
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git push -u origin Mercado-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 336 bytes | 168.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Mercado-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Mercado-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Mercado-iptq1v2 -> Mercado-iptq1v2
+branch 'Mercado-iptq1v2' set up to track 'origin/Mercado-iptq1v2'.
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git add 2021300408-iptq1v2.docx
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git commit -m Ubuntu Files Commited
+[Mercado-iptq1v2 104cccc] Ubuntu Files Commited
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300408/2021300408-iptq1v2.docx
+
+Mr.YakuriSenpai@LAPTOP-8SBDGAC8 MINGW64 ~/OneDrive - Tarlac State University/Desktop/Mercado/NA3B/2021300408 (Mercado-iptq1v2)
+$ git push -u origin Mercado-iptq1v2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 729.24 KiB | 20.83 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B
+   59ce557..104cccc  Mercado-iptq1v2 -> Mercado-iptq1v2
+branch 'Mercado-iptq1v2' set up to track 'origin/Mercado-iptq1v2'.
+
