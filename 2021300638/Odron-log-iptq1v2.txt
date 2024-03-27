@@ -1,0 +1,451 @@
+
+321-PC13@321-PC13 MINGW64 ~
+$ cd desktop/odron
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC7/Desktop/ODRON/.git/
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git touch test.txt
+git: 'touch' is not a git command. See 'git --help'.
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ touch test.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git add .
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git commit -m "FIRST"
+[master (root-commit) 53ba73e] FIRST
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git log
+commit 53ba73e78b549f4aa712535cdb89b61e2091a6ae (HEAD -> master)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:08:32 2024 +0800
+
+    FIRST
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git echo "2nd Version"> test.txt
+git: 'echo' is not a git command. See 'git --help'.
+
+The most similar command is
+        fetch
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ echo "2nd Version"> test.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git commit -m "SECOND"
+[master 70fed84] SECOND
+ 1 file changed, 1 insertion(+)
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git log
+commit 70fed84fbd4228d161d7b5173883307f310b6a6f (HEAD -> master)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:09:17 2024 +0800
+
+    SECOND
+
+commit 53ba73e78b549f4aa712535cdb89b61e2091a6ae
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:08:32 2024 +0800
+
+    FIRST
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ git clone https://github.com/amillet2001/NA3B.git
+Cloning into 'NA3B'...
+remote: Enumerating objects: 239, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (49/49), done.
+remote: Total 239 (delta 39), reused 51 (delta 34), pack-reused 151
+Receiving objects: 100% (239/239), 57.87 KiB | 731.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron (master)
+$ cd NA3B
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B (main)
+$ git checkout -b Odron-iptq1v2
+Switched to a new branch 'Odron-iptq1v2'
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B (Odron-iptq1v2)
+$ mkdir 2021300638
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B (Odron-iptq1v2)
+$ cd 2021300638
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ echo "HENLO"> tats.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git add .
+warning: in the working copy of '2021300638/tats.txt', LF will be replaced by CRLF the next time Git touches it
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git commit -m "FIRST"
+git [Odron-iptq1v2 39e1a2e] FIRST
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2021300638/tats.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+nothing to commit, working tree clean
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git log
+commit 39e1a2e2930ea173ac64cfea4b01b3eb61708407 (HEAD -> Odron-iptq1v2)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:16:21 2024 +0800
+
+    FIRST
+
+commit 30c98449d1d8f9acb4b263f7bd20d38d347d6a82 (origin/main, origin/HEAD, main)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 15:55:36 2024 +0800
+
+    Delete Cunanan
+
+commit 72eb92cc43c0c70dbb75d9e91987379fb3fa5668
+Author: Cunanan <159223356+LordIvanLeeCunanan@users.noreply.github.com>
+Date:   Wed Feb 21 15:42:57 2024 +0800
+
+    Cunanan
+
+commit 9a6280df558ae43dc204d3f79b2f5c924db50463
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 15:24:59 2024 +0800
+
+    Update instructions.txt
+
+commit 0783b31f015c9648cf860a6542527199324f46b2
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 14:51:30 2024 +0800
+
+    integrated github and virtual machine lab
+
+commit 2635e4819c4a9f75214566ea168ce13988fdb16a
+Author: ajmendoza07 <159223492+ajmendoza07@users.noreply.github.com>
+Date:   Mon Feb 19 08:52:25 2024 +0800
+
+    Delete 2021301041 directory
+
+commit e3f30194420a27414e3cbfd0f2958aa9b82ccb00
+Merge: 9d30dd0 12d8035
+Author: ajmendoza07 <159223492+ajmendoza07@users.noreply.github.com>
+Date:   Mon Feb 19 08:47:46 2024 +0800
+
+    Merge pull request #79 from amillet2001/Mendoza-IPT2Q1
+
+    Mendoza 2021301041 ipt2 q1
+
+commit 12d8035a93bc19f94a0bee57ba6833bbd60847eb
+Author: ajmendoza07 <159223492+ajmendoza07@users.noreply.github.com>
+Date:   Mon Feb 19 08:20:37 2024 +0800
+
+    static website
+
+    static website
+
+commit 0117fdb9becb94d5f2155975844d5f9bfd57f078
+Author: Al Jhon Mendoza <mendozaaljhon014@gmail.com>
+Date:   Mon Feb 19 07:57:05 2024 +0800
+
+    trying to commit
+
+commit 9d30dd018121d88ac0df1fcfa395590eba131e3a
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Mon Feb 19 07:20:29 2024 +0800
+
+    Update instructions.txt
+
+commit 4661c00e47834d718fecc87169b5c39b768ecb93
+Author: Christian <c.ramil00782@student.tsu.edu.ph>
+Date:   Mon Feb 19 07:17:43 2024 +0800
+
+    term reset 2
+
+commit 21d8ac323cba94464350e6438f140a9d21270115
+Author: Christian <c.ramil00782@student.tsu.edu.ph>
+Date:   Mon Feb 19 07:16:10 2024 +0800
+
+    term reset
+
+commit fa74ef24719455caa987d57fc16ed700aab7ecd5
+Merge: a48bcfd 10b4c13
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:19:25 2024 +0800
+
+    Merge pull request #66 from amillet2001/Taruc-localbranch
+
+    28/30, github merge approved - no pull request made - instructor overwritten
+
+commit 10b4c13c07ae264ed721231d9fa57aecf7299bae
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:18:54 2024 +0800
+
+    Update 2021300355.txt
+
+commit a48bcfddca776cb902d7c80018633bef68f5e847
+Merge: 6c54d2a f86d308
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:17:50 2024 +0800
+
+    Merge pull request #65 from amillet2001/Nicolas-local
+
+    29/30, github merge approved - no pull request made - instructor overwritten
+
+commit f86d308c57f61043c811c1c2e5477cce9e93d3a4
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:17:27 2024 +0800
+
+    Update 2021300319.txt
+
+commit 6c54d2a5d489a16796089199386c8cd7672c03ad
+Merge: 6a5aaae fc727f7
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:15:52 2024 +0800
+
+    Merge pull request #64 from amillet2001/Domalanta-LocalBranch
+
+    30/30, github merge approved
+
+commit fc727f7e699bc95f73c08ea23e3650fe78392c5d
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:15:30 2024 +0800
+
+    Update 2021300377.txt
+
+commit 6a5aaae174cbc3c89976e9248717b6d46eda1ccf
+Merge: ff49e6b 0f3e5fc
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:12:46 2024 +0800
+
+    Merge pull request #33 from amillet2001/ARCEO-local
+
+    30/30, github merge approved
+
+commit ff49e6ba31a7544e44d6c80a7ca78692c1dbe992
+Merge: 0ab866a 45fa027
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:12:16 2024 +0800
+
+    Merge pull request #34 from amillet2001/Mendiola_Pineda-localbranch
+
+    30/30, github merge approved
+
+commit 0ab866a38d57eaac6016a299d2d60b5ba87c58b0
+Merge: bbc478c d646bc9
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:11:50 2024 +0800
+
+    Merge pull request #35 from amillet2001/Graganza-local
+
+    30/30, github merge approved
+
+commit bbc478c6ddc83d3c142b20cb773af1261a7607bb
+Merge: 73dc7c4 3261292
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:11:20 2024 +0800
+
+    Merge pull request #36 from amillet2001/Tajala-localbranch
+
+    30/30, github merge approved
+
+commit 73dc7c430c0e47ea7fde5cce76dc6c78a3db909a
+Merge: 9e0bdd6 b0a3b1b
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Fri Feb 9 13:10:49 2024 +0800
+
+    Merge pull request #37 from amillet2001/Mendoza-local
+
+    30/30, github merge approved
+
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git log
+commit 39e1a2e2930ea173ac64cfea4b01b3eb61708407 (HEAD -> Odron-iptq1v2)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:16:21 2024 +0800
+
+    FIRST
+
+commit 30c98449d1d8f9acb4b263f7bd20d38d347d6a82 (origin/main, origin/HEAD, main)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 15:55:36 2024 +0800
+
+    Delete Cunanan
+
+commit 72eb92cc43c0c70dbb75d9e91987379fb3fa5668
+Author: Cunanan <159223356+LordIvanLeeCunanan@users.noreply.github.com>
+Date:   Wed Feb 21 15:42:57 2024 +0800
+
+    Cunanan
+
+commit 9a6280df558ae43dc204d3f79b2f5c924db50463
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 15:24:59 2024 +0800
+
+    Update instructions.txt
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git push -u origin Odron-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 339 bytes | 67.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Odron-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Odron-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B.git
+ * [new branch]      Odron-iptq1v2 -> Odron-iptq1v2
+branch 'Odron-iptq1v2' set up to track 'origin/Odron-iptq1v2'.
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ touch 2021300638-iptq1v2.docx
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git add .
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+Your branch is up to date with 'origin/Odron-iptq1v2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2021300638-iptq1v2.docx
+
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git commit -m "FIRST"
+[Odron-iptq1v2 ed31249] FIRST
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300638/2021300638-iptq1v2.docx
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git log
+commit ed31249f64343d7e225f7ca8e292e047f3be213e (HEAD -> Odron-iptq1v2)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:24:03 2024 +0800
+
+    FIRST
+
+commit 39e1a2e2930ea173ac64cfea4b01b3eb61708407 (origin/Odron-iptq1v2)
+Author: Quinn Vladimir <qvodron@gmail.com>
+Date:   Wed Feb 21 16:16:21 2024 +0800
+
+    FIRST
+
+commit 30c98449d1d8f9acb4b263f7bd20d38d347d6a82 (origin/main, origin/HEAD, main)
+Author: Axel Millet <110337707+amillet2001@users.noreply.github.com>
+Date:   Wed Feb 21 15:55:36 2024 +0800
+
+    Delete Cunanan
+
+commit 72eb92cc43c0c70dbb75d9e91987379fb3fa5668
+Author: Cunanan <159223356+LordIvanLeeCunanan@users.noreply.github.com>
+Date:   Wed Feb 21 15:42:57 2024 +0800
+
+    Cunanan
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+Your branch is ahead of 'origin/Odron-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git push -u origin Odron-iptq1v2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 346.46 KiB | 31.50 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/NA3B.git
+   39e1a2e..ed31249  Odron-iptq1v2 -> Odron-iptq1v2
+branch 'Odron-iptq1v2' set up to track 'origin/Odron-iptq1v2'.
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+Your branch is up to date with 'origin/Odron-iptq1v2'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300638-iptq1v2.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git add .
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git commit -m "SECOND"
+[Odron-iptq1v2 3361790] SECOND
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git status
+On branch Odron-iptq1v2
+Your branch is ahead of 'origin/Odron-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ git push -u origin Odron-iptq1v2
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 144.14 KiB | 14.41 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/amillet2001/NA3B.git
+   ed31249..3361790  Odron-iptq1v2 -> Odron-iptq1v2
+branch 'Odron-iptq1v2' set up to track 'origin/Odron-iptq1v2'.
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$ ^C
+
+321-PC13@321-PC13 MINGW64 ~/desktop/odron/NA3B/2021300638 (Odron-iptq1v2)
+$
