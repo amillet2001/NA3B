@@ -1,0 +1,502 @@
+   40  python chantelleLab.py
+   41  python chantelleLab.py
+   42  python chantelleLab.py
+   43  python
+   44  python --version
+   45  python chantelleLab.py
+   46  python chantelleLab.pu
+   47  python chantelleLab.py
+   48  python chantelleLab.py
+   49  python chantelleLab.py
+   50  python --version
+   51  python chantelleLab.py
+   52  python --version
+   53  python chatelleLab.py
+   54  python chantelleLab.py
+   55  python chantelleLab.py
+   56  python chantelleLab.py
+   57  python chantelleLab.py
+   58  python chantelleLab.py
+   59  python chantelleLab.py
+   60  python --version
+   61  python chantelleLab.py
+   62  python --version
+   63  python chantelleLab.py
+   64  python --version
+   65  python chantelleLab.py
+   66  python chantelleLab.py
+   67  carlo = 'age'
+   68  ls
+   69  git help
+   70  cd /
+   71  ls
+   72  clear
+   73  cd /Desktop
+   74  cd /Carlo
+   75  ls
+   76  clear
+   77  ls
+   78  clear
+   79  cd /Carlo
+   80  clear
+   81  ls
+   82  ls
+   83  cleAR\
+   84  cd /
+   85  clear
+   86  clear
+   87  cd Carlo
+   88  ls
+   89  cd carlo
+   90  git help
+   91  git int
+   92  git int
+   93  git init
+   94  git show
+   95  git status
+   96  git status
+   97  git add .
+   98  git status
+   99  git commit-m"create new docs"
+  100  git commi -m"create new text doc"
+  101  git commit -m "create new text doc"
+  102  git commit -m"create new text doc"
+  103  git status
+  104  git log
+  105  GIT STATUS
+  106  git status
+  107  git add 
+  108  git add .
+  109  git status
+  110  git commit -m "added hello world"
+  111  git status
+  112  git add .
+  113  git config--global user.name "Carlo"
+  114  git config--global user.email "carlo.orpiano18@gmail.com"
+  115  git log
+  116  git --help
+  117  ls
+  118  git config --global.name "Carlo"
+  119  git config --global.name "Carlo"
+  120  git config --global.name "Carlo"
+  121  clear
+  122  git config --global user.name "Carlo"
+  123  git config --global user.email "carlo.orpiano18@gmail.com"
+  124  git status
+  125  git status\
+  126  gits status
+  127  git status
+  128  git add .
+  129  git status
+  130  clear
+  131  git status
+  132  git add .
+  133  git status
+  134  clear
+  135  git status
+  136  git add .
+  137  git status
+  138  git commit -m "first stanza"
+  139  git status
+  140  git log
+  141  git commit -m "second stanza"
+  142  git status
+  143  git log
+  144  clear
+  145  git status
+  146  clear
+  147  git status
+  148  git add .
+  149  git commit -m "first stanza"
+  150  get log
+  151  git status
+  152  git log
+  153  GIT STATUS
+  154  git status
+  155  git add .
+  156  git commit -m "second stanza"
+  157  git status
+  158  git log
+  159  git status
+  160  git add .
+  161  git status\
+  162  git commit -m "third stanza"
+  163  git log
+  164  git status
+  165  git add .
+  166  git commit -m "forth stanza"
+  167  git log
+  168  git status
+  169  git add .
+  170  git commit -m "fifth stanza"
+  171  git log
+  172  clear
+  173  git log
+  174  cd desktop
+  175  ls
+  176  cd desktop
+  177  ls
+  178  cd desktop
+  179  mkdir Domalanta
+  180  cd Domalanta
+  181  git init
+  182  git config --global user.name "John Mark Domalanta"
+  183  git config --global user.email jm.domalanta00377@student.tsu.edu.ph
+  184  touch IPT2ACT1.txt
+  185  echo "this is my first version"
+  186  git status
+  187  git add .
+  188  git commit -m "THIS IS MY FIRST LAB ACTIVITY ON IPT2"
+  189  git status
+  190  echo "this is the second time" > IPT2ACT1.txt
+  191  git status
+  192  cd desktop
+  193  mdkir Domalanta
+  194  mkdir Domalanta
+  195  cd Domalanta
+  196  git init
+  197  git config --global user.name "John Mark Domalanta"
+  198  git config --global user.email jm.domalanta00377@student.tsu.edu.ph
+  199  touch IPT2ACT1.txt LABACT1.txt NEWACT1.txt
+  200  cd desktop
+  201  mkdir Domalanta
+  202  cd Domalanta
+  203  git init
+  204  git config --global user.name "John Mark Domalanta"
+  205  git config --global user.email jm.domalanta00377@tsu.student.edu.ph
+  206  touch IPT2ACT1.txt
+  207  echo "this is my first word"
+  208  git status
+  209  git add .
+  210  git status
+  211  cd Domalanta
+  212  cd desktop
+  213  cd Domalanta
+  214  git init
+  215  git config --global user.name "John Mark Domalanta"
+  216  git config --global user.email
+  217  git config --global user.email
+  218  ls
+  219  cd desktop
+  220  mkdir Domalanta
+  221  cd Domalanta
+  222  git init
+  223  git config --global user.name "John Mark Domalanta"
+  224  git config --global user.mail jm.domalanta00377@student.tsu.edu.ph
+  225  touch IPT2ACT1.txt
+  226  echo "this is my first version"
+  227  git status
+  228  git add .
+  229  git status
+  230  git commit -m "THIS IS MY FIRST LAB ACTIVITY!"
+  231  git status
+  232  echo "this is the new lab activity"
+  233  git status
+  234  ls
+  235  cd desktop
+  236  mkdir Domalanta
+  237  cd Domalanta
+  238  git init
+  239  git config
+  240  git config --global user.name "John Mark Domalanta"
+  241  git config --global user.email jm.domalanta00377@student.tsu.edu,ph
+  242  touch IPT2ACT1.txt
+  243  echo "this is my first version"
+  244  git status
+  245  git add .
+  246  git status
+  247  git commit -m "my first commit"
+  248  touch john.txt
+  249  touch mark.txt
+  250  touch domalanta.txt
+  251  git status
+  252  got add .
+  253  git add .
+  254  git status
+  255  echo "this is the second version" > IPT2ACT1.txt
+  256  git status
+  257  git add .
+  258  git commit -m "this is last commit"
+  259  echo "third version of commit"
+  260  git status
+  261  echo "third version of commit" > IPT2ACT1.txt
+  262  git status
+  263  git add .
+  264  git status
+  265  git commit -m "third version of commit"
+  266  git log
+  267  git reset --hard 75611c5f71cc94121f75c15e69c0d33128514105
+  268  git log
+  269  ls
+  270  mkdir LAXAMANA
+  271  git clone https://github.com/amillet2001/TSM3A
+  272  ls
+  273  cd TSM3A
+  274  git checkout -b LAXAMANA-BRANCH
+  275  mkdir LAXAMANA
+  276  git add .
+  277  git commit -m "kahit anong message 1"
+  278  touch me.txt
+  279  git add .
+  280  git commit -m "commit 1"
+  281  git branch
+  282  git checkout main
+  283  git push origin -u LAXAMANA-BRANCH
+  284  git push origin -u LAXAMANA-BRANCH
+  285  git push origin -u LAXAMANA-BRANCH
+  286  git push origin -u LAXAMANA-BRANCH
+  287  git push origin -u LAXAMANA-BRANCH
+  288  git push origin -u LAXAMANA-BRANCH
+  289  git push origin -u LAXAMANA-BRANCH
+  290  ls
+  291  cd Desktop
+  292  ls
+  293  mkdir 
+  294  mkdir LAXAMANA
+  295  cd LAXAMANA
+  296  git clone https://githuc.com/amillet2001/TSM3A
+  297  ls
+  298  ls
+  299  git clone https://githuc.com/amillet2001/TSM3A
+  300  cd TSM3A
+  301  cd Laxamana
+  302  cd LAXAMANA
+  303  ls
+  304  ls
+  305  touch LAXAMANA
+  306  mkdir LAXAMANA
+  307  git log
+  308  cd LAXAMANA
+  309  git log
+  310  cd TSM3A
+  311  git log
+  312  git clone https://github.com/amillet2001/TSM3A
+  313  ls
+  314  git checkout -b LAXAMANA-BRANCH
+  315  cd TSM3A
+  316  git checkout -b LAXAMANA-BRANCH
+  317  mk dir
+  318  mkdir LAXAMANA
+  319  git add .
+  320  git commit -m "message 1"
+  321  touch me.txt
+  322  git add .
+  323  git commit -m "message 2"
+  324  git branch
+  325  git checkout main
+  326  git push origin -u LAXAMANA-BRANCH
+  327  git push origin -u LAXAMANA-BRANCH
+  328  git push origin -u LAXAMANA-BRANCH
+  329  git push origin -u LAXAMANA-BRANCH
+  330  git branch
+  331  git push origin -u LAXAMANA-BRANCH
+  332  git clone https://github.com/amillet2001/TSM3A
+  333  git branch
+  334  git push origin -u LAXAMANA-BRANCH
+  335  git clone https://github.com/amillet2001/NA3B/tree/main
+  336  git clone https://github.com/amillet2001/NA3B
+  337  cd NA3B
+  338  git checkout -b Gacutan-local
+  339  touch 2021300876.txt
+  340  echo "I Love You Babe" > 2021300876.txt
+  341  git commit -m "This is my first commit"
+  342  git push -u origin Gacutan-local
+  343  git add .
+  344  git commit -m "This is my first commit"
+  345  git push -u origin Gacutan-local
+  346  git init
+  347  touch test.txt
+  348  ls
+  349  git commit --amend --reset-author
+  350  git commit --amend --reset-author "resetting author"
+  351  git help
+  352  git add .
+  353  git commit -m "This is my First Commit"
+  354  git config -- list
+  355  git config--list
+  356  git --help
+  357  git config-- list
+  358  git commit --amend --reset-author
+  359  git init
+  360  touch test.txt
+  361  git add .
+  362  git commit -m "This is my First Commit"
+  363  git comgimit --amend --reset-author "resetting author"
+  364  git show
+  365  git commit --amend --reset-author -m "resetting author"
+  366  echo "Hello World" > test.txt
+  367  git status
+  368  git add .
+  369  git commit -m "This is my Second Commit"
+  370  git config -- global use.name "Jbuan03"
+  371  git config -- global user.name "Jbuan03"
+  372  git config --global user.name "Jbuan03"
+  373  git config --global email.name justinbuan@gmail.com
+  374  git config --list
+  375  git show
+  376  ls
+  377  git commit --amend --reset-author -m "resetting author"git commit --amend --reset-author -m "resetting author"cd
+  378  git commit --amend --reset-author -m "resetting author"
+  379  git show
+  380  git commit --amend --reset-author -m "resetting author"
+  381  git show
+  382  git config --list
+  383  git config --list
+  384  git config --global email.name justinbuan@gmail.com
+  385  git config --list
+  386  git config --global user.email justinbuan@gmail.com
+  387  git config --list
+  388  git config --global user.name Jbuan03
+  389  git config --list
+  390  git show
+  391  ls
+  392  echo "Umay tong Pc" > test.txt
+  393  git add .
+  394  git commit -m "This is Modified"
+  395  git show
+  396  git clone https://github.com/amillet2001/TSM3A
+  397  ls
+  398  cd TSM3A
+  399  git checkout -b Buan_branch
+  400  git branch
+  401  git checkout main
+  402  git branch -d Buan_branch
+  403  git checkout -b Buan-iptq1
+  404  mkdir 20221300234
+  405  ls
+  406  cd 20221300234
+  407  touch GG.text
+  408  ls
+  409  git add .
+  410  git commit -m "First Commit on new branch"
+  411  git push -u origin Buan-iptq1
+  412  ls
+  413  git push -u origin Buan-iptq1
+  414  ls
+  415  git add .
+  416  ls
+  417  git add .
+  418  git commit -m "This is the second commit"
+  419  git status
+  420  git push -u origin Buan-iptq1
+  421  git add .
+  422  git commit -m "This is Second shit"
+  423  git push -u origin Buan-iptq1
+  424  ls
+  425  git add .
+  426  git commit -m "This is my Third Shit"
+  427  git push -u origin Buan-iptq1
+  428  ls
+  429  touch Buan-logs-iptq1.txt
+  430  ls
+  431  history > Buan-logs-iptq1.text
+  432  history > Buan-logs-iptq1.txt
+  433  ls
+  434  git add .
+  435  ls
+  436  git add . 
+  437  git commit -m "This is my logs"
+  438  git push -u origin Buan-iptq1
+  439  git init
+  440  touch test.txt
+  441  git add.
+  442  git add .
+  443  git status
+  444  git commit -m " This is my first commit"
+  445  git status
+  446   git commit --amend --reset-author -m "resetting author"
+  447  git add .
+  448  git status
+  449  git config --global user.name "Roselyn"
+  450  git config --global user.email "roselyngacutan934@gmai.com"
+  451  git clone https://github.com/amillet2001/NA3B 
+  452  cd NA3B
+  453  git checkout -b GACUTAN-iptq1
+  454  mkdir 2021300876
+  455  cd 2021300876
+  456  touch R-Gacutan.txt
+  457  git add .
+  458  git status
+  459  git commit -m This is "This is my Second Commit"
+  460  git commit -m "This is my Second Commit"
+  461  git status
+  462  git push -u origin GACUTAN-iptq1
+  463  cd 2021300876
+  464  touch 2021300876-profile.html
+  465  git init
+  466  touch test.txt
+  467  git commit --amend --reset-author -m "resetting author"
+  468  echo "Hi Im'm Roselyn gacutan"> test.txt
+  469  git add.
+  470   git status
+  471  git commit -m "This is my first commit"
+  472  git init
+  473  touch test.txt
+  474  git add .
+  475  git commit -m 1st commit
+  476  git commit -m "1st commit"
+  477  git commit --amend --reset-author -m "resetting author"
+  478   echo "modify"> test.txt
+  479  git add .
+  480   git commit -m "2nd Commit"
+  481  git status 
+  482  git config --global user.name "Roselyn"
+  483  git config --global user.email "roselyngacutan1828@gmail.com"
+  484  git add .
+  485   git status
+  486  git clone https://github.com/amillet2001/NA3B
+  487  git init
+  488  touch test.txt
+  489  git add .
+  490  git status
+  491  git commit -m "This is my first commit"
+  492  git status
+  493  git commit --amend --reset-author -m retting author"
+  494  git init
+  495  touch test.txt
+  496  git add .
+  497  git status
+  498   git commit --amend --reset-author -m "resetting author"
+  499  git init
+  500  touch test.txt
+  501  git add .
+  502  git status
+  503  git commit -m "This is  my first commit"
+  504  git status
+  505  git commit --amend --reset-author -m "resetting author"
+  506  echo " Hi this is Roselyn" > test.txt
+  507  git add .
+  508  git status
+  509   git commit "this is my second commit"
+  510  git status
+  511  git config --global user.name "rOSELYN"
+  512  git config --global user.email "roselyngacutan009@gmail.com
+
+"
+  513  git config --global user.email "roselyngacutan009@gmail.com"
+  514  git add .
+  515  git status
+  516   git clone https://github.com/amillet2001/NA3B
+  517  cd NA3B
+  518  git checkout -b Gacutan-iptq1v2
+  519  mkdir 2021300876
+  520  cd 2021300876
+  521  touch me.txt
+  522  git add.
+  523  git add .
+  524  git status
+  525  git commit -m "This is my first commit"
+  526  git commit -m "This is my third commit"
+  527  git push -u origin  Gacutan-iptq1v2
+  528  touch 2021300876-iptq1v2.docx
+  529  git add .
+  530  git commit -m "this is my 4th commit"
+  531  git push -u origin gacutan-iptq1v2
+  532  git add .
+  533   git commit -m "5th commit"
+  534   git push  -u origin gacutan-iptq1v2
+  535  git push -u origin Gacutan-iptq1v2
+  536  git add .
+  537   git commit -m "6th commit"
+  538  git push -u origin Gacutan-iptq1v2
+  539  history > Gacutan-logs-iptq1v2.txt
