@@ -1,0 +1,284 @@
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git init
+toInitialized empty Git repository in C:/Users/STUDENT-PC20/Desktop/Cunanan/.git/
+e
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ touch test.txt
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git add .
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git commit -m "1st commit"
+[master (root-commit) c51e7b4] 1st commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 610543a] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ echo "Cunanan" > test.txt
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git add test.txt
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git commit -m "2nd commit"
+[master 34ad452] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git config user.name "Ivan Cunanan"
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git config user.email "lordivancunanan11@gmail.com"
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git clone ^C
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ git clone https://github.com/amillet2001/NA3B
+Cloning into 'NA3B'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (99/99), done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 251 (delta 39), reused 62 (delta 34), pack-reused 152
+Receiving objects: 100% (251/251), 59.21 KiB | 184.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan (master)
+$ cd NA3B
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B (main)
+$ git checkout -b Cunanan-iptq1v2
+Switched to a new branch 'Cunanan-iptq1v2'
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B (Cunanan-iptq1v2)
+$ mkdir 2021300654
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B (Cunanan-iptq1v2)
+$ cd 2021300654
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch "cunanan"
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add cunanan.txt
+fatal: pathspec 'cunanan.txt' did not match any files
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch cunanan
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add cunanan.txt
+fatal: pathspec 'cunanan.txt' did not match any files
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch branch
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git branch.txt
+git: 'branch.txt' is not a git command. See 'git --help'.
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch Cunanan
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git Cunanan.txt
+git: 'Cunanan.txt' is not a git command. See 'git --help'.
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add Cunanan.txt
+fatal: pathspec 'Cunanan.txt' did not match any files
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch Cunanan
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add Cunanan.text
+fatal: pathspec 'Cunanan.text' did not match any files
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ touch Cunanann
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add Cunanann
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git commit -m "last commit"
+[Cunanan-iptq1v2 74ca6f2] last commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300654/Cunanann
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git push -u origin Cunanan-iptq1v2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 341 bytes | 341.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Cunanan-iptq1v2' on GitHub by visiting:
+remote:      https://github.com/amillet2001/NA3B/pull/new/Cunanan-iptq1v2
+remote:
+To https://github.com/amillet2001/NA3B
+ * [new branch]      Cunanan-iptq1v2 -> Cunanan-iptq1v2
+branch 'Cunanan-iptq1v2' set up to track 'origin/Cunanan-iptq1v2'.
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add 2021300654-iptq1v2.docx
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is up to date with 'origin/Cunanan-iptq1v2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2021300654-iptq1v2.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+        cunanan
+
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git commit -m "commiting jellyfish"
+[Cunanan-iptq1v2 488a6c5] commiting jellyfish
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300654/2021300654-iptq1v2.docx
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+        cunanan
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add cunanan
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   cunanan
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git branch
+* Cunanan-iptq1v2
+  main
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git commit -m "commiting"
+[Cunanan-iptq1v2 2d98c0b] commiting
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300654/cunanan
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add branch
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   branch
+
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git commit -m "commit"
+[Cunanan-iptq1v2 d49138c] commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300654/branch
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add 2021300654-iptq1v2.docx
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$21300654-iptq1v2.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git add 2021300654-iptq1v2.docx
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git status
+On branch Cunanan-iptq1v2
+Your branch is ahead of 'origin/Cunanan-iptq1v2' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   2021300654-iptq1v2.docx
+
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$ git commit -m "commiting settings"
+[Cunanan-iptq1v2 6eba06a] commiting settings
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+321-PC10@321-PC10 MINGW64 ~/Desktop/Cunanan/NA3B/2021300654 (Cunanan-iptq1v2)
+$
