@@ -1,0 +1,500 @@
+   31  python BasilioRandall.py
+   32  python BasilioRandall.py
+   33  python BasilioRandall.py
+   34  python BasilioRandall.py
+   35  python BasilioRandall.py
+   36  python BasilioRandall.py
+   37  python BasilioRandall.py
+   38  python BasilioRandall.py
+   39  python BasilioRandall.py
+   40  python BasilioRandall.py
+   41  python BasilioRandall.py
+   42  python BasilioRandall.py
+   43  python BasilioRandall.py
+   44  python BRC.py
+   45  python BRC.py
+   46  python BRC.py
+   47  python BRC.py
+   48  python BRC.py
+   49  python BRC.py
+   50  python BRC.py
+   51  python BRC.py
+   52  python BasilioRandall.py
+   53  python BasilioRandall.py
+   54  python BasilioRandall.py
+   55  python BasilioRandall.py
+   56  python BasilioRandall.py
+   57  python BasilioRandall.py
+   58  python BasilioRandall.py
+   59  python BasilioRandall.py
+   60  python BasilioRandall.py
+   61  python BasilioRandall.py
+   62  python BRC.py
+   63  python BRC.py
+   64  python BasilioRandall.py
+   65  python BasilioRandall.py
+   66  python BasilioRandall.py
+   67  python BasilioRandall.py
+   68  python BasilioRandall.py
+   69  python BasilioRandall.py
+   70  python BasilioRandall.py
+   71  python BasilioRandall.py
+   72  p
+   73  python BRC.py
+   74  python BRC.py
+   75  python BRC.py
+   76  python BasilioRandall.py
+   77  cd desktop
+   78  cd rands
+   79  python
+   80  cd desktop
+   81  cd rands
+   82  python rands.py
+   83  python rands.py
+   84  python rands.py
+   85  python rands.py
+   86  python rands.py
+   87  python rands.py
+   88  s
+   89  python rands.py
+   90  python rands.py
+   91  python rands.py
+   92  python rands.py
+   93  python rps.py
+   94  python rps.py
+   95  python rps.py
+   96  python rps.py
+   97  python rands.py
+   98  python rps.py
+   99  python rps.py
+  100  python rps.py
+  101  python rps.py
+  102  cd desktop
+  103  cd rands
+  104  python rands.py
+  105  cd desktop
+  106  cd rands
+  107  python rps.py
+  108  python rands.py
+  109  python rands.py
+  110  python rps.py
+  111  python rps.py
+  112  python rps.py
+  113  python rps.py
+  114  python rands.py
+  115  python rands.py
+  116  python rands.py
+  117  var= "sheesh"
+  118  dir
+  119  ls
+  120  Clear-Var
+  121  ex
+  122  git  help
+  123  ls
+  124  cd /
+  125  ls
+  126  Documents
+  127  clear
+  128  cd /
+  129  cd /[200~C:\Users\STUDENT-PC9\Documents\Agnes File~
+  130  C:\Users\STUDENT-PC9\Documents\Agnes File
+  131  cd / STUDENT-PC9
+  132  ls
+  133  cd Agnes File
+  134  cd AgnesFile
+  135  ls
+  136  cd AgnesFile
+  137  git help
+  138  C C:\Users\STUDENT-PC9\Documents\shees
+  139  git int
+  140  git init
+  141  git show
+  142  git status
+  143  git add
+  144   .
+  145  git status
+  146  get add
+  147  git show
+  148  git status
+  149  git add
+  150   .
+  151  get add
+  152  git add
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -m
+  157  git commit -m4
+  158  git status
+  159  git log
+  160  git status
+  161  git add .
+  162  git stat
+  163  git status
+  164  [joemarigaviola.2001@gmail.com] <[tj.santos0170@student.tsu.edu.ph]>
+  165  Date:   Fri Jan 26 15:49:00 2024 +0800
+  166  git config--global user.name "agnes"
+  167  git config--global user.email "agnes@gmail.com"
+  168  git log
+  169  git show
+  170  clear
+  171  git sgow
+  172  git show
+  173  git init
+  174  clear
+  175  git status
+  176  git status
+  177  git add .
+  178  git status
+  179  git status
+  180  git add .
+  181  git status
+  182  git status
+  183  git add
+  184  git add .
+  185  git status
+  186  git status
+  187  git add .
+  188  git status
+  189  git status
+  190  git add .
+  191  git status
+  192  git log
+  193  git status
+  194  git add .
+  195  git status
+  196  git commit-m "1st modification"
+  197  git status
+  198  git log
+  199  git add .
+  200  git commit-m "1st modification"
+  201  cd AgnesFile
+  202  git init
+  203  git status
+  204  git add .
+  205  git status
+  206  git log
+  207  git commit -m "1st modification"
+  208  git log
+  209  git status
+  210  git add .
+  211  git commit -m "2nd modification"
+  212  git log
+  213  git add .
+  214  git commit -m "3rd modification"
+  215  git log
+  216  git status
+  217  git status
+  218  git add .
+  219  git commit -m "4th modification"
+  220  git log
+  221  git add .
+  222  git commit -m "5th modification"
+  223  git log
+  224  git status
+  225  git log
+  226  git add .
+  227  git status
+  228  git log
+  229  clear
+  230  git log
+  231  cd desktop
+  232  mkdir Alborote
+  233  cd desktop
+  234  mkdir Alborote
+  235  cd Alborote
+  236  git innit
+  237  git init
+  238  git config --global user.name "Liamme Alborote"
+  239  git config --global user.email "lc.alborote00280@student.tsu.edu.ph"
+  240  touch IPT2ACT1.txt
+  241  echo "this is my first version" > IPT2ACT1.txt
+  242  git status
+  243  git add .
+  244  git status
+  245  git commit -m "This is my first commit"
+  246  git status
+  247  cd desktop
+  248  mkdir Alborote
+  249  cd Alborote
+  250  git init
+  251  git config --global user.name "Liamme Alborote"
+  252  git config --global user.email "lc.alborote00280@student.tsu.edu.ph"
+  253  touch IPT2ACT1.txt
+  254  echo "this is the first word" > IPT2ACT1.txt
+  255  cd desktop
+  256  mkdir Alborote
+  257  cd desktop
+  258  mkdir Alborote
+  259  cd Alborote
+  260  git init
+  261  git config --global user.name "Liamme Alborote"
+  262  git config --global user.email "lc.alborote00280@student.tsu.edu.ph"
+  263  touch IPT2ACT1 "this is my first version"
+  264  cd dekstop
+  265  cd desktop
+  266  mkdir Alborote
+  267  cd Alborote
+  268  git init
+  269  git config --global user.name "Liamme Alborote"
+  270  git config --global user.email "lc.alborote00280@student.tsu.edu.ph"
+  271  touch IPT2ACT1.txt
+  272  echo "this is my first version"
+  273  git status
+  274  git add .
+  275  git status
+  276  git commit -m "this is my first commit"
+  277  touch Liamme.txt
+  278  touch Charles.txt
+  279  touch Alborote.txt
+  280  git status
+  281  git add .
+  282  git status
+  283  echo "this is my second version" > IPT2ACT1.txt
+  284  git status
+  285  git add .
+  286  git commit -m "this is my second commit"
+  287  echo "this is my third version" > IPT2ACT1.txt
+  288  git status
+  289  git add .
+  290  git status
+  291  git commit -m "this is my third commit"
+  292  git log
+  293  git log
+  294  git reset --hard 2e37c513cf535cc46698a498b24bc1277b8f9068
+  295  git log
+  296  git init
+  297  git clone https:/github.com/amillet2001/TSM3A
+  298  https://github.com/amillet2001/TSM3A
+  299  cd desktop
+  300  mkdir GALEON
+  301  https://github.com/amillet2001/TSM3A
+  302  cd desktop
+  303  mkdir GALEON
+  304  git clone https://github.com/amillet2001/TSM3A
+  305  cd TSM3A
+  306  git checkout -b GALEON-BRANCH0
+  307  mkdir GALEON
+  308  git add .
+  309  git commit -m "KANTON PANCIT"
+  310  touch me.txt
+  311  git add .
+  312  git commit -m "KANTON PANCIT"
+  313  git branch
+  314  git checkout main
+  315  git push origin -u GALEON-BRANCH
+  316  git push origin -u GALEON-BRANCH
+  317  git push origin -u GALEON-BRANCH
+  318  git push origin -u GALEON-BRANCH
+  319  cd desktop
+  320  mkdir GALEON
+  321  git clone https://github.com/amillet2001/TSM3A
+  322  cd TSM3A
+  323  cd TSM3A
+  324  git checkout -b GALEON-BRANCH
+  325  mkdir GALEON
+  326  git add .
+  327  cd TSM3A
+  328  git checkout -b GALEON-BRANCH
+  329  mkdir GALEON
+  330  git add .
+  331  git commit -m "UWIan na"
+  332  git branch
+  333  git checkout main
+  334  git push origin -u GALEON-BRANCH
+  335  git push origin -u GALEON-BRANCH
+  336  git push origin -u GALEON-BRANCH
+  337  git push origin -u GALEON-BRANCH
+  338  git clone https://github.com/amillet2001/NA3B/tree/main
+  339  git clone https://github.com/amillet2001/NA3B
+  340  cd NA3B
+  341  git checkout -b Deguzman-local
+  342  touch 2021300877.txt
+  343  echo "don't touch me" > 2021300877.txt
+  344  git commit -m this is my 1st commit"
+  345  ?
+  346  "
+  347  git commit -m this is my 1st commit"
+  348  ?
+  349  "
+  350  git commit -m "1st commit"
+  351  git push -u origin Deguzman-local
+  352  git push -u origin Deguzman-local
+  353  git commit -m "1st commit"
+  354  git commit -m "1st commit"
+  355  git add .
+  356  git commit -m "1st commit"
+  357  git push -u origin Deguzman-local
+  358  git init
+  359  git commit --amend --reset-author
+  360  git
+  361  git config --global user.name "kdendu111@gmail.com"
+  362  git config --global user.name "Pogikami"
+  363  git config --global user.email "kdendu111@gmail.com"
+  364  git clone https://github.com/amillet2001/TSM3B 
+  365  cd TSM3B
+  366  git branch 
+  367  git branch Somera-local
+  368  touch 2018300976
+  369  git add .
+  370  git commit  --m "This is me"
+  371  git push -u Somera-local 
+  372  git push -u origin
+  373  mkdir 2018300976
+  374  git push -u origin 
+  375  git init
+  376  git commit --amend --reset-author
+  377  git config --global user.name "Pogi"\
+  378  git config --global user.name "Pogi"
+  379  git config --global user.name "kdendu111@gmail.com"
+  380  git init 
+  381  git commit --amend --reset-author
+  382  git config --global user.name "Kyle"
+  383  git config --global user.email "kdendu111@gmail.com"
+  384  git clone $ git clone https://github.com/amillet2001/TSM3B
+  385  cd TSM3B
+  386  git branch Somera-local
+  387  mkdir 2018300976
+  388  git add .
+  389  git commit --m "this is me"
+  390  git push -u Somera-local
+  391  cd 2018300976
+  392  git branch Somera-local
+  393  git branch 
+  394  git push -u origin Somera-local
+  395  git checkout Somera-local
+  396  git push -u origin Somera-local
+  397  git push -u origin
+  398  git commit --m "Second Folder"
+  399  git commit --m "Somera-log.txt"
+  400  git commit -m "Somera-log.txt"
+  401  git push -u origin Somera-local
+  402  git status
+  403  git push -u origin Somera-local
+  404  git commit -m "Somera-log.txt"
+  405  git push -u origin Somera-local
+  406  git add .
+  407  git commit -m "Somera-log.txt"
+  408  git commit -m "Somera2-log.txt"
+  409  git add . 
+  410  git commit -m "Somera2-log.txt"
+  411  git push -u origin Somera-local
+  412  touch test.txt
+  413  git add .
+  414  git commit -m "This is my first Commit"
+  415  git commit --amend --reset-author -m "resetting author"
+  416  echo "Why are you" > test.txt
+  417  git status
+  418  git add .
+  419  git config --global user.name "Jeffrey"
+  420  git config --global user.email chingchongyigger@gmail.com
+  421  git show
+  422  ls
+  423  echo "bulok pc ko " > test.txt
+  424  git add .
+  425  git commit -m "bulok pc ko"
+  426  git sohw
+  427  git show
+  428  git clone https://github.com/amillet2001/TSM3A
+  429  cd  TSM3A
+  430  git checkout -b Galeon-branch
+  431  git branch
+  432  git checkout main
+  433  git branch -d Galeon-branch
+  434  git checkout -b Galeon-iptq1
+  435  mkdir 2021300555
+  436  touch yigger.txt
+  437  ls
+  438  cd 2021300555
+  439  touch yigger2.txt
+  440  git push -u origin Galeon-iptq1
+  441  ls
+  442  git commit -m "yigger2"
+  443  git add .
+  444  git commit -m "yigger2"
+  445  git push -u origin Galeon-iptq1
+  446  ls
+  447  git push -u origin Galeon-iptq1
+  448  git push -u origin Galeon-iptq1
+  449  ls
+  450  ls
+  451  cd 2021300555
+  452  ls
+  453  touch Galeon-logs-iptq1.txt
+  454  git add .
+  455  git commit -m "bayag ni diego malaki yung kaliwa"
+  456  git add 2021300555-profile.html
+  457  git commit -m "HTML"
+  458  git push -u origin Galeon-iptq1
+  459  git init
+  460  touch test.txt
+  461  git add.
+  462  git status
+  463  git commit -m "1st commit"
+  464  git status
+  465  git commit --amend --reset-author -m "resseting author"
+  466  git add .
+  467  git init
+  468  git status
+  469  touch test.txt
+  470  git status
+  471  git add test.txt
+  472  git status
+  473  git commit -m "this is 1st commit"
+  474  git status
+  475  git commit --amend --reset-author -m "resetting author"
+  476  git add .
+  477  git status
+  478  git config --global user.name "Nica"
+  479  git config --global user.email "n.deguzman163@gmail.com"
+  480  git clone https://github.com/amillet2001/NA3B
+  481  cd NA3B
+  482  git checkout -b "DEGUZMAN-ipt1"
+  483  mkdir 2021300877
+  484  cd 2021300877
+  485  touch Nica-Deguzman.txt
+  486  git add .
+  487  git status
+  488  git commit -m "this is my 2nd commit"
+  489  git status
+  490  git push -u origin DEGUZMAN-ipt1
+  491  cd 2021300877
+  492  touch 2021300877-profile.html
+  493  git init
+  494  touch test.txt
+  495  git add .
+  496  git init
+  497  touch test.txt
+  498  git add .
+  499  git commit -m "1st commit"
+  500  git status
+  501   git commit --amend --reset-author -m "resetting author"
+  502   echo "modify" > test.txt
+  503  git add .
+  504   git commit -m "2nd commit"
+  505   git status
+  506   git config --global user.name "Nica"
+  507  $ git config --global user.email "n.deguzman163@gmail.com"
+  508   git clone https://github.com/amillet2001/NA3B
+  509   cd NA3B
+  510   mkdir 2021300877
+  511   touch file.txt
+  512  git add .
+  513   git commit -m "3rd commit"
+  514   git checkout -b deguzman-iptq1v2
+  515   mkdir 2021300877
+  516   touch file.txt
+  517  git add .
+  518   git commit -m "3rd commit"
+  519  git push -u origin deguzman-iptq1v2
+  520  touch 2021300877-iptq1v2.docx
+  521  git add .
+  522  git commit -m "4th commit"
+  523  git push -u origin deguzman-iptq1v2
+  524  git add .
+  525  git commit -m "5th commit"
+  526  git push -u origin deguzman-iptq1v2
+  527  git add .
+  528  git commit -m "6th commit"
+  529  git push -u origin deguzman-iptq1v2
+  530  history > deguzman-logs-iptq1v2.txt
