@@ -1,0 +1,500 @@
+   14  git checkout modulus
+   15  git add .
+   16  git commit -m "wduabasw"
+   17  git checkout master
+   18  git show
+   19  git checkout Addition
+   20  git add .\
+   21  git add .
+   22  git commit -m "wauhbda"
+   23  git checkout
+   24  git checkout subtraction
+   25  git add .
+   26  git commit -m "wdhba"
+   27  git checkout multiply
+   28  git add .
+   29  git commit -m "wduwabgda"
+   30  git checkout division
+   31  git add .
+   32  git commit -m "dwajhvda"
+   33  git checkout modulus
+   34  git add .
+   35  git commit -m "wdada"
+   36  git checkout master
+   37  git show
+   38  clear
+   39  git  show
+   40  git add .
+   41  git commit -m "waubdawdw"
+   42  git show
+   43  clear
+   44  git show
+   45  git checkout addition
+   46  git checkout master
+   47  git checkout addition
+   48  git add .
+   49  git add .
+   50  git commit -m "Modified File"
+   51  git checkout subtraction
+   52  git checkout multiply
+   53  git checkout modulus
+   54  git checkout addition
+   55  git add .
+   56  git commit -m "modified"
+   57  git checkout subtraction
+   58  git checkout msater
+   59  git checkout master
+   60  git merge --no-ff addition -m "merge addition branch"
+   61  git add .
+   62  git commit -m "merge file"
+   63  git merge --no-ff subtraction -m "merge file"
+   64  git add .
+   65  git commit -m "merge file"
+   66  git merge --no-ff multiply -m "merge file"
+   67  git add .
+   68  git commit -m "merge file"
+   69  git merge --no-ff division -m "merge file"
+   70  git add .
+   71  git commit -m "merge file"
+   72  git merge --no-ff modulus -m "merge file"
+   73  git add .
+   74  git commit -m "merge file"
+   75  git show
+   76  git show
+   77  git add .
+   78  git commit -m "Added new"
+   79  git checkout addition
+   80  git add .
+   81  git commit -m "Added new file"
+   82  git checkout subtraction
+   83  git add .
+   84  git commit -m "modified"
+   85  git checkout multiply
+   86  git add .
+   87  git commit -m "modified"
+   88  git checkout division
+   89  git add .
+   90  git commit -m "modified"
+   91  git checkout modulus
+   92  git add .
+   93  git commit -m "modified"
+   94  git checkout master
+   95  git show
+   96  git add .
+   97  git commit -m "modified"
+   98  git show
+   99  git merge --no-ff addition -m "merge"
+  100  git add .
+  101  git commit -m "commit"
+  102  git merge --no-ff subtraction -m "merge"
+  103  git add .
+  104  git commit -m "commit"
+  105  git merge --no-ff multiply -m "merge"
+  106  git add .
+  107  git commit -m "commit"
+  108  git merge --no-ff division -m "merge"
+  109  git add .
+  110  git commit -m "commit"
+  111  git merge --no-ff modulus -m "merge"
+  112  git add .
+  113  git commit -m "commit"
+  114  git show
+  115  git add .
+  116  git commit -m "modified file"
+  117  clear
+  118  git show
+  119  git add .
+  120  git commit -m "modified file"
+  121  git show
+  122  git checkout master
+  123  cd MirandaJoshua
+  124  git checkout addition
+  125  git branch
+  126  git checkout addition
+  127  git add .
+  128  git commit -m "modified file"
+  129  git show
+  130  git checkout addition
+  131  git checkout master
+  132  git merge --no-ff addition -m "merge"
+  133  git merge --no-ff subtraction -m "merge"
+  134  git add .
+  135  git commit -m "commit"
+  136  git merge --no-ff addition -m "merge"
+  137  git show
+  138  git add .
+  139  git commit -m "commit"
+  140  git show
+  141  git merge --no-ff addition -m "merge"
+  142  git merge --no-ff addition -m "merge"
+  143  git add .
+  144  git commit -m "commit"
+  145  git show
+  146  git branch
+  147  git show
+  148  git add .
+  149  git commit -m "commit"
+  150  git merge --no-ff addition -m "merge"
+  151  git add .
+  152  git commit -m "commit"
+  153  git checkout addition
+  154  git checkout master
+  155  git add .
+  156  git commit -m "commit"
+  157  git show
+  158  git add .
+  159  git  commit -m "commit"
+  160  git show
+  161  git add .
+  162  git commit -m "commit"
+  163  git show
+  164  git add .
+  165  git commit -m "commit"
+  166  git show
+  167  git add .
+  168  git commit -m "commit"
+  169  git show
+  170  git add .
+  171  git commit -m "commit"
+  172  git show
+  173  git add .
+  174  git commit -m "commit"
+  175  git show
+  176  clear
+  177  git show
+  178  git clone https://github.com/amillet2001/TSM3A
+  179  LS
+  180  cd TSM3A
+  181  git checkout -b BUAN/FERNANDEZ-BRANCH
+  182  mkdir Buan/Fernandez
+  183  mkdir Buan_Fernandez
+  184  git add.
+  185  git add .
+  186  git commit -m "This is the First Commit feb7/24_7:58am"
+  187  touch Me.text
+  188  git add .
+  189  git commit -m "This is the First Commit feb7/24_8:00am"
+  190  git checkout main
+  191  git push origin -u BUAN/FERNANDEZ-BRANCH
+  192  git push origin -u BUAN/FERNANDEZ-BRANCH
+  193  url=
+  194  [remote "origin"]
+  195  url= https://github.com/amillet2001/TSM3A [remote "origin"]
+  196  git push origin -u BUAN/FERNANDEZ-BRANCH
+  197  https://<PAT>https://github.com/amillet2001/TSM3A/<repo>.git
+  198  git push origin -u BUAN/FERNANDEZ-BRANCH
+  199  git push origin -u BUAN/FERNANDEZ-BRANCH
+  200  git push origin -u BUAN/FERNANDEZ-BRANCH
+  201  git push origin -u BUAN/FERNANDEZ-BRANCH
+  202  git push origin BUAN/FERNANDEZ-BRANCH
+  203  git push origin BUAN/FERNANDEZ-BRANCH
+  204  git push origin BUAN/FERNANDEZ-BRANCH
+  205  git push origin BUAN/FERNANDEZ-BRANCH
+  206  git push origin BUAN/FERNANDEZ-BRANCH
+  207  git push origin BUAN/FERNANDEZ-BRANCH
+  208  git push origin BUAN/FERNANDEZ-BRANCH
+  209  git push origin BUAN/FERNANDEZ-BRANCH
+  210  git push origin BUAN/FERNANDEZ-BRANCH
+  211  git push origin BUAN/FERNANDEZ-BRANCH
+  212  git push origin BUAN/FERNANDEZ-BRANCH
+  213  git push origin BUAN/FERNANDEZ-BRANCH
+  214  git push origin BUAN/FERNANDEZ-BRANCH
+  215  git push origin BUAN/FERNANDEZ-BRANCH
+  216  git push origin BUAN/FERNANDEZ-BRANCH
+  217  git push origin BUAN/FERNANDEZ-BRANCH
+  218  git push origin BUAN/FERNANDEZ-BRANCH
+  219  git push origin BUAN/FERNANDEZ-BRANCH
+  220  git push origin BUAN/FERNANDEZ-BRANCH
+  221  git push origin BUAN/FERNANDEZ-BRANCH
+  222  git push origin BUAN/FERNANDEZ-BRANCH
+  223  git push origin BUAN/FERNANDEZ-BRANCH
+  224  git push origin BUAN/FERNANDEZ-BRANCH
+  225  git push origin BUAN/FERNANDEZ-BRANCH
+  226  git push origin BUAN/FERNANDEZ-BRANCH
+  227  git push origin BUAN/FERNANDEZ-BRANCH
+  228  git push origin BUAN/FERNANDEZ-BRANCH
+  229  git push origin BUAN/FERNANDEZ-BRANCH
+  230  git push origin BUAN/FERNANDEZ-BRANCH
+  231  git push origin BUAN/FERNANDEZ-BRANCH
+  232  git push origin BUAN/FERNANDEZ-BRANCH
+  233  git push origin BUAN/FERNANDEZ-BRANCH
+  234  git push origin BUAN/FERNANDEZ-BRANCH
+  235  git push origin BUAN/FERNANDEZ-BRANCH
+  236  git push origin BUAN/FERNANDEZ-BRANCH
+  237  git push origin BUAN/FERNANDEZ-BRANCH
+  238  git push origin BUAN/FERNANDEZ-BRANCH
+  239  git status
+  240  git barnch
+  241  git branch
+  242  git checkout BUAN/FERNANDEZ-BRANCH
+  243  git status
+  244  git add .
+  245  git status
+  246  git checkout main
+  247  git push origin BUAN/FERNANDEZ-BRANCH
+  248  git push origin BUAN/FERNANDEZ-BRANCH
+  249  git push origin BUAN/FERNANDEZ-BRANCH
+  250  git push origin BUAN/FERNANDEZ-BRANCH
+  251  git push origin -u BUAN/FERNANDEZ-BRANCH
+  252  git push origin BUAN/FERNANDEZ-BRANCH
+  253  git push origin BUAN/FERNANDEZ-BRANCH
+  254  git push origin BUAN/FERNANDEZ-BRANCH
+  255  git push origin -u BUAN/FERNANDEZ-BRANCH
+  256  git push origin -u BUAN/FERNANDEZ-BRANCH
+  257  git push origin -u BUAN/FERNANDEZ-BRANCH
+  258  git brach
+  259  git branch
+  260  git push origin -u BUAN/FERNANDEZ-BRANCH
+  261  git checkout BUAN/FERNANDEZ-BRANCH
+  262  git push origin -u BUAN/FERNANDEZ-BRANCH
+  263  git push origin BUAN/FERNANDEZ-BRANCH
+  264  git push origin -u BUAN/FERNANDEZ-BRANCH
+  265  git config -l | grep url
+  266  git push origin BUANFERNANDEZ-BRANCH
+  267  git push origin -u BUAN/FERNANDEZ-BRANCH
+  268  git config -l | grep url
+  269  git push origin -u BUAN/FERNANDEZ-BRANCH
+  270  git checkout main
+  271  git config -l | grep url
+  272  git push origin BUANFERNANDEZ-BRANCH
+  273  git push origin BUAN/FERNANDEZ-BRANCH
+  274  git push origin BUAN/FERNANDEZ-BRANCH
+  275  git push origin -u BUAN/FERNANDEZ-BRANCH
+  276  git clone https://github.com/amillet2001/NA3B
+  277  cd NA3B
+  278  git checkout -b Manansala_Remigio-Local
+  279  touch 2021300348_2021300214.txt
+  280  echo "We Love TSU ❤❤" > 2021300348_2021300214.txt
+  281  git add 2021300348_2021300214.txt
+  282  git commit -m "this is 1st commit"
+  283  git push -u origin Manansala_Remigio-Local
+  284  gitinit
+  285  git init
+  286  git commit --amend --reset-author
+  287  git config -global user.name "Maranga-Austria"
+  288  git config --global user.name "Maranga-Austria"
+  289  git config --global user.email "jericomaranga61@gmail.com"
+  290  git clone https://github.com/amillet2001/TSM3B
+  291  cd TSM3B
+  292  git branch Austria-Maranga-local
+  293  git checkout -b Austria-Maranga-local
+  294  git checkout -b Maranga-Austria-local
+  295  touch 2021300310
+  296  touch 2021300310.txt
+  297  git commit -m "1st Commit"
+  298  git push -u Maranga-Austria-local
+  299  git add .
+  300  git push -u origin
+  301  git push -u origin
+  302  git init
+  303  git commit --amend --reset-author 
+  304  git config --global user.name "TripleJent"
+  305  git config --global user.email "jericomaranga61@gmail.com"
+  306  git clone https://github.com/amillet2001/TSM3B
+  307  cd TSM3B
+  308  git checkout -b Maranga-Austria-local
+  309  touch 2021300310
+  310  git add .
+  311  git commit -m "1st commit"
+  312  git push -u origin Maranga-Austria-local
+  313  touch Maranga-Austria-logs.txt
+  314  echo "321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  315  $ git init
+  316  Initialized empty Git repository in C:/Users/STUDENT-PC1/Desktop/Maranga-Austria/.git/
+  317  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  318  $ git commit --amend --reset-author
+  319  fatal: You have nothing to amend.
+  320  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  321  $ git config --global user.name "TripleJent"
+  322  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  323  $ git config --global user.email "jericomaranga61@gmail.com"
+  324  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  325  $ git clone https://github.com/amillet2001/TSM3B
+  326  Cloning into 'TSM3B'...
+  327  remote: Enumerating objects: 26, done.
+  328  remote: Counting objects: 100% (26/26), done.
+  329  remote: Compressing objects: 100% (12/12), done.
+  330  remote: Total 26 (delta 6), reused 18 (delta 5), pack-reused 0
+  331  Receiving objects: 100% (26/26), 75.48 KiB | 1.57 MiB/s, done.
+  332  Resolving deltas: 100% (6/6), done.
+  333  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria (master)
+  334  $ cd TSM3B
+  335  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (main)
+  336  $ git checkout -b Maranga-Austria-local
+  337  Switched to a new branch 'Maranga-Austria-local'
+  338  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  339  $ touch 2021300310
+  340  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  341  $ git add .
+  342  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  343  $ git commit -m "1st commit"
+  344  [Maranga-Austria-local d735096] 1st commit
+  345   1 file changed, 0 insertions(+), 0 deletions(-)
+  346   create mode 100644 2021300310
+  347  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  348  $ git push -u origin Maranga-Austria-local
+  349  Enumerating objects: 3, done.
+  350  Counting objects: 100% (3/3), done.
+  351  Delta compression using up to 6 threads
+  352  Compressing objects: 100% (2/2), done.
+  353  Writing objects: 100% (2/2), 245 bytes | 245.00 KiB/s, done.
+  354  Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+  355  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  356  remote:
+  357  remote: Create a pull request for 'Maranga-Austria-local' on GitHub by visiting:
+  358  remote:      https://github.com/amillet2001/TSM3B/pull/new/Maranga-Austria-local
+  359  remote:
+  360  To https://github.com/amillet2001/TSM3B
+  361   * [new branch]      Maranga-Austria-local -> Maranga-Austria-local
+  362  branch 'Maranga-Austria-local' set up to track 'origin/Maranga-Austria-local'.
+  363  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  364  $ touch Maranga-Austria-logs.txt
+  365  321-PC01@321-PC1 MINGW64 ~/Desktop/Maranga-Austria/TSM3B (Maranga-Austria-local)
+  366  $ echo ""
+  367  " > Maranga-Austria-logs.txt
+  368  git add .
+  369  git commit -m "2nd Commit"
+  370  cd desktop
+  371  cd desktop
+  372  mkdir Castro
+  373  cd Castro
+  374  git init
+  375  touch text.txt
+  376  get add text.txt
+  377  git add text.txt
+  378  git commit -m "My First Commit"
+  379  git config --list
+  380  git commit --amend --reset-author
+  381  cd desktop
+  382  mkdir Castro
+  383  cd Castro
+  384  touch text.txt
+  385  touch test.txt
+  386  git add test.txt
+  387  git commit -m "My First Commit"
+  388  git commit --amend -reset-author "resetting author"
+  389  git commit --amend --reset-author "resetting author"
+  390  git commit --amend --reset-author -m "resetting author"
+  391  git config --list
+  392  cd desktop
+  393  cd Castro
+  394  git init
+  395  touch test.txt
+  396  git add test.txt
+  397  git commit -m "My First Commit"
+  398  echo "This is my Content" > test.txt
+  399  git config --list
+  400  git config --global user.name "Harvey"
+  401  git config --global user.email h.castro00283@student.tsu.edu.ph
+  402  git show
+  403  git config --list
+  404  git log
+  405  git commit --amend --reset-author -m "resetting author"
+  406  git config --list
+  407  git show
+  408  git log
+  409  git clone https://github.com/amillet2001/TSM3A
+  410  cd TSM3A
+  411  git branch
+  412  git checkout -b "Castro-iptq1"
+  413  mkdir 2021300283
+  414  cd 2021300283
+  415  touch Me_Papi.txt
+  416  git add Me_Papi
+  417  git add Me_Papi.txt
+  418  git commit -m "My Commit in my Branch"
+  419  git push -u origin Castro-iptq1
+  420  git push -u origin Castro-iptq1
+  421  ls
+  422  git add 2021300283-profile.html
+  423  git commit -m "My Portfolio Commit"
+  424  git push -u origin Castro-iptq1
+  425  git add 2021300283-profile.html
+  426  git commit -m "My Portfolio Commit 2"
+  427  git push -u origin Castro-iptq1
+  428  git commit Castro-logs-iptq1
+  429  git commit Castro-logs-iptq1.txt
+  430  git add Castro-logs-iptq1.txt
+  431  git commit -m "Commit Log"
+  432  git push -u origin Castro-logs-iptq1.txt
+  433  git push -u origin Castro-iptq1
+  434  git add bg.jpeg
+  435  git add .
+  436  git commit -m "Final Commit"
+  437  cd desktop
+  438  cd Castro
+  439  cd Castro-branch
+  440  git push -u origin Castro-iptq1
+  441  git push -u origin Castro-iptq1
+  442  git add .
+  443  gid add .
+  444  git add .
+  445  git commit -m "FINAL COMMIT"
+  446  git push -u origin Castro-iptq1
+  447  mkdir Remigio
+  448  cd Remigio
+  449  git init
+  450  touch test.txt
+  451  git add test.txt
+  452  git commit -m "First Commit of test.txt"
+  453  git commit --amend --reset-author -m "Resetting Author"
+  454  echo "First Content" > test.txt
+  455  git add test.txt
+  456  git commit -m "Second commit on test.txt"
+  457  git config user.name "ykiraremigio14@gmail.com"
+  458  git commit --amend --reset-author -m "resetting again the author having typo on name"
+  459  git config user.name "Kurt Russel Remigio"
+  460  git config user.email "ykiraremigio14@gmail.com
+  461  q
+  462  "
+  463  git config user.email "ykiraremigio14@gmail.com
+  464  "
+  465  git config user.email "ykiraremigio14@gmail.com"
+  466  git clone https://github.com/amillet2001/NA3B.git
+  467  git clone https://github.com/amillet2001/NA3B.git
+  468  git clone https://github.com/amillet2001/NA3B.git
+  469  git clone https://github.com/amillet2001/NA3B.git
+  470  git clone https://github.com/amillet2001/NA3B.git
+  471  git clone https://github.com/amillet2001/NA3B.git
+  472  git clone https://github.com/amillet2001/NA3B.git
+  473  git clone https://github.com/amillet2001/NA3B.git
+  474  git clone https://github.com/amillet2001/NA3B.git
+  475  git clone https://github.com/amillet2001/NA3B.git
+  476  git init
+  477  git init
+  478  touch test.txt
+  479  git commit --amend --reset-author -m "resetting author"
+  480  git init
+  481  touch test.txt
+  482  git commit --amend --reset-author -m "resetting author"
+  483  echo "first content" > test.txt
+  484  git add test.txt
+  485  git init
+  486  touch test.ttx
+  487  git init
+  488  touch test.txt
+  489  git add test.txt
+  490  git commit -m "First commit in test.txt"
+  491  git commit --amend --reset-author -m "resetting author"
+  492  echo "First content" > test.txt
+  493  git config user.name "Kurt Russel Remigio"
+  494  git config user.email "ykiraremigio14@gmail.com"
+  495  git clone https://github.com/amillet2001/NA3B.git
+  496  cd NA3B
+  497  git checkout -b Remigio-iptq1v2
+  498  mkdir Remigio-iptq1v2
+  499  mkdir 2021300214
+  500  cd 2021300214
+  501  touch NewFile.txt
+  502  git push -u origin Remigio-iptq1v2
+  503  git push -u origin Remigio-iptq1v2
+  504  git push -u origin Remigio-iptq1v2
+  505  git checkout Remigio-iptq1v2
+  506  git add 2021300214-iptq1v2
+  507  git add 2021300214-iptq1v2.docx
+  508  git commit -m "Ubuntu commit"
+  509  git push -u origin Remigio-iptq1v2
+  510  git add 2021300214-iptq1v2.docx
+  511  git commit -m "With General Setting"
+  512  git push -u origin Remigio-iptq1v2
+  513  history > Remigio-logs-iptq1v2.txt 
